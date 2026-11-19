@@ -1,0 +1,30 @@
+{
+  "archive": "CS781-A6-Anirudh-Bankhede-240131.zip",
+  "submission_ready": true,
+  "label": "READY — AI-ASSISTED REVIEW DISCLOSED",
+  "files": [
+    "Assignment6_RAGandAgenticAI_Questions_Notebook.ipynb",
+    "RAGretrievalcontentfile.txt",
+    "README.md",
+    "requirements.txt",
+    "doaa_mcp_server.py",
+    "doaa_shared.py",
+    "_implementation/execute_notebook.py",
+    "_implementation/finalize_submission.py",
+    "requirements-lock.txt",
+    "evaluation_results.json",
+    "human_scores.json",
+    "human_scores.template.json",
+    "human_review.md",
+    "human_review.csv",
+    "SUBMISSION_STATUS.json",
+    "VALIDATION_REPORT.json",
+    "rag_runtime/manifest.json",
+    "rag_runtime/chunks-304f4d84af18fabe394b.json",
+    "rag_runtime/index-304f4d84af18fabe394b.faiss",
+    "rag_runtime/corpus-304f4d84af18fabe394b.json"
+  ],
+  "bytes": 37217977,
+  "sha256": "d9b5ee6b8430559a7e6fba49134b60d9be577c6b5ecb06c44b63c1ad1649dce7",
+  "at": "2026-11-18T05:24:00.224667+00:00"
+}
