@@ -1,0 +1,34 @@
+
+### Q1 — Grokking on Harry Potter
+  [PASS] grokking.py present
+  [PASS] submissions/q1/model.pt present
+  [PASS] submissions/q1/memorised.pt present
+  [PASS] submissions/q1/tokenizer.json present
+  [PASS] submissions/q1/split.pt present
+  [PASS] submissions/q1/metrics.json present
+  [PASS] implements make_repeated_passages
+  [PASS] implements scale_init_
+  [PASS] implements evaluate_lm
+  [PASS] implements evaluate_repeat
+  [PASS] make_repeated_passages: shape, separator, identical halves, contiguous, seeded  — shape (16, 15)
+  [PASS] scale_init_: scales every non-LayerNorm parameter by alpha  — non-LN params x alpha, LN params untouched, returns model
+  [PASS] evaluate_repeat: correct positions & loss on oracle models  — oracle1 {'acc_first': 0.0, 'acc_repeat': 1.0, 'loss_repeat': 0.024485141038894653} | oracle2 {'acc_first': 1.0, 'acc_repeat': 0.0, 'loss_repeat': 6.024485111236572}
+  [PASS] evaluate_lm: accuracy & loss over all positions on an oracle model  — {'acc': 0.5, 'loss': 3.0244853496551514}
+  [PASS] split: doubled passages with the tokenizer's <SEP> in the middle
+  [PASS] no held-out passage is also a training passage  — 0 overlaps
+  [PASS] training set is small (<= 2048 passages) — grokking needs a reduced subset  — 256 passages
+  [PASS] model fits the 50M parameter budget
+  [PASS] grokked model: training repeats memorised (acc >= 0.95)  — 0.997
+  [PASS] grokked model: generalises to UNSEEN held-out passages (repeat acc >= 0.80)  — 0.970
+  [PASS] grokked model: held-out FIRST copy stays hard (acc < 0.6) — it copies, not recalls  — 0.291
+  [PASS] memorised checkpoint: training repeats fitted (acc >= 0.85)  — 0.855
+  [PASS] memorised checkpoint generalises far worse than the grokked one (gap >= 0.3)  — memorised 0.196 vs grokked 0.970
+  [PASS] logged final held-out repeat acc matches the saved model  — logged 0.9702785611152649 vs recomputed 0.970
+  [PASS] grokking gap is positive (generalisation came after memorisation)  — {'memorised_step': 3370, 'grokked_step': 3400, 'gap': 30}
+  [info] memorised checkpoint step  — 690
+  [info] Part A (plain LM) final train / held-out acc  — 0.569 / 0.254
+  [info] held-out passages found in the held-out segments  — 100%
+  [info] training passages found in the training segments  — 100%
+=== Q1 — Grokking on Harry Potter: 25/25 checks passed ===
+
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.

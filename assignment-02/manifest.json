@@ -1,0 +1,7 @@
+{
+  "q1_best": {
+    "cell": "GRU",
+    "num_layers": 1,
+    "bidirectional": true
+  }
+}

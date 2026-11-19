@@ -1,0 +1,22 @@
+C:\Users\Anirudh\OneDrive\Desktop\CS781_ASSIGNMENT_6\.venv\lib\site-packages\pydantic_settings\sources\utils.py:47: IncompleteFieldDefinitionWarning: Field 'lifespan' has an incomplete definition: its annotation contains an unresolved forward reference, so settings sources may fail to correctly resolve its value. Call `model_rebuild()` on the model where the field is defined, once all the referenced types are defined.
+  warnings.warn(
+PROBE START
+MCP RAG: loading Torch
+MCP RAG: loading SentenceTransformer
+Loading faiss with AVX2 support.
+Successfully loaded faiss with AVX2 support.
+MCP RAG: runtime index validated
+MCP RAG: model snapshot validated
+Load pretrained SentenceTransformer: C:\Users\Anirudh\OneDrive\Desktop\CS781_ASSIGNMENT_6\.a6_artifacts\models\BAAI--bge-small-en-v1.5
+MCP RAG: encoder ready
+MCP RAG: encoding and retrieving
+PROBE RESULT 23.62 [C6] cosine=0.5653
+MCP RAG: retrieval complete
+Source: https://www.iitk.ac.in/doaa/
+Mr. Radha Saran Satsangi
+(Sr. Superintendent)
+Phone: 0512-259/679 6516
+Mr. Piyush Bajaj
+(Jr. Superintendent)
+Phone: 0512-259/679 7199
+Mr. Divya 

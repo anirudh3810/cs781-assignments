@@ -1,0 +1,47 @@
+{
+  "lang": "hi",
+  "language": "Hindi",
+  "perplexities": {
+    "nnlm": 320.3315949215968,
+    "laplace_ngram": 57692.02618238938,
+    "interp_ngram": 191.65162520986948,
+    "mixture_0.5": 156.93553266561398,
+    "best_mixture": 156.93553266561398,
+    "best_lambda": 0.5
+  },
+  "parameter_total": 29161231,
+  "ngram_entries_total": 19522970,
+  "vocab_size": 144931,
+  "sparsity_rows": [
+    {
+      "lang": "hi",
+      "language": "Hindi",
+      "n": 2,
+      "train_contexts_seen": 138800,
+      "train_ngrams_seen": 3646323,
+      "test_tokens": 1741452,
+      "pct_unseen_context": 0.010163932166950338,
+      "pct_unseen_ngram": 17.460085032490127
+    },
+    {
+      "lang": "hi",
+      "language": "Hindi",
+      "n": 3,
+      "train_contexts_seen": 2425704,
+      "train_ngrams_seen": 7754256,
+      "test_tokens": 1741452,
+      "pct_unseen_context": 10.284865732733374,
+      "pct_unseen_ngram": 44.786075068391206
+    },
+    {
+      "lang": "hi",
+      "language": "Hindi",
+      "n": 4,
+      "train_contexts_seen": 6841580,
+      "train_ngrams_seen": 9836705,
+      "test_tokens": 1741452,
+      "pct_unseen_context": 38.04279417405705,
+      "pct_unseen_ngram": 60.850543110002455
+    }
+  ]
+}

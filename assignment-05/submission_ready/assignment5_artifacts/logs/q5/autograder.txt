@@ -1,0 +1,41 @@
+
+=== Additional assignment checks ===
+
+### Q5 — Attention heads
+  [PASS] interp.py present
+  [PASS] submissions/q4_q6_model/model.pt present
+  [PASS] submissions/q4_q6_model/memorised.pt present
+  [PASS] submissions/q4_q6_model/split.pt present
+  [PASS] submissions/q4_q6_model/tokenizer.json present
+  [PASS] submissions/q4_q6_model/metrics.json present
+  [PASS] submissions/q4_q6_model/model_arch.py present
+  [PASS] implements previous_token_scores
+  [PASS] implements induction_scores
+  [PASS] implements ablate_head
+  [PASS] implements head_ablation_effect
+  [PASS] implements shift_test
+  [PASS] Q1 tokenizer, split, metrics, and model vocabulary are consistent  — strict reload, tokenizer/split consistency and held-out repeat accuracy 0.970
+  [PASS] Q4 port parity prerequisite  — grokked=3.43e-05, memorised=3.24e-05
+  [PASS] student port satisfies the Q4-Q6 cache/hook/readout contract  — semantic cache and intervention interface valid
+  [PASS] previous_token_scores matches closed form on synthetic patterns
+  [PASS] induction_scores matches closed form on synthetic patterns
+  [PASS] ablate_head matches an independent temporary z-hook intervention  — max diff vs independent z-hook route 0.00e+00; hooks removed: True
+  [PASS] head_ablation_effect: one row per head, consistent with independent ablation  — 8 rows
+  [info] largest grokked induction score  — L0H2 = 0.520
+  [info] repeat-accuracy change after ablating the largest-induction head  — L0H2: 0.845
+  [PASS] shift_test with k=0 reproduces the unshifted copy accuracy and induction score  — k=0: copy acc 0.978, attn 0.522
+  [PASS] shift_test with k=3: correct layout, accuracy and attention targets  — layout ok: True
+  [info] shift test, k=3  — copy acc 0.121 | attn to content target 0.00 vs offset target 0.50 -> copies by position (fixed offset)
+  [info] max induction score: memorised vs grokked  — 0.03 vs 0.52
+  [info] previous-token scores (layer 0)  — [0.09, 0.11, 0.07, 0.21]
+  [info] largest ablation drops  — L0H2:0.84, L0H1:0.36, L0H3:0.34
+=== Q5 — Attention heads: 21/21 checks passed ===
+PASS patching a head with its corrupted activation changes nothing: max diff across full/prefix activation inputs=0.00e+00
+PASS mean_ablate_head replaces the selected head with a broadcast mean: max diff=0.00e+00
+PASS patching embedding, all z, and MLP outputs restores clean logits: max diff=0.00e+00
+PASS patching layer-0 resid_pre restores clean logits: max diff=0.00e+00
+PASS degenerate clean/corrupt margin is reported as NaN: shape=(2, 4)
+PASS hook_z patching supports grouped-query attention: z full/prefix shapes=(2, 9, 4)/(2, 8, 4)
+
+Combined Q5: 27/27 checks passed
+

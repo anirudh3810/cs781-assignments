@@ -1,0 +1,36 @@
+{
+  "evaluation_input_hash": "cc5138d0fbfce8498e4f68f09a6cdbe198d8e54ef7d74bbc826e5a3ff04aa6c0",
+  "evaluator": "Anirudh Bankhede",
+  "review_method": "independent_human",
+  "reviewer_confirmed": false,
+  "rating_origin": "",
+  "independent_human_review": false,
+  "scores": {
+    "0": {
+      "relevance": 0,
+      "faithfulness": 0,
+      "completeness": 0
+    },
+    "1": {
+      "relevance": 0,
+      "faithfulness": 0,
+      "completeness": 0
+    },
+    "2": {
+      "relevance": 0,
+      "faithfulness": 0,
+      "completeness": 0
+    },
+    "3": {
+      "relevance": 0,
+      "faithfulness": 0,
+      "completeness": 0
+    },
+    "4": {
+      "relevance": 0,
+      "faithfulness": 0,
+      "completeness": 0
+    }
+  },
+  "instructions": "Fill your 1–5 scores. For independent review, attest independent_human_review=true. For AI-assisted ratings explicitly confirmed by the reviewer, set review_method=human_confirmed_ai_assisted, reviewer_confirmed=true, independent_human_review=false and record rating_origin. Save as human_scores.json; zero means pending."
+}

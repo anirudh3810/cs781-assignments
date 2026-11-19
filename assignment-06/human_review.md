@@ -1,0 +1,504 @@
+# Completed reviewer evaluation (LLM judge scores omitted)
+
+Review input hash: `cc5138d0fbfce8498e4f68f09a6cdbe198d8e54ef7d74bbc826e5a3ff04aa6c0`
+
+Provenance: {"evaluator": "Anirudh Bankhede", "review_method": "human_reviewer", "independent_human_review": false, "reviewer_confirmed": true, "rating_origin": "Own revised scores supplied directly by Anirudh Bankhede in chat on 18 November 2026."}
+
+- **relevance**: Does the answer directly address this question? 1=irrelevant; 2=mostly misses intent; 3=partial; 4=direct with minor issues; 5=fully focused.
+- **faithfulness**: Are substantive claims supported by ONLY the supplied context? 1=major invention/contradiction; 2=several unsupported claims; 3=mixed; 4=minor issue; 5=fully supported or appropriate explicit abstention.
+- **completeness**: Does the answer cover important available evidence needed for this question? 1=absent; 2=most points missing; 3=some points covered; 4=nearly complete; 5=all essential supported points with limitations explained.
+
+## Q1: What is the procedure for PhD thesis submission at IIT Kanpur?
+
+### Answer
+
+- Thesis Submission Process – IIT Kanpur The Ph.D. thesis submission at IIT Kanpur follows a structured workflow to ensure rigorous academic evaluation, plagiarism checks, and final archival. [C6112]
+- Below are the essential steps involved. [C6112]
+- Preparation of List of Suggested Examiners Before submitting a thesis, the thesis supervisor must prepare a list as per PG Manual who will review the thesis. [C6112]
+- The Department Postgraduate Committee (DPGC) reviews and approves the suggested examiner list based on academic suitability. [C6112]
+- The Head of Department (HoD) must sign the finalized list before submission. [C6112]
+- The List of Suggested Examiners and Synopsis of the examiner list are submitted in hard copy to the PG Section, DOAA Office for further approval. [C6112]
+- Plagiarism Check via Thesis Processing Cell (TPC) Before submission, Ph.D. theses undergo a plagiarism check via the Thesis Processing Cell (TPC), specifically the Plagiarism Prevention Desk (PPD). [C6112]
+- Students submit a soft copy (PDF) of their thesis and PPF Form to ppd_doaa@iitk.ac.in. [C6112]
+- The Thesis Processing Form must be attached. [C6112]
+- TPC requires at least 2-3 working days for plagiarism screening. [C6112]
+
+### Exact supplied context
+
+[C6112]
+Source: https://iitk.ac.in/doaa/data/PhD_Contingency_Grant_FAQs.pdf (page 2); https://iitk.ac.in/doaa/data/PhD_Thesis_Submission_Procedure.pdf (page 1); https://iitk.ac.in/doaa/data/PhD_Thesis_Submission_Procedure.pdf (page 2); https://iitk.ac.in/doaa/data/PhD_Thesis_Submission_Procedure.pdf (page 4)
+ts will not 
+be reimbursed. 
+27. Do I need to provide/submit original boarding passes while submitting TA/DA Bills? 
+Yes, without original boarding passes, TA/DA bills will not be processed.
+
+Ph.D. Thesis Submission Process – IIT Kanpur
+
+Ph.D. Thesis Submission Process – IIT Kanpur 
+ 
+To be continued in next page
+
+Ph.D. Thesis Submission Process – IIT Kanpur 
+The Ph.D. thesis submission at IIT Kanpur follows a structured workflow to ensure rigorous academic 
+evaluation, plagiarism checks, and final archival. Below are the essential steps involved. 
+ Preparation of List of Suggested Examiners 
+Before submitting a thesis, the thesis supervisor must prepare a list as per PG Manual who will review 
+the thesis. 
+• The list must include: 
+• Examiner’s full name 
+• Institutional affiliation (University/Research Institute) 
+• Official contact details (Email and phone number) 
+ Examiner List Format & Guidelines: Ph.D. Examiner List Format 
+ Approval by Department Authorities 
+• The Department Postgraduate Committee (DPGC) reviews and approves the suggested 
+examiner list based on academic suitability. 
+• The Head of Department (HoD) must sign the finalized list before submission. 
+ Submission to PG Section (DOAA Office) 
+• The List of Suggested Examiners and Synopsis of the examiner list are submitted in hard 
+copy to the PG Section, DOAA Office for further approval. 
+ 
+ Plagiarism Check via Thesis Processing Cell (TPC) 
+Before submission, Ph.D. theses undergo a plagiarism check via the Thesis Processing Cell (TPC), 
+specifically the Plagiarism Prevention Desk (PPD). 
+ Plagiarism Check Process 
+Submission of Pre-Thesis Draft 
+• Students submit a soft copy (PDF) of their thesis and PPF Form to ppd_doaa@iitk.ac.in. 
+• The Thesis Processing Form must be attached. 
+• For more details please refer to TPC Guidelines: Thesis Processing Cell 
+Processing Time 
+• TPC requires at least 2-3 working days for plagiarism screening. 
+ 
+ Verification & Approval Process of Examiner List 
+✔ Review by Chairman SPGC 
+• The Chairman of the Sen
+
+[C6309]
+Source: https://www.iitk.ac.in/doaa/data/Registration-Notice-for-2025-26-I-Semester-for-continuing-students.pdf (page 2); https://www.iitk.ac.in/doaa/data/Registration-Notice-new-MSC-Students_Jul_2022.pdf (page 1)
+he guidelines given below: 
+ 
+a) Submit the thesis before the date of late registration (August 6, 2025), or 
+b) Register for full credits in 2025-26-I and continue with the thesis work. If you submit the thesis by August 
+14, 2025, you may claim the reimbursement of tuition fees and appropriate reduction of credits. 
+
+sd/- 
+Dean, Academic Affairs 
+Copy to: 
+1. Director 
+2. Deputy Director 
+3. All Deans 
+4. All Associate Deans 
+5. Head of All Departments 
+6. Chairpersons, SPGC/SUGC 
+7. All DPGC/DUGC Conveners 
+8. Head, Counselling Service 
+9. Chairperson, Council of Wardens 
+10. Librarian, P K Kelkar Library 
+11. Office of Dean, Students’ Affairs 
+12. Foreign Students Adviser, International Relations 
+13. In charge, Physical Education Office 
+14. Office Automation Unit 
+15. New Office Automation (Pingala) to set up an online help desk on July 30-31, 2025 and August 6, 2025 
+16. UG/PG Sections, DOAA office 
+17. All Notice Boards 
+18. Warden In-charge, All Halls of Residence with a request to depute staff members authorized to collect 
+the dues online.
+
+INDIAN INSTITUTE OF TECHNOLOGY KANPUR 
+ACADEMIC SECTION 
+ 
+REGISTRATION PROCEEDINGS FOR NEW UG STUDENTS (2022 BATCH) 
+(Students admitted in MSc 2-YR/MSc-PhD Programmes) 
+ 
+July 12, 2022 
+ 
+ All students of the Institute are required to register in each semester. 
+ 
+ A student will be deemed to have registered for the semester when s /he has done the academic 
+registration on the Pingala portal, paid fees for the semester and has successfully given the biometric 
+impression. The academic registration and payment of fees is done online on the respective portals . 
+ 
+ Following are some important points and procedures for Registration: 
+ 
+1. Students need to fill in the ‘New Student Profile’ form, upload documents at the following link: 
+https://oag.iitk.ac.in/oarsiitk. 
+ 
+2. Students of MSc 2-Year and MS-PD (Dual Degree) Programmes need to pay the Institute fees 
+for 202 2-23-I Semester online through OA module available at the following link: 
+https://oag.iitk.ac.in/
+
+Reviewer ratings: relevance: 5; faithfulness: 5; completeness: 5
+
+## Q2: What are the rules for branch change after the first year?
+
+### Answer
+
+- Chapter 7: Rules Governing Change, Addition in the Programme An undergraduate (except BCy) student already admitted to a programme may switch to another department through branch change or enhance their programme through the options: Minor, BTM, BSM, BTH, BSH, Dual- Degree, and Double Major. [C7439]
+- Branch Change A student may be allowed a change of branch based on their academic performance, subject to strength constraints of the departments. [C7439]
+- Change of branch / programme for a student is a matter of privilege and not a right. [C7439]
+- Once a Branch Change has been granted, a student cannot revert to the original programme under any circumstances. [C7439]
+- A student may apply for branch change only after second semester if they have received a passing grade for all courses prescribed in the template for the first year of the programme, including courses where S/X grades are awarded. [C7439]
+- Branch change will not be permitted at any other stage. [C7439]
+- Any student who has failed a course in their first year will not be considered for branch change, even if the student has passed the course at a later stage (for example by repeating the course or taking supplementary exam). [C7439]
+- As a one-time exception, Y25 students can apply for branch change in 3rd and 4th semester of their batch. [C7439]
+- Students who have been allotted a new branch are not eligible to apply for branch change in the subsequent semesters. [C7439]
+- The DoAA office will call for applications for branch change at the end of second semester of every batch. [C7439]
+
+### Exact supplied context
+
+[C7439]
+Source: https://www.iitk.ac.in/doaa/data/UG_Manual_Version_1.6.pdf (page 22); https://www.iitk.ac.in/doaa/data/UG_Manual_Version_1.6.pdf (page 23)
+hat semester, 
+subject to a recommendation from the DUGC. Maximum credit limit shall remain 65.
+
+Page 22 of 53 
+ 
+Chapter 7: Rules Governing Change, Addition in the Programme 
+An undergraduate (except BCy) student already admitted to a programme may switch to another department 
+through branch change or enhance their programme through the options: Minor, BTM, BSM, BTH, BSH, Dual-
+Degree, and Double Major. Additionally, a UG student can opt for an exit option detailed in this chapter. 
+7.1 Branch Change 
+A student may be allowed a change of branch based on their academic performance, subject to strength constraints 
+of the departments. Change of branch / programme for a student is a matter of privilege and not a right. Once a 
+Branch Change has been granted, a student cannot revert to the original programme under any circumstances. 
+7.1.1 Eligibility 
+a. A student may apply for branch change only after second semester if they have received a passing grade 
+for all courses prescribed in the template for the first year of the programme, including courses where S/X 
+grades are awarded. 
+b. Branch change will not be permitted at any other stage. 
+c. Any student who has failed a course in their first year will not be considered for branch change, even if the 
+student has passed the course at a later stage (for example by repeating the course or taking supplementary 
+exam). 
+As a one-time exception, Y25 students can apply for branch change in 3rd and 4th semester of their batch. Students 
+who have been allotted a new branch are not eligible to apply for branch change in the subsequent semesters. 
+Interested student may contact to UG office for more details. 
+7.1.2 Application Process 
+a. The DoAA office will call for applications for branch change at the end of second semester of every batch. 
+b. Eligible students may apply for change of branch. 
+c. The applications received by the deadline will be processed by the DoAA office. The report detailing the lists 
+of eligible and non -eligible students, seat matrix, vacant s
+
+[C7358]
+Source: https://www.iitk.ac.in/doaa/data/UG_Manual_Version_1.4_20.07.2026.pdf (page 21); https://www.iitk.ac.in/doaa/data/UG_Manual_Version_1.4_20.07.2026.pdf (page 22); https://www.iitk.ac.in/doaa/data/UG_Manual_Version_1.4_20.07.2026.pdf (page 23)
+ explain causes for the poor academic performance, including how those causes will not adversely 
+affect their performance in the future. The Senate shall take a final decision after considering all available inputs. A
+
+Page 21 of 52 
+ 
+student may re-appeal if a previous appeal/re-appeal has been turned down. However, the Senate may not entertain 
+any re-appeal for review unless substantial additional information is brought to its notice.
+
+Page 22 of 52 
+ 
+Chapter 7: Rules Governing Change, Addition in the Programme 
+ 
+A student already admitted to a programme may switch to another department through branch change or enhance 
+their programme through the options detailed below. 
+7.1 Branch Change 
+A student may be allowed a change of branch based on their academic performance, subject to strength constraints 
+of the departments. Change of branch / programme for a student is a matter of privilege and not a right. Once a 
+Branch Change has been granted, a student cannot revert to the original programme under any circumstances. 
+7.1.1 Eligibility 
+a. A student may apply for branch change only after second semester if they have received a passing grade 
+for all courses prescribed in the template for the first year of the programme, including courses where S/X 
+grades are awarded. 
+b. Branch change will not be permitted at any other stage. 
+c. Any student who has failed a course in their first year will not be considered for branch change, even if the 
+student has passed the course at a later stage (for example by repeating the course or taking supplementary 
+exam). 
+As a one-time exception, Y25 students can apply for branch change in 3rd and 4th semester of their batch. Students 
+who have been allotted a new branch are not eligible to apply for branch change in the subsequent semesters. 
+Interested student may contact to UG office for more details. 
+7.1.2 Application Process 
+a. The DoAA office will call for applications for branch change at the end of second semester of every batch. 
+b. Eligible students may apply f
+
+Reviewer ratings: relevance: 5; faithfulness: 5; completeness: 5
+
+## Q3: What is the SOTA seminar and when is the deadline?
+
+### Answer
+
+These excerpts record individual historical requests and extensions; they do not establish the requested general definition or deadline. [C6405] [C6461]
+
+### Exact supplied context
+
+[C6405]
+Source: https://www.iitk.ac.in/doaa/data/SPGC-201415-12.pdf (page 3); https://www.iitk.ac.in/doaa/data/SPGC-201415-12.pdf (page 4)
+ar for SOTA seminar. Due date to present the SOTA seminar w as on January 24, 2015. After brief 
+discussion, committee granted extension of date of SOTA seminar upto July 10, 2015 post facto. 
+Item 8: To consider the request of Mr. Arun Kumar Sharma (13205065) PhD student, Dept. of Mechanical 
+Engg. for extension of date to appear for SOTA seminar by April 29, 2016. Due date to present the 
+SOTA seminar is September 11, 2015.
+
+4 
+ The SPGC considered the request of Mr. Arun Kumar Sharma (13205065) PhD student, Dept. of 
+Mechanical Engg. for extension of date to appear for SOTA seminar by April 29, 2016. Due date to 
+present the SOTA seminar is September 11, 2015. After discussion, committee turned down the request in 
+consistency with the decision of Item no. 11. 
+Item 9: To consider the request of Ms. Nibedita Bandhyopadhya y (13100080) PhD student, Dept. of 
+Humanities & Social Sciences for extension of date to appear for SOTA seminar by September, 
+2015. Due date to present the SOTA seminar was March 26, 2015. This is her second extension 
+request first extension was granted upto July, 2015 by SPGC. 
+ The SPGC considered the request of Ms. Nibedita Bandhyopadhyay (13100080) PhD student, Dept. of 
+Humanities & Social Sciences for extension of date to appear for SOTA seminar by September, 2015. 
+After discussion, committee granted the extension to appear for SOTA seminar by September 26, 2015. 
+Item 10: To consider the request of Mr. Chandan Sharma (14117010) M.Tech. student, EEM programme for 
+leave for the semester 2015-16-I to join the job. 
+ The SPGC considered the request of Mr . Chandan Sharma (14117010) M.Tech. student, EEM programme 
+for leave for the semester 2015 -16-I to join the job. After discussion, committee turned down the request 
+in absence of any supporting document from his employer regarding the NOC and leave for com pleting 
+the programme. 
+Item 11: To consider the request of Mr. Arun Kumar Sharma (13205065) PhD student, Dept. of Mechanical 
+Engg., on following issues: 
+i. Leave from June 2
+
+[C6461]
+Source: https://www.iitk.ac.in/doaa/data/SPGC-201415-8.pdf (page 5); https://www.iitk.ac.in/doaa/data/SPGC-201415-8.pdf (page 6)
+ and/in 
+the Anthropocene 
+3-0-0-0-9 Dr. T Ravichandran 
+3 ECO760 Mathematical Analysis for Economics 3-0-0-0-9 Dr. Joydeep Dutta 
+4 CS615 Skyline Queries in Databases 3-0-0-1-10 Dr. Arnab Bhattacharya 
+5 PHI758 Contemporary Epistemology 3-0-0-0-9 Dr. A V Ravishankar Sharma
+
+6 
+(ii) The SPGC considered the request of Mr. Krishna Kant Kundan (12202065) PhD student, Dept. of 
+Chemical Engg. for extension of SOTA seminar till August 21, 2015. His SOTA seminar deadline 
+was April 21, 2015. After discussion, committee granted extension of SOTA semina r upto August 21, 
+2015. 
+(iii) To consider the request of Ms. Madhusree Sarkar (13115062) NET programme, for inclusion of Dr. K 
+Velusamy, Dept. of Atomic Energy, Government of India. 
+ The item was deferred. 
+(iv) The SPGC considered the request of Ms. Shanu Sharma (12119062) Design Program, for extension of 
+SOTA seminar till May 09, 2015. Her SOTA seminar deadline was expired on November 21, 2014. 
+After discussion, committee granted extension of SOTA seminar upto May 09, 2015. 
+(v) The SPGC discussed the pro posal on ‘Provisional registration in summer term of PG students whose 
+propgramme terminate due to academic deficiency’. After discussion, committee recommends to the 
+senate that such students be permitted to register provisionally in summer term with an undertaking 
+from them that their registration would be cancelled if the Senate turns down their appeals. 
+ This would help reinstated students in finishing their programme at an early date. 
+ 
+ (vi) To discuss the modification in M.Tech./M.Des Thesis defence form. 
+ The item was deferred to next SPGC meeting. 
+(vii) The SPGC considered the request of Mr. Ankur Sharma (14211262) PhD student, Dept. of CSE for 
+semester drop on medical grounds. After discussion, committee recommended it Chairman Senate for 
+approval. It needs to be reported to Senate. 
+ The meeting ended with the vote of thanks by the Chair. 
+
+ (Ajai Jain) 
+ Chairman, SPGC 
+
+Copy to: 1. All Members of SPGC 
+ 2. Chairman, Senate 
+ 3. Senate Coordi
+
+Reviewer ratings: relevance: 1; faithfulness: 5; completeness: 1
+
+## Q4: How does the CPI calculation work at IIT Kanpur?
+
+### Answer
+
+These excerpts concern a conversion certificate and its processing charges; they do not establish the requested academic calculation formula. [C1011] [C1010]
+
+### Exact supplied context
+
+[C1011]
+Source: https://www.iitk.ac.in/doaa/data/(15)_CPI_Percentage_Conversion.pdf (page 1); https://www.iitk.ac.in/doaa/data/(15)_CPI_Percentage_Conversion.pdf (page 2)
+be multiplied by a factor of 10 to obtain the 
+numerical percentage. A certificate stating above is called CPI to percentage 
+conversion certificate. 
+ 
+B. FEE: 
+ 
+A student has to pay an amount of Rs. 150/- for curr ent s tudents and Rs.250/- for pass- 
+out st
+udents towards process ing fee. 
+
+C. POSTAL CHARGES: 
+ 
+If the student or his/ her representative is unable to collect the certificate in person from 
+the DOAA office, Institute can post the same at his/ her requested address on payment 
+of Rs. 300/- (i f to be poste d within India) else , Rs . 2,500/- (if to be posted outside 
+India). 
+
+D. PAYMENT OF CHARGES: 
+ 
+Payment, i n total, may be made through Bank Dr aft drawn i n favor of “IITK
+Transcript Account” payable at “KANPUR” 
+ 
+OR 
+
+The amount, in total, may be paid through Net Banking by transferring/depositing the 
+total amount in our bank account as detailed below: 
+
+Bank name: STATE BANK OF INDIA 
+Bank branch: IIT KANPUR 
+Bank A/c No.: 35973361835 
+Bank Swift code: SBININBB499 
+Beneficiary code: SBIN0001161 
+Beneficiary name : IITK Transcript Account 
+
+Furthermore, if you pay/deposit the amount through net banking/ cash deposit, you have 
+to send/ email the scan copy of the transaction receipt detailing the transaction to 
+pg_office@iitk.ac.in (for Postgraduate Programmes) and ug_office@iitk.ac.in (for 
+Undergraduate Programmes) and dloffice@iitk.ac.in (for eMasters Degree Program). 
+ 
+E. MAILING ADDRESS: 
+ 
+You may post your application along with Demand draft at the following address:
+
+Assistant Registrar (Academic Affairs)
+Faculty Annex Building (DOAA) 
+Level -4 
+Indian Institute of Technology Kanpur 
+Kanpur - 208 016 
+Uttar Pradesh 
+
+F. PROCESSING: 
+ 
+Upon receiving the bank draft/ net banking transaction receipt, postal address(s) (at 
+which the certificate is to be posted), and other relevant paper(s), if any, the request will 
+be forwarded to the concerned unit for further processing. 
+ 
+May kindly note that it takes approximately 4 working days from the day of receiving the 
+above documents 
+
+[C1010]
+Source: https://www.iitk.ac.in/doaa/data/(14)_Medium_Instruction_Certificate.pdf (page 1); https://www.iitk.ac.in/doaa/data/(14)_Medium_Instruction_Certificate.pdf (page 2); https://www.iitk.ac.in/doaa/data/(15)_CPI_Percentage_Conversion.pdf (page 1)
+. POSTAL CHARGES: 
+ 
+If the student or his/ her representative is unable to collect the certificate in person from 
+the DOAA office, Institute can post the same at his/ her requested address on payment 
+of Rs. 300/- (i f to be poste d within India) else , Rs . 2,500/- (if to be posted outside 
+India). 
+
+D. PAYMENT OF CHARGES: 
+ 
+Payment, i n total, may be made through Bank Dr aft drawn in favor of “IITK
+Transcript Account” payable at “KANPUR” 
+ 
+OR 
+
+The amount, in total, may be paid through Net Banking by transferring/depositing the 
+total amount in our bank account as detailed below: 
+
+Bank name: STATE BANK OF INDIA 
+Bank branch: IIT KANPUR 
+Bank A/c No.: 35973361835 
+Bank Swift co de: SBININBB499 
+Beneficiary code : SBIN0001161 
+Beneficiar
+y name : IITK Transcript Account 
+
+Furthermore, if you pay/deposit the amount through net banking/ cash deposit, you have 
+to send/ email the scan copy of the transaction receipt detailing the transaction to 
+pg_office@iitk.ac.in (for Postgraduate Programmes) and ug_office@iitk.ac.in (for 
+Undergraduate Programmes). 
+ 
+E. MAILING ADDRESS: 
+ 
+You may post your application along with Demand draft at the following address: 
+
+Assistant Registrar (Academic Affairs)
+Faculty Annex Building (DOAA) 
+Level -4 
+Indian Institute of Technology Kanpur 
+Kanpur - 208 016 
+Uttar Pradesh
+
+F. PROCESSING: 
+ 
+Upon receiving the bank draft/ net banking transaction receipt, postal address(s) (at 
+which the certificate is to be posted), and other relevant paper(s), if any, the request will 
+be forwarded to the concerned unit for further processing. 
+ 
+May kindly note that it takes approximately 4 working days from the day of receiving the 
+above documents to process an application (this excludes postal time). 
+
+XXXXX
+
+CPI TO PERCENTAGE CONVERSION CERTIFICATE 
+
+A. CPI TO PERCENTAGE CONVERSION CERTIFICATE: 
+ 
+Institute follows a grade based system and awards A*,A,B+,B,C+,C,D+,D,E,F,S,X 
+grades to the students. As such no equivalence of CPI to percentage is provided. 
+However, notionally, the CPI may 
+
+Reviewer ratings: relevance: 1; faithfulness: 5; completeness: 1
+
+## Q5: What are the rules for course drop and withdrawal?
+
+### Answer
+
+- Dropping of Courses After Add-Drop Period Students may also request to drop course(s) up to about four weeks prior to the last date of classes (exact date is specified in Academic Calendar) with the following conditions: [C7423]
+- Dropping of course(s) should not result in the semester load becoming less than the specified minimum number of credits (for their respective Brackets), for a regular semester. This limit may be reduced, if a student needs less than 35 credits (or lower li mit of their respective Brackets) for completion of the graduation requirement in their last semester. [C7423]
+- The request to drop course(s) must be approved by the Instructor -in-Charge of the course and the Convener, DUGC. It is the responsibility of the student to get approval from the Instructor -in-Charge and the Convenor, DUGC by the last date for dropping the course, as mentioned in the Academic Calendar. [C7423]
+- The total number of credits of courses dropped beyond the add-drop week should not exceed 44 during the entire program. This includes the Summer terms (if registered) and applies to all UG programs. [C7423]
+- Adding of courses is not permitted in the summer term. However, students may drop a course up to two weeks prior to the last day of classes. [C7423]
+- De-Registration from a Course Registration of a student in a course may be cancelled at any stage if it is found that they do not meet the pre - requisites of the course, or if there is a clash in the student's time table preventing them from attending the course or if it is found that they are not eligible to register for that course for any other reason. [C7423]
+- The instructor of a course may also recommend cancellation of registration of any student in that course for reasons such as absence from classes without proper authorization (as per clause 5.1.6a). [C7423]
+- Students may also request to drop course(s) up to about four weeks prior to the last date of classes (exact date is specified in Academic Calendar) with the following conditions: [C7129]
+- Dropping of course(s) should not result in the net registration becoming less than the specified minimum number of credits for a semester. [C7129]
+- Total number of credits of courses dropped beyond the add-drop week should not exceed 44 during the entire programme. This applies to all UG programmes. [C7129]
+
+### Exact supplied context
+
+[C7423]
+Source: https://www.iitk.ac.in/doaa/data/UG_Manual_Version_1.6.pdf (page 12); https://www.iitk.ac.in/doaa/data/UG_Manual_Version_1.6.pdf (page 13)
+nce an add/drop request has 
+been accepted, students need to change their online registration form accordingly and submit it to the DUGC for 
+final approval. 
+4.3.4 Dropping of Courses After Add-Drop Period 
+Students may also request to drop course(s) up to about four weeks prior to the last date of classes (exact date is 
+specified in Academic Calendar) with the following conditions: 
+a. Dropping of course(s) should not result in the semester load becoming less than the specified minimum 
+number of credits (for their respective Brackets), for a regular semester. This limit may be reduced, if a 
+student needs less than 35 credits (or lower li mit of their respective Brackets) for completion of the 
+graduation requirement in their last semester.
+
+Page 12 of 53 
+ 
+b. The request to drop course(s) must be approved by the Instructor -in-Charge of the course and the 
+Convener, DUGC. It is the responsibility of the student to get approval from the Instructor -in-Charge and 
+the Convenor, DUGC by the last date for dropping the course, as mentioned in the Academic Calendar. 
+c. The total number of credits of courses dropped beyond the add-drop week should not exceed 44 during the 
+entire program. This includes the Summer terms (if registered) and applies to all UG programs. 
+Adding of courses is not permitted in the summer term. However, students may drop a course up to two weeks prior 
+to the last day of classes. 
+4.3.5 De-Registration from a Course 
+Registration of a student in a course may be cancelled at any stage if it is found that they do not meet the pre -
+requisites of the course, or if there is a clash in the student's time table preventing them from attending the course 
+or if it is found that they are not eligible to register for that course for any other reason. 
+ The instructor of a course may also recommend cancellation of registration of any student in that course for reasons 
+such as absence from classes without proper authorization (as per clause 5.1.6a). The instructor may recommend 
+such de -registrat
+
+[C7129]
+Source: https://www.iitk.ac.in/doaa/data/UG-Manual-22-07-2025.pdf (page 14)
+uctor. Once an add/drop 
+request has been accepted, students need to change their online registration form accordingly and submit it to the DUGC for 
+final approval. 
+Students may also request to drop course(s) up to about four weeks prior to the last date of classes (exact date is specified in 
+Academic Calendar) with the following conditions: 
+a) Dropping of course(s) should not result in the net registration becoming less than the specified minimum number of
+credits for a semester.
+b) The request to drop course(s) must be approved by the Instructor-in-charge of the course and the Convener, DUGC.
+c) Total number of credits of courses dropped beyond the add-drop week should not exceed 44 during the entire
+programme. This applies to all UG programmes.
+Adding of courses is not permitted in the summer term. However, students may drop a course up to two weeks prior to the 
+last day of classes. 
+6.1.4 Cancellation of Registration in a Course 
+Registration of a student in a course may be cancelled at any stage if it is found that s/he does not meet the pre-requisites of 
+the course, or if there is a clash in the student's time table preventing her/him from attending the course or if it is found that 
+s/he is not eligible to register for that course for any other reason. 
+An instructor of a course may also recommend cancellation of registration of any student in that course for reasons such as 
+absence from classes without proper authorization. The instructor may recommend such de-registration of students up to 
+four weeks prior to the last day of classes. The instructor should send de-registration recommendations to the SUGC 
+Chairperson. The same information should also be sent to the concerned DUGC. The SUGC Chairperson's decision in each 
+case shall be conveyed to the instructor and the student at least two weeks prior to the last day of classes. 
+6.1.5 Academic Load in Regular Semesters 
+Each course carries a weightage in terms of credits indicating the approximate number of contact hours (lectures and 
+tutorials 
+
+Reviewer ratings: relevance: 5; faithfulness: 5; completeness: 5

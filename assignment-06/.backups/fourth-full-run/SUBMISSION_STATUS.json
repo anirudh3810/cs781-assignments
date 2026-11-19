@@ -1,0 +1,135 @@
+{
+  "submission_ready": false,
+  "mode": "full",
+  "selected_option": "A",
+  "student": {
+    "name": "Anirudh Bankhede",
+    "roll": "240131",
+    "email": "anirudhb24@iitk.ac.in"
+  },
+  "missing_checks": [
+    "agent_9b5cfbda58fd"
+  ],
+  "missing_files": [],
+  "human_comparisons": 0,
+  "judge_failures": [],
+  "corpus_status": "complete_with_source_failures",
+  "source_failures": 745,
+  "original_cells_preserved": 253,
+  "environment": {
+    "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+    "executable": "C:\\Users\\Anirudh\\OneDrive\\Desktop\\CS781_ASSIGNMENT_6\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "cpu_logical": 12,
+    "disk_free_GiB": 91.22,
+    "ram_total_GiB": 15.69,
+    "ram_available_GiB": 3.49,
+    "cpu_physical": 10,
+    "torch": "2.14.1+cpu",
+    "cuda_build": null,
+    "cuda_available": false,
+    "gpu_count": 0,
+    "gpus": []
+  },
+  "elapsed_seconds": 537.4244663999998,
+  "checks": {
+    "qwen_load": {
+      "status": "passed",
+      "seconds": 3.541191800002707,
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "dtype": "torch.float32",
+      "device": "cpu"
+    },
+    "checkpoint_roundtrip": {
+      "status": "passed",
+      "at": "2026-11-14T04:30:31.063748+00:00"
+    },
+    "embedding_load": {
+      "status": "passed",
+      "seconds": 0.8852351999958046,
+      "device": "cpu"
+    },
+    "rag_smoke": {
+      "status": "passed",
+      "at": "2026-11-14T04:30:39.840835+00:00",
+      "sample_rows": 3,
+      "embedding_dimension": 384
+    },
+    "faiss_full": {
+      "status": "passed",
+      "at": "2026-11-14T04:30:59.888191+00:00",
+      "dimension": 384,
+      "count": 13483,
+      "index_key": "aa04175ba678f2d664de735df4993edb7053b983e9a9a990389a72c515aa6c3e"
+    },
+    "graph_compiled": {
+      "status": "passed",
+      "at": "2026-11-14T04:31:08.588006+00:00"
+    },
+    "agent_control_flow": {
+      "status": "passed",
+      "at": "2026-11-14T04:31:10.036008+00:00",
+      "fixture": true,
+      "attempts": 3
+    },
+    "agent_11adba4ae602": {
+      "status": "passed",
+      "at": "2026-11-14T04:31:27.416847+00:00",
+      "attempts": 1
+    },
+    "agent_d919abde156e": {
+      "status": "passed",
+      "at": "2026-11-14T04:31:27.539848+00:00",
+      "attempts": 1
+    },
+    "agent_2a1c25da3690": {
+      "status": "passed",
+      "at": "2026-11-14T04:31:27.851861+00:00",
+      "attempts": 1
+    },
+    "memory_recall_and_isolation": {
+      "status": "passed",
+      "at": "2026-11-14T04:31:29.095169+00:00"
+    },
+    "mcp_transport": {
+      "status": "passed",
+      "at": "2026-11-14T04:31:35.144498+00:00",
+      "discovered": [
+        "calculate_spi",
+        "lookup_thesis_procedure",
+        "search_doaa_knowledge"
+      ]
+    },
+    "mcp_react": {
+      "status": "passed",
+      "at": "2026-11-14T04:32:00.152999+00:00"
+    },
+    "prebuilt_react": {
+      "status": "passed",
+      "at": "2026-11-14T04:32:00.361364+00:00"
+    },
+    "evaluation_automatic": {
+      "status": "passed",
+      "at": "2026-11-14T04:38:56.705406+00:00",
+      "questions": 5,
+      "criterion_scores": 15
+    },
+    "structure_integrity": {
+      "status": "passed",
+      "at": "2026-11-14T04:38:56.924493+00:00",
+      "original_cells": 253,
+      "images": 13
+    }
+  },
+  "at": "2026-11-14T04:38:56.934419+00:00",
+  "process_rss_MiB": 2740.36328125,
+  "process_peak_rss_MiB": 3240.265625,
+  "package_label": "DRAFT — NOT SUBMISSION READY",
+  "missing_required_files": [],
+  "error_outputs": [],
+  "unexecuted_code_cells": [],
+  "full_execution_completed": true,
+  "notebook_sha256": "4f2e1d53ec8ab42ae95604f6e3b83bd4794472dd550532fd93f7e64d628c2fea",
+  "verified_original_cells": 253,
+  "verified_images": 13
+}

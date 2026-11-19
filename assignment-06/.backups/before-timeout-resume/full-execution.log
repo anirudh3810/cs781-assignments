@@ -1,0 +1,31 @@
+START 31 a6-H0 # Materialize the shared core before early model initialization (Windo
+DONE  31 a6-H0 (6.50s)
+START 32 xdaaxrSHn5nK # Original setup purpose: !pip install huggingface_hub
+DONE  32 xdaaxrSHn5nK (0.05s)
+START 33 V4kvTNt4qp8q # Original setup purpose: !pip install transformers torch accelerate
+DONE  33 V4kvTNt4qp8q (0.05s)
+START 34 gdO2CGoxoAMP from transformers import AutoModelForCausalLM, AutoTokenizer
+DONE  34 gdO2CGoxoAMP (24.36s)
+START 36 uynHNA_0QAdc # Original setup purpose: ! pip install faiss-cpu
+DONE  36 uynHNA_0QAdc (0.02s)
+START 37 qgwPLJUXIzwb # Original setup purpose: !pip install pypdf beautifulsoup4 requests
+DONE  37 qgwPLJUXIzwb (0.04s)
+START 38 a6-H1 # H1 � shared implementation has been materialized above from the embe
+DONE  38 a6-H1 (0.18s)
+START 39 LywhEJm_I29I # ============================================================
+DONE  39 LywhEJm_I29I (3.27s)
+START 40 hZcYxfi2QXs8 # Assign the scraped text to the working variable
+DONE  40 hZcYxfi2QXs8 (0.02s)
+START 42 CjVZUn5dVMWZ if not isinstance(text, str) or not text.strip():
+DONE  42 CjVZUn5dVMWZ (0.28s)
+START 44 pTwbHBA9Vxd4 # ============================================================
+DONE  44 pTwbHBA9Vxd4 (2.81s)
+START 45 aaSA2mOYVzt6 len(chunks)
+DONE  45 aaSA2mOYVzt6 (0.03s)
+START 48 2O-GeCxHsk0B # Original setup purpose: !pip install sentence-transformers
+DONE  48 2O-GeCxHsk0B (0.02s)
+START 49 dNxLf0Tvspga # ============================================================
+DONE  49 dNxLf0Tvspga (1.50s)
+START 50 a6-H2 # H2 � actual RAG component smoke checks before the full embedding bat
+DONE  50 a6-H2 (1.14s)
+START 51 KePKKI2r9fIl # ============================================================

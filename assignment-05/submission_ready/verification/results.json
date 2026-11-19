@@ -1,0 +1,44 @@
+{
+  "q1": {
+    "passed": true,
+    "checks_passed": 25,
+    "checks_total": 25,
+    "returncode": 0,
+    "log": "verification/q1.txt"
+  },
+  "q2": {
+    "passed": true,
+    "checks_passed": 21,
+    "checks_total": 21,
+    "returncode": 0,
+    "log": "verification/q2.txt"
+  },
+  "q3": {
+    "passed": true,
+    "checks_passed": 20,
+    "checks_total": 20,
+    "returncode": 0,
+    "log": "verification/q3.txt"
+  },
+  "q4": {
+    "passed": true,
+    "checks_passed": 19,
+    "checks_total": 19,
+    "returncode": 0,
+    "log": "verification/q4.txt"
+  },
+  "q5": {
+    "passed": true,
+    "checks_passed": 27,
+    "checks_total": 27,
+    "returncode": 0,
+    "log": "verification/q5.txt"
+  },
+  "q6": {
+    "passed": true,
+    "checks_passed": 18,
+    "checks_total": 18,
+    "returncode": 0,
+    "log": "verification/q6.txt"
+  }
+}

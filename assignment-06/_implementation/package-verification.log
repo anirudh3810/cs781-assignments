@@ -1,0 +1,30 @@
+{
+  "archive": "CS781-A6-Anirudh-Bankhede-240131.zip",
+  "submission_ready": true,
+  "label": "READY",
+  "files": [
+    "Assignment6_RAGandAgenticAI_Questions_Notebook.ipynb",
+    "RAGretrievalcontentfile.txt",
+    "README.md",
+    "requirements.txt",
+    "doaa_mcp_server.py",
+    "doaa_shared.py",
+    "_implementation/execute_notebook.py",
+    "_implementation/finalize_submission.py",
+    "requirements-lock.txt",
+    "evaluation_results.json",
+    "human_scores.json",
+    "human_scores.template.json",
+    "human_review.md",
+    "human_review.csv",
+    "SUBMISSION_STATUS.json",
+    "VALIDATION_REPORT.json",
+    "rag_runtime/manifest.json",
+    "rag_runtime/chunks-304f4d84af18fabe394b.json",
+    "rag_runtime/index-304f4d84af18fabe394b.faiss",
+    "rag_runtime/corpus-304f4d84af18fabe394b.json"
+  ],
+  "bytes": 37217189,
+  "sha256": "4a1bc3694fe70d2ef49d25f28f61a492b0f262d142f65a13afb7de01cfc32026",
+  "at": "2026-11-18T05:38:17.260341+00:00"
+}

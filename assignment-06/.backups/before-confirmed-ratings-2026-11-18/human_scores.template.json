@@ -1,0 +1,33 @@
+{
+  "evaluation_input_hash": "cc5138d0fbfce8498e4f68f09a6cdbe198d8e54ef7d74bbc826e5a3ff04aa6c0",
+  "evaluator": "Anirudh Bankhede",
+  "independent_human_review": false,
+  "scores": {
+    "0": {
+      "relevance": 0,
+      "faithfulness": 0,
+      "completeness": 0
+    },
+    "1": {
+      "relevance": 0,
+      "faithfulness": 0,
+      "completeness": 0
+    },
+    "2": {
+      "relevance": 0,
+      "faithfulness": 0,
+      "completeness": 0
+    },
+    "3": {
+      "relevance": 0,
+      "faithfulness": 0,
+      "completeness": 0
+    },
+    "4": {
+      "relevance": 0,
+      "faithfulness": 0,
+      "completeness": 0
+    }
+  },
+  "instructions": "Read human_review.md independently; fill 1–5 scores and set independent_human_review=true. Save as human_scores.json. Zero means pending."
+}

@@ -1,0 +1,6 @@
+model,perplexity,lambda
+NNLM,320.3315949215968,
+Laplace n-gram,57692.02618238938,
+Interpolated n-gram,191.65162520986948,
+Mixture @ 0.50,156.93553266561398,0.5
+Best mixture,156.93553266561398,0.5

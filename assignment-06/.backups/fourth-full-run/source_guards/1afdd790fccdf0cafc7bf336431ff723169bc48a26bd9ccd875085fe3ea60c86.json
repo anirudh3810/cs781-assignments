@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "producer": "a6-core-1",
+  "key": "1afdd790fccdf0cafc7bf336431ff723169bc48a26bd9ccd875085fe3ea60c86",
+  "created_at": "2026-11-14T04:23:16.721001+00:00",
+  "payload_sha256": "b43a8e358f7382f0fce88a9fdaff51d76f37257053b6381929aa0783599285f1",
+  "payload": {
+    "status": "verified_source_sentences",
+    "raw_model_answer": "To determine eligibility for branch change with CPI 8.5, we need to check the GPA criteria for different courses. CPI 8.5 corresponds to a GPA of 8.64. Let's examine the GPA details:\n\n1. **ME (Master of Science)**: For ME (MS), the GPA range is 3.33 to 6.00.\n   - Me (MS) 3.33 CPI < 6.00\n\n2. **Ph.D.**: For Ph.D., the GPA range is 3.33 to 6.00.\n   - Ph.D. 3.33 CPI < 6.00\n\nFrom these observations, we see that both ME and Ph.D. courses require a GPA of 3.33 or higher. Since CPI 8.5 falls within this GPA range, the candidate meets the eligibility criteria for branch change with CPI 8.5.",
+    "selection_raw": "[8]",
+    "selected": [
+      {
+        "id": 8,
+        "chunk_id": 6650,
+        "text": "These documents must be submitted by the prescribed date."
+      }
+    ],
+    "attempts": [],
+    "answer": "- These documents must be submitted by the prescribed date. [C6650]",
+    "context_hash": "a8c51e98a0a65a59750b934936478b395215c4546c9a5e5d60ab0022e128e0d1",
+    "model": {
+      "id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "dtype": "torch.float32",
+      "torch": "2.14.1+cpu",
+      "implementation": "e47a0ccf52a10c8d1a4aa340049cf573ec388f7ef75fa86d2e7512fed3acafa1"
+    }
+  }
+}

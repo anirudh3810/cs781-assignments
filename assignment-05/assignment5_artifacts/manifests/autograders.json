@@ -1,0 +1,38 @@
+{
+  "q1": {
+    "log": "/kaggle/working/assignment5_artifacts/logs/q1/autograder.txt",
+    "missing_support_helper_shim": false,
+    "passed": true,
+    "returncode": 0
+  },
+  "q2": {
+    "log": "/kaggle/working/assignment5_artifacts/logs/q2/autograder.txt",
+    "missing_support_helper_shim": false,
+    "passed": true,
+    "returncode": 0
+  },
+  "q3": {
+    "log": "/kaggle/working/assignment5_artifacts/logs/q3/autograder.txt",
+    "missing_support_helper_shim": false,
+    "passed": true,
+    "returncode": 0
+  },
+  "q4": {
+    "log": "/kaggle/working/assignment5_artifacts/logs/q4/autograder.txt",
+    "missing_support_helper_shim": true,
+    "passed": true,
+    "returncode": 0
+  },
+  "q5": {
+    "log": "/kaggle/working/assignment5_artifacts/logs/q5/autograder.txt",
+    "missing_support_helper_shim": true,
+    "passed": true,
+    "returncode": 0
+  },
+  "q6": {
+    "log": "/kaggle/working/assignment5_artifacts/logs/q6/autograder.txt",
+    "missing_support_helper_shim": true,
+    "passed": true,
+    "returncode": 0
+  }
+}

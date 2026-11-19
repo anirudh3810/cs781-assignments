@@ -1,0 +1,24 @@
+
+### Q3 — Safety alignment
+  [PASS] alignment.py present
+  [PASS] implements sequence_logprobs
+  [PASS] implements reward_model_loss
+  [PASS] implements reinforce_policy_loss
+  [PASS] implements dpo_loss
+  [PASS] implements orpo_loss
+  [PASS] implements grpo_advantages
+  [PASS] implements grpo_loss
+  [PASS] dpo_loss value
+  [PASS] dpo_loss: reference log-probs receive no gradient
+  [PASS] reward_model_loss value
+  [PASS] reinforce_policy_loss value
+  [PASS] orpo_loss value
+  [PASS] grpo_advantages: zero mean, unit std  — mean 0.0000 std 1.0000
+  [PASS] grpo_loss value (clipped surrogate)
+  [PASS] sequence_logprobs value (causal shift + response mask)
+  [PASS] aligned margin > base margin  — base -16.61 -> aligned 51.12
+  [PASS] aligned model prefers the safe response on average (margin > 0)  — 51.12
+  [PASS] aligned model prefers the safe response on >= 80% of prompts  — 80%
+  [PASS] logged aligned_margin matches the saved model  — logged 51.12358856201172 vs 51.12
+=== Q3 — Safety alignment: 20/20 checks passed ===
+

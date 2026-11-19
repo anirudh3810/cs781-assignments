@@ -1,0 +1,147 @@
+{
+  "submission_ready": true,
+  "mode": "full",
+  "selected_option": "A",
+  "student": {
+    "name": "Anirudh Bankhede",
+    "roll": "240131",
+    "email": "anirudhb24@iitk.ac.in"
+  },
+  "missing_checks": [],
+  "missing_files": [],
+  "human_comparisons": 15,
+  "human_review_provenance": {
+    "evaluator": "Anirudh Bankhede",
+    "review_method": "human_confirmed_ai_assisted",
+    "independent_human_review": false,
+    "reviewer_confirmed": true,
+    "rating_origin": "AI-assisted suggestions explicitly adopted by the student in chat on 2026-11-18."
+  },
+  "independent_human_review": false,
+  "judge_failures": [],
+  "corpus_status": "complete_with_source_failures",
+  "source_failures": 745,
+  "original_cells_preserved": 253,
+  "environment": {
+    "python": "3.10.0 (tags/v3.10.0:b494f59, Oct  4 2021, 19:00:18) [MSC v.1929 64 bit (AMD64)]",
+    "executable": "C:\\Users\\Anirudh\\OneDrive\\Desktop\\CS781_ASSIGNMENT_6\\.venv\\Scripts\\python.exe",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "cpu_logical": 12,
+    "disk_free_GiB": 90.69,
+    "ram_total_GiB": 15.69,
+    "ram_available_GiB": 0.87,
+    "cpu_physical": 10,
+    "torch": "2.14.1+cpu",
+    "cuda_build": null,
+    "cuda_available": false,
+    "gpu_count": 0,
+    "gpus": []
+  },
+  "elapsed_seconds": 226.56426459999057,
+  "checks": {
+    "qwen_load": {
+      "status": "passed",
+      "seconds": 7.704042500001378,
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "dtype": "torch.float32",
+      "device": "cpu"
+    },
+    "checkpoint_roundtrip": {
+      "status": "passed",
+      "at": "2026-11-18T05:15:22.820388+00:00"
+    },
+    "embedding_load": {
+      "status": "passed",
+      "seconds": 1.0778155000298284,
+      "device": "cpu"
+    },
+    "rag_smoke": {
+      "status": "passed",
+      "at": "2026-11-18T05:15:32.259543+00:00",
+      "sample_rows": 3,
+      "embedding_dimension": 384
+    },
+    "faiss_full": {
+      "status": "passed",
+      "at": "2026-11-18T05:15:54.009571+00:00",
+      "dimension": 384,
+      "count": 13483,
+      "index_key": "aa04175ba678f2d664de735df4993edb7053b983e9a9a990389a72c515aa6c3e"
+    },
+    "graph_compiled": {
+      "status": "passed",
+      "at": "2026-11-18T05:16:01.190459+00:00"
+    },
+    "agent_control_flow": {
+      "status": "passed",
+      "at": "2026-11-18T05:16:01.660752+00:00",
+      "fixture": true,
+      "attempts": 3
+    },
+    "agent_11adba4ae602": {
+      "status": "passed",
+      "at": "2026-11-18T05:16:01.789806+00:00",
+      "cached": true
+    },
+    "agent_d919abde156e": {
+      "status": "passed",
+      "at": "2026-11-18T05:16:01.906828+00:00",
+      "cached": true
+    },
+    "agent_2a1c25da3690": {
+      "status": "passed",
+      "at": "2026-11-18T05:16:02.021762+00:00",
+      "cached": true
+    },
+    "agent_9b5cfbda58fd": {
+      "status": "passed",
+      "at": "2026-11-18T05:16:02.344771+00:00",
+      "cached": true
+    },
+    "memory_recall_and_isolation": {
+      "status": "passed",
+      "at": "2026-11-18T05:16:03.104016+00:00"
+    },
+    "mcp_transport": {
+      "status": "passed",
+      "at": "2026-11-18T05:16:09.037290+00:00",
+      "discovered": [
+        "calculate_spi",
+        "lookup_thesis_procedure",
+        "search_doaa_knowledge"
+      ]
+    },
+    "mcp_react": {
+      "status": "passed",
+      "at": "2026-11-18T05:16:39.245560+00:00"
+    },
+    "prebuilt_react": {
+      "status": "passed",
+      "at": "2026-11-18T05:16:39.876594+00:00"
+    },
+    "evaluation_automatic": {
+      "status": "passed",
+      "at": "2026-11-18T05:16:42.356581+00:00",
+      "questions": 5,
+      "criterion_scores": 15
+    },
+    "structure_integrity": {
+      "status": "passed",
+      "at": "2026-11-18T05:16:42.537577+00:00",
+      "original_cells": 253,
+      "images": 13
+    }
+  },
+  "at": "2026-11-18T05:16:42.548594+00:00",
+  "process_rss_MiB": 2151.34375,
+  "process_peak_rss_MiB": 2639.69921875,
+  "package_label": "READY — AI-ASSISTED REVIEW DISCLOSED",
+  "independent_validation_complete": false,
+  "missing_required_files": [],
+  "error_outputs": [],
+  "unexecuted_code_cells": [],
+  "full_execution_completed": true,
+  "notebook_sha256": "46a827e7659e9848069d4b080cb016aa8cd35c1c587e5e51c8583163e1de918d",
+  "verified_original_cells": 253,
+  "verified_images": 13
+}

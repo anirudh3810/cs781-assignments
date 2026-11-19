@@ -1,0 +1,2 @@
+lang,language,vocab_size,n,m,h,direct,C,H,d,U,W,b,TOTAL,QUESTION_FORMULA_IF_DIRECT,FORMULA_WITH_CURRENT_SETTING,ngram_entries_total,distinct_1gram,distinct_2gram,distinct_3gram,distinct_4gram
+hi,Hindi,144931,4,100,100,False,14493100,30000,100,14493100,0,144931,29161231,72640531,29161231,19522970,144929,2547738,6993598,9836705

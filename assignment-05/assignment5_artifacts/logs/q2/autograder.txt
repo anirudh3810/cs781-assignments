@@ -1,0 +1,27 @@
+
+### Q2 — Double descent on Harry Potter
+  [PASS] double_descent.py present
+  [PASS] submissions/q2/split.pt present
+  [PASS] submissions/q2/metrics.json present
+  [PASS] submissions/q2/tokenizer.json present
+  [PASS] implements random_feature_experiment
+  [PASS] implements interpolation_threshold
+  [PASS] implements add_label_noise
+  [PASS] implements train_one_width
+  [PASS] random_feature_experiment runs on the saved HP slices  — keys ['beta_norm', 'n_train', 'n_unique', 'test_acc', 'test_mse', 'train_mse', 'widths']
+  [PASS] n_unique counts distinct training contexts (<= n_train)  — 179
+  [PASS] test error has an interior peak (rises, then falls)  — peak at P=175
+  [PASS] peak sits at the interpolation threshold (0.7–1.15 x n_unique)  — peak P=175, n_unique=179
+  [PASS] past the threshold the model interpolates the training set  — train mse 0.883 -> 0.063
+  [PASS] second descent: widest model's test error far below the peak  — 1.30 vs peak 37.04
+  [PASS] interpolation_threshold returns the argmax width
+  [PASS] re-run reproduces the logged test curve (seeded RNG)
+  [PASS] add_label_noise: corrupts ~frac of targets, copies input  — changed fraction 0.295 (expect ~0.30)
+  [PASS] width sweep logged for >= 6 widths  — [4, 8, 12, 16, 24, 32, 48, 64, 96, 128]
+  [PASS] training targets really are noisy (5–40% differ from the text)  — 0.160
+  [PASS] every logged width point is reproduced by its saved checkpoint  — 10/10 verified
+  [PASS] the largest model interpolates the noisy training set (train acc >= 0.9)  — 0.979
+  [info] width sweep test error  — 4:0.838 8:0.840 12:0.871 16:0.874 24:0.852 32:0.848 48:0.843 64:0.829 96:0.815 128:0.815
+  [info] non-monotonic (double-descent bump) visible  — True (peak at d_model=16)
+=== Q2 — Double descent on Harry Potter: 21/21 checks passed ===
+

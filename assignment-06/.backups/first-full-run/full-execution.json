@@ -1,0 +1,541 @@
+[
+  {
+    "cell_index": 31,
+    "metadata_id": "a6-H0",
+    "seconds": 6.139792000001762,
+    "execution_count": 1,
+    "errors": []
+  },
+  {
+    "cell_index": 32,
+    "metadata_id": "xdaaxrSHn5nK",
+    "seconds": 0.0955145000043558,
+    "execution_count": 2,
+    "errors": []
+  },
+  {
+    "cell_index": 33,
+    "metadata_id": "V4kvTNt4qp8q",
+    "seconds": 0.05538629999500699,
+    "execution_count": 3,
+    "errors": []
+  },
+  {
+    "cell_index": 34,
+    "metadata_id": "gdO2CGoxoAMP",
+    "seconds": 23.092179100000067,
+    "execution_count": 4,
+    "errors": []
+  },
+  {
+    "cell_index": 36,
+    "metadata_id": "uynHNA_0QAdc",
+    "seconds": 0.021357400000852067,
+    "execution_count": 5,
+    "errors": []
+  },
+  {
+    "cell_index": 37,
+    "metadata_id": "qgwPLJUXIzwb",
+    "seconds": 0.03784279999672435,
+    "execution_count": 6,
+    "errors": []
+  },
+  {
+    "cell_index": 38,
+    "metadata_id": "a6-H1",
+    "seconds": 0.1797798999978113,
+    "execution_count": 7,
+    "errors": []
+  },
+  {
+    "cell_index": 39,
+    "metadata_id": "LywhEJm_I29I",
+    "seconds": 2.7183383999945363,
+    "execution_count": 8,
+    "errors": []
+  },
+  {
+    "cell_index": 40,
+    "metadata_id": "hZcYxfi2QXs8",
+    "seconds": 0.030484399998385925,
+    "execution_count": 9,
+    "errors": []
+  },
+  {
+    "cell_index": 42,
+    "metadata_id": "CjVZUn5dVMWZ",
+    "seconds": 0.30009099999733735,
+    "execution_count": 10,
+    "errors": []
+  },
+  {
+    "cell_index": 44,
+    "metadata_id": "pTwbHBA9Vxd4",
+    "seconds": 2.353157999998075,
+    "execution_count": 11,
+    "errors": []
+  },
+  {
+    "cell_index": 45,
+    "metadata_id": "aaSA2mOYVzt6",
+    "seconds": 0.033740800005034544,
+    "execution_count": 12,
+    "errors": []
+  },
+  {
+    "cell_index": 48,
+    "metadata_id": "2O-GeCxHsk0B",
+    "seconds": 0.022049599996535107,
+    "execution_count": 13,
+    "errors": []
+  },
+  {
+    "cell_index": 49,
+    "metadata_id": "dNxLf0Tvspga",
+    "seconds": 1.5806946000011521,
+    "execution_count": 14,
+    "errors": []
+  },
+  {
+    "cell_index": 50,
+    "metadata_id": "a6-H2",
+    "seconds": 1.2261916999996174,
+    "execution_count": 15,
+    "errors": []
+  },
+  {
+    "cell_index": 51,
+    "metadata_id": "KePKKI2r9fIl",
+    "seconds": 3158.671579799993,
+    "execution_count": 16,
+    "errors": []
+  },
+  {
+    "cell_index": 52,
+    "metadata_id": "D52PJfjDh8Wn",
+    "seconds": 0.10045309999259189,
+    "execution_count": 17,
+    "errors": []
+  },
+  {
+    "cell_index": 53,
+    "metadata_id": "QY4liNMXh_V-",
+    "seconds": 0.043768900010036305,
+    "execution_count": 18,
+    "errors": []
+  },
+  {
+    "cell_index": 55,
+    "metadata_id": "7sPI9EIPiYpD",
+    "seconds": 1.6293444999901112,
+    "execution_count": 19,
+    "errors": []
+  },
+  {
+    "cell_index": 57,
+    "metadata_id": "0ocr8OQFj1bX",
+    "seconds": 0.08763740000722464,
+    "execution_count": 20,
+    "errors": []
+  },
+  {
+    "cell_index": 58,
+    "metadata_id": "Dnc86gvyj5Z4",
+    "seconds": 0.024393400002736598,
+    "execution_count": 21,
+    "errors": []
+  },
+  {
+    "cell_index": 60,
+    "metadata_id": "s_5jtYBWkcNz",
+    "seconds": 0.032005600005504675,
+    "execution_count": 22,
+    "errors": []
+  },
+  {
+    "cell_index": 61,
+    "metadata_id": "o0SRZfSGkfqb",
+    "seconds": 0.02148759999545291,
+    "execution_count": 23,
+    "errors": []
+  },
+  {
+    "cell_index": 63,
+    "metadata_id": "r3Dcl5SGkxC-",
+    "seconds": 0.01337739999871701,
+    "execution_count": 24,
+    "errors": []
+  },
+  {
+    "cell_index": 64,
+    "metadata_id": "N59uVshQk3Z0",
+    "seconds": 0.02603829999861773,
+    "execution_count": 25,
+    "errors": []
+  },
+  {
+    "cell_index": 65,
+    "metadata_id": "FkOE5yWnk7Oo",
+    "seconds": 23.036419799987925,
+    "execution_count": 26,
+    "errors": []
+  },
+  {
+    "cell_index": 75,
+    "metadata_id": "kh4IqqABXS-U",
+    "seconds": 0.11572780000278726,
+    "execution_count": 27,
+    "errors": []
+  },
+  {
+    "cell_index": 78,
+    "metadata_id": "97EjqIDGXkJp",
+    "seconds": 4.0419514999957755,
+    "execution_count": 28,
+    "errors": []
+  },
+  {
+    "cell_index": 81,
+    "metadata_id": "mRT8p8ZZX1Jq",
+    "seconds": 0.05181589999119751,
+    "execution_count": 29,
+    "errors": []
+  },
+  {
+    "cell_index": 93,
+    "metadata_id": "1cwp1guDbxg3",
+    "seconds": 0.02193020000413526,
+    "execution_count": 30,
+    "errors": []
+  },
+  {
+    "cell_index": 96,
+    "metadata_id": "A5xO8yhHcBnN",
+    "seconds": 0.016347600001608953,
+    "execution_count": 31,
+    "errors": []
+  },
+  {
+    "cell_index": 98,
+    "metadata_id": "TrY4N0U6cLmi",
+    "seconds": 0.016069799996330403,
+    "execution_count": 32,
+    "errors": []
+  },
+  {
+    "cell_index": 105,
+    "metadata_id": "RxetrG2ndAIj",
+    "seconds": 1.3255917000060435,
+    "execution_count": 33,
+    "errors": []
+  },
+  {
+    "cell_index": 108,
+    "metadata_id": "pdAEFi3pdQNw",
+    "seconds": 0.04010290000587702,
+    "execution_count": 34,
+    "errors": []
+  },
+  {
+    "cell_index": 111,
+    "metadata_id": "bMPZX7aOdiWI",
+    "seconds": 0.21285600001283456,
+    "execution_count": 35,
+    "errors": []
+  },
+  {
+    "cell_index": 114,
+    "metadata_id": "ZbtTkzgLdriZ",
+    "seconds": 0.1599253000022145,
+    "execution_count": 36,
+    "errors": []
+  },
+  {
+    "cell_index": 117,
+    "metadata_id": "BY5qa15kd04j",
+    "seconds": 0.016664299997501075,
+    "execution_count": 37,
+    "errors": []
+  },
+  {
+    "cell_index": 120,
+    "metadata_id": "E8x5YhRpeD-0",
+    "seconds": 0.02948080000351183,
+    "execution_count": 38,
+    "errors": []
+  },
+  {
+    "cell_index": 123,
+    "metadata_id": "VY6Mnqf6eN1U",
+    "seconds": 0.04339299999992363,
+    "execution_count": 39,
+    "errors": []
+  },
+  {
+    "cell_index": 126,
+    "metadata_id": "Kjj4vJI3eWYt",
+    "seconds": 0.02371379999385681,
+    "execution_count": 40,
+    "errors": []
+  },
+  {
+    "cell_index": 129,
+    "metadata_id": "BQCK7Y6oefAa",
+    "seconds": 0.03310600000259001,
+    "execution_count": 41,
+    "errors": []
+  },
+  {
+    "cell_index": 132,
+    "metadata_id": "cwPnG-4eepN_",
+    "seconds": 0.035853299996233545,
+    "execution_count": 42,
+    "errors": []
+  },
+  {
+    "cell_index": 135,
+    "metadata_id": "4kdZP4QMezM2",
+    "seconds": 0.028458300002967007,
+    "execution_count": 43,
+    "errors": []
+  },
+  {
+    "cell_index": 138,
+    "metadata_id": "Wp1qnjb1e7rA",
+    "seconds": 0.1597221999982139,
+    "execution_count": 44,
+    "errors": []
+  },
+  {
+    "cell_index": 141,
+    "metadata_id": "iYHjGOp8fDzL",
+    "seconds": 0.03266529999382328,
+    "execution_count": 45,
+    "errors": []
+  },
+  {
+    "cell_index": 142,
+    "metadata_id": "lkmcUdySfGGS",
+    "seconds": 0.02591529999335762,
+    "execution_count": 46,
+    "errors": []
+  },
+  {
+    "cell_index": 144,
+    "metadata_id": "bNlXEKkXfR6z",
+    "seconds": 0.032816200007800944,
+    "execution_count": 47,
+    "errors": []
+  },
+  {
+    "cell_index": 145,
+    "metadata_id": "a6-H3",
+    "seconds": 0.12403749999066349,
+    "execution_count": 48,
+    "errors": []
+  },
+  {
+    "cell_index": 148,
+    "metadata_id": "EJ701EirfbJ0",
+    "seconds": 66.93364660000952,
+    "execution_count": 49,
+    "errors": []
+  },
+  {
+    "cell_index": 151,
+    "metadata_id": "B3roM3qWflNG",
+    "seconds": 0.07910859999537934,
+    "execution_count": 50,
+    "errors": []
+  },
+  {
+    "cell_index": 154,
+    "metadata_id": "aZQCgNa_fwis",
+    "seconds": 0.048170699999900535,
+    "execution_count": 51,
+    "errors": []
+  },
+  {
+    "cell_index": 156,
+    "metadata_id": "R-uKaMxDf2RZ",
+    "seconds": 50.76390900000115,
+    "execution_count": 52,
+    "errors": []
+  },
+  {
+    "cell_index": 160,
+    "metadata_id": "8KwX9YEEgGcF",
+    "seconds": 0.04523950000293553,
+    "execution_count": 53,
+    "errors": []
+  },
+  {
+    "cell_index": 162,
+    "metadata_id": "KP0hMoivgOxc",
+    "seconds": 0.27909250000084285,
+    "execution_count": 54,
+    "errors": []
+  },
+  {
+    "cell_index": 165,
+    "metadata_id": "3ZQm0HxygXZD",
+    "seconds": 0.06278340000426397,
+    "execution_count": 55,
+    "errors": []
+  },
+  {
+    "cell_index": 179,
+    "metadata_id": "cKUV2C82hypR",
+    "seconds": 0.02825509999820497,
+    "execution_count": 56,
+    "errors": []
+  },
+  {
+    "cell_index": 182,
+    "metadata_id": "PDVc2v5YiJwJ",
+    "seconds": 0.0344796999997925,
+    "execution_count": 57,
+    "errors": []
+  },
+  {
+    "cell_index": 183,
+    "metadata_id": "a6-H4",
+    "seconds": 6.257501399988541,
+    "execution_count": 58,
+    "errors": []
+  },
+  {
+    "cell_index": 184,
+    "metadata_id": "34UkV4ZyiLdf",
+    "seconds": 76.00363589999324,
+    "execution_count": 59,
+    "errors": []
+  },
+  {
+    "cell_index": 190,
+    "metadata_id": "Xl69-3Ljiiyv",
+    "seconds": 0.11253969999961555,
+    "execution_count": 60,
+    "errors": []
+  },
+  {
+    "cell_index": 208,
+    "metadata_id": "3J3oPYLCTB4I",
+    "seconds": 0.026817600009962916,
+    "execution_count": 61,
+    "errors": []
+  },
+  {
+    "cell_index": 210,
+    "metadata_id": "96gT0d7eTB4I",
+    "seconds": 0.016343200011760928,
+    "execution_count": 62,
+    "errors": []
+  },
+  {
+    "cell_index": 212,
+    "metadata_id": "r3CnAl7JTB4I",
+    "seconds": 0.014471999995294027,
+    "execution_count": 63,
+    "errors": []
+  },
+  {
+    "cell_index": 214,
+    "metadata_id": "t_1XiIQ5TB4J",
+    "seconds": 0.01870609998877626,
+    "execution_count": 64,
+    "errors": []
+  },
+  {
+    "cell_index": 215,
+    "metadata_id": "TeSJ0RIodmsn",
+    "seconds": 0.015897999997832812,
+    "execution_count": 65,
+    "errors": []
+  },
+  {
+    "cell_index": 217,
+    "metadata_id": "xOlNiMwgTB4J",
+    "seconds": 0.014053999999305233,
+    "execution_count": 66,
+    "errors": []
+  },
+  {
+    "cell_index": 219,
+    "metadata_id": "AE40eGRVTB4J",
+    "seconds": 0.0231766999932006,
+    "execution_count": 67,
+    "errors": []
+  },
+  {
+    "cell_index": 221,
+    "metadata_id": "TcIaWwl-TB4J",
+    "seconds": 0.01683680000132881,
+    "execution_count": 68,
+    "errors": []
+  },
+  {
+    "cell_index": 223,
+    "metadata_id": "VFMxExP2TB4J",
+    "seconds": 0.025484900004812516,
+    "execution_count": 69,
+    "errors": []
+  },
+  {
+    "cell_index": 225,
+    "metadata_id": "8v-JSKn7TB4J",
+    "seconds": 0.007240799997816794,
+    "execution_count": 70,
+    "errors": []
+  },
+  {
+    "cell_index": 227,
+    "metadata_id": "BwXIfahbTB4J",
+    "seconds": 0.024486800000886433,
+    "execution_count": 71,
+    "errors": []
+  },
+  {
+    "cell_index": 229,
+    "metadata_id": "uphSwaEXTB4J",
+    "seconds": 0.020497900011832826,
+    "execution_count": 72,
+    "errors": []
+  },
+  {
+    "cell_index": 234,
+    "metadata_id": "w0AIII_M_Znr",
+    "seconds": 102.33045649999985,
+    "execution_count": 73,
+    "errors": []
+  },
+  {
+    "cell_index": 236,
+    "metadata_id": "ZNzib4Ct_lzz",
+    "seconds": 0.018115700004273094,
+    "execution_count": 74,
+    "errors": []
+  },
+  {
+    "cell_index": 237,
+    "metadata_id": "a6-H5",
+    "seconds": 512.3800838000025,
+    "execution_count": 75,
+    "errors": []
+  },
+  {
+    "cell_index": 241,
+    "metadata_id": "x8IIRCXqAGce",
+    "seconds": 0.07847330000367947,
+    "execution_count": 76,
+    "errors": []
+  },
+  {
+    "cell_index": 259,
+    "metadata_id": "a6-H6",
+    "seconds": 0.18407649999426212,
+    "execution_count": 77,
+    "errors": []
+  }
+]

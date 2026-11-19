@@ -1,0 +1,105 @@
+{
+  "schema": 1,
+  "producer": "a6-core-1",
+  "key": "8587ac06541f87d064094ef4375ff29de6a8f0d7a47c1e7ed85541119dd27452",
+  "created_at": "2026-11-14T04:33:48.342980+00:00",
+  "payload_sha256": "490e408cde5bf5068b8d62d3b2fed6398970c1099cfde1c2dce0d62ddef16d6b",
+  "payload": {
+    "status": "verified_source_sentences",
+    "raw_model_answer": "Course drop and withdrawal rules include:\n\n1. Students can request to drop courses up to about four weeks before the last date of classes.\n2. Requests for drops must be approved by the Instructor-in-charge and the Convener, DUGC.\n3. Total number of credits of courses dropped beyond the add-drop week should not exceed 44 during the entire programme.\n4. Adding of courses is not permitted in the summer term.\n5. Students may drop a course up to two weeks prior to the last day of classes.\n6. An instructor may recommend cancellation of registration of any student in that course for reasons such as absence from classes without proper authorization.\n7. The instructor should send de-registration recommendations to the SUGC Chairperson and the concerned DUGC.\n8. The SUGC Chairperson's decision in each case shall be conveyed to the instructor and the student at least two weeks prior to the last day of classes.",
+    "selection_raw": "[1, 2, 3, 4, 5, 6, 7, 8, 9]",
+    "selected": [
+      {
+        "id": 1,
+        "chunk_id": 7423,
+        "text": "Dropping of course(s) should not result in the semester load becoming less than the specified minimum number of credits (for their respective Brackets), for a regular semester.",
+        "source_urls": [
+          "https://www.iitk.ac.in/doaa/data/UG_Manual_Version_1.6.pdf"
+        ],
+        "original_id": 1
+      },
+      {
+        "id": 2,
+        "chunk_id": 7423,
+        "text": "The request to drop course(s) must be approved by the Instructor -in-Charge of the course and the Convener, DUGC.",
+        "source_urls": [
+          "https://www.iitk.ac.in/doaa/data/UG_Manual_Version_1.6.pdf"
+        ],
+        "original_id": 3
+      },
+      {
+        "id": 3,
+        "chunk_id": 7423,
+        "text": "It is the responsibility of the student to get approval from the Instructor -in-Charge and the Convenor, DUGC by the last date for dropping the course, as mentioned in the Academic Calendar.",
+        "source_urls": [
+          "https://www.iitk.ac.in/doaa/data/UG_Manual_Version_1.6.pdf"
+        ],
+        "original_id": 4
+      },
+      {
+        "id": 4,
+        "chunk_id": 7423,
+        "text": "The total number of credits of courses dropped beyond the add-drop week should not exceed 44 during the entire program.",
+        "source_urls": [
+          "https://www.iitk.ac.in/doaa/data/UG_Manual_Version_1.6.pdf"
+        ],
+        "original_id": 5
+      },
+      {
+        "id": 5,
+        "chunk_id": 7423,
+        "text": "However, students may drop a course up to two weeks prior to the last day of classes. 4.3.5 De-Registration from a Course Registration of a student in a course may be cancelled at any stage if it is found that they do not meet the pre - requisites of the course, or if there is a clash in the student's time table preventing them from attending the course or if it is found that they are not eligible to register for that course for any other reason.",
+        "source_urls": [
+          "https://www.iitk.ac.in/doaa/data/UG_Manual_Version_1.6.pdf"
+        ],
+        "original_id": 8
+      },
+      {
+        "id": 6,
+        "chunk_id": 7423,
+        "text": "The instructor of a course may also recommend cancellation of registration of any student in that course for reasons such as absence from classes without proper authorization (as per clause 5.1.6a).",
+        "source_urls": [
+          "https://www.iitk.ac.in/doaa/data/UG_Manual_Version_1.6.pdf"
+        ],
+        "original_id": 9
+      },
+      {
+        "id": 7,
+        "chunk_id": 7129,
+        "text": "Students may also request to drop course(s) up to about four weeks prior to the last date of classes (exact date is specified in Academic Calendar) with the following conditions:",
+        "source_urls": [
+          "https://www.iitk.ac.in/doaa/data/UG-Manual-22-07-2025.pdf"
+        ],
+        "original_id": 11
+      },
+      {
+        "id": 8,
+        "chunk_id": 7129,
+        "text": "Dropping of course(s) should not result in the net registration becoming less than the specified minimum number of credits for a semester.",
+        "source_urls": [
+          "https://www.iitk.ac.in/doaa/data/UG-Manual-22-07-2025.pdf"
+        ],
+        "original_id": 12
+      },
+      {
+        "id": 9,
+        "chunk_id": 7129,
+        "text": "Total number of credits of courses dropped beyond the add-drop week should not exceed 44 during the entire programme.",
+        "source_urls": [
+          "https://www.iitk.ac.in/doaa/data/UG-Manual-22-07-2025.pdf"
+        ],
+        "original_id": 13
+      }
+    ],
+    "attempts": [],
+    "answer": "- Dropping of course(s) should not result in the semester load becoming less than the specified minimum number of credits (for their respective Brackets), for a regular semester. [C7423]\n- The request to drop course(s) must be approved by the Instructor -in-Charge of the course and the Convener, DUGC. [C7423]\n- It is the responsibility of the student to get approval from the Instructor -in-Charge and the Convenor, DUGC by the last date for dropping the course, as mentioned in the Academic Calendar. [C7423]\n- The total number of credits of courses dropped beyond the add-drop week should not exceed 44 during the entire program. [C7423]\n- However, students may drop a course up to two weeks prior to the last day of classes. 4.3.5 De-Registration from a Course Registration of a student in a course may be cancelled at any stage if it is found that they do not meet the pre - requisites of the course, or if there is a clash in the student's time table preventing them from attending the course or if it is found that they are not eligible to register for that course for any other reason. [C7423]\n- The instructor of a course may also recommend cancellation of registration of any student in that course for reasons such as absence from classes without proper authorization (as per clause 5.1.6a). [C7423]\n- Students may also request to drop course(s) up to about four weeks prior to the last date of classes (exact date is specified in Academic Calendar) with the following conditions: [C7129]\n- Dropping of course(s) should not result in the net registration becoming less than the specified minimum number of credits for a semester. [C7129]\n- Total number of credits of courses dropped beyond the add-drop week should not exceed 44 during the entire programme. [C7129]",
+    "context_hash": "101161911e447989cb833f5fc0d79b5fd24433ab9c242d6b17350a679694777a",
+    "model": {
+      "id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "dtype": "torch.float32",
+      "torch": "2.14.1+cpu",
+      "implementation": "e47a0ccf52a10c8d1a4aa340049cf573ec388f7ef75fa86d2e7512fed3acafa1"
+    }
+  }
+}

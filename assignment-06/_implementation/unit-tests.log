@@ -1,0 +1,49 @@
+C:\Users\Anirudh\OneDrive\Desktop\CS781_ASSIGNMENT_6\.venv\lib\site-packages\langgraph\checkpoint\base\__init__.py:17: LangChainPendingDeprecationWarning: The default value of `allowed_objects` will change in a future version. Pass an explicit value (e.g., allowed_objects='messages' or allowed_objects='core') to suppress this warning.
+  from langgraph.checkpoint.serde.jsonplus import JsonPlusSerializer
+test_agreement_mathematics_no_fake_empirical_scores (__main__.CoreTests) ... ok
+test_all_original_function_argument_contracts (__main__.CoreTests) ... ok
+test_atomic_cache_corruption_and_binary (__main__.CoreTests) ... Ignoring invalid checkpoint C:\Users\Anirudh\OneDrive\Desktop\CS781_ASSIGNMENT_6\.a6_artifacts\tmpxipr_77u\unit\value.json: schema, producer, key or checksum mismatch
+Ignoring invalid binary unit/binary: Binary checksum mismatch
+ok
+test_calendar_period_filter_beats_wrong_year_semantic_match (__main__.CoreTests) ... ok
+test_chunk_cross_document_provenance (__main__.CoreTests) ... ok
+test_cutoff_answer_retries_even_if_model_accepts (__main__.CoreTests) ... ok
+test_evidence_scope_guard_avoids_fee_formula_and_historical_deadline (__main__.CoreTests) ... ok
+test_fixed_chunks_and_invalid_sizes (__main__.CoreTests) ... ok
+test_generic_memory_evidence_does_not_hardcode_persona (__main__.CoreTests) ... ok
+test_html_extraction_actual_parser (__main__.CoreTests) ... ok
+test_independent_review_rejects_invalid_scores (__main__.CoreTests) ... ok
+test_judge_parser_strictness (__main__.CoreTests) ... ok
+test_normalization_and_faiss (__main__.CoreTests) ... ok
+test_notebook_preservation_images_and_alternative (__main__.CoreTests) ... ok
+test_notebook_public_signatures_and_routers (__main__.CoreTests) ... ok
+test_notebook_tools_are_actual_decorated_interfaces (__main__.CoreTests) ... ok
+test_pdf_actual_reader (__main__.CoreTests) ... invalid pdf header: b'not a'
+EOF marker not found
+ok
+test_published_snapshot_roundtrip_and_corruption (__main__.CoreTests) ... ok
+test_real_tool_call_parser_not_invented (__main__.CoreTests) ... ok
+test_retrieval_filters_and_negative_indices (__main__.CoreTests) ... ok
+test_sentence_catalog_preserves_scope_of_contextual_clauses (__main__.CoreTests) ... ok
+test_sentence_provenance_excludes_unrelated_boundary_document (__main__.CoreTests) ... ok
+test_smoke_memory_archive_preserves_full_conversation (__main__.CoreTests) ... ok
+test_source_sentence_selection_rejects_invented_claims (__main__.CoreTests) ... ok
+test_spi_calculation_and_edge_cases (__main__.CoreTests) ... ok
+test_student_review_requires_confirmation_and_input_binding (__main__.CoreTests) ... ok
+test_temporal_contradiction_and_explicit_historical_context (__main__.CoreTests) ... ok
+test_truncation_uses_budget_and_structural_evidence (__main__.CoreTests) ... ok
+test_url_scope_and_queries (__main__.CoreTests) ... ok
+
+----------------------------------------------------------------------
+Ran 29 tests in 1.172s
+
+OK
+
+ QUALITY CHECKER: Evaluating answer...
+
+ QUALITY CHECKER: Evaluating answer...
+
+ QUALITY CHECKER: Evaluating answer...
+
+ QUALITY CHECKER: Evaluating answer...
+Frozen published corpus restored from checksummed text/provenance; original extraction results reused.

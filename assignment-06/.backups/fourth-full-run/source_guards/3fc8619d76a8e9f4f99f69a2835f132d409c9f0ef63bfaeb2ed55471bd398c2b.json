@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "producer": "a6-core-1",
+  "key": "3fc8619d76a8e9f4f99f69a2835f132d409c9f0ef63bfaeb2ed55471bd398c2b",
+  "created_at": "2026-11-14T04:32:42.339589+00:00",
+  "payload_sha256": "fc3463aab4af0f624f3d829659f63876cfcdd27901eb54ba6a396a1d11c6a4d7",
+  "payload": {
+    "raw_model_answer": "The SOTA seminar is a seminar organized by the Institute of Information Technology, IITK, which aims to provide high-quality research opportunities for students pursuing advanced degrees in engineering and related fields. The seminar is scheduled for January 24, 2015, and has been extended up to July 10, 2015, after a brief discussion among the committee members.",
+    "answer": "These excerpts record individual historical requests and extensions; they do not establish the requested general definition or deadline. [C6405] [C6461]",
+    "limitation": "These excerpts record individual historical requests and extensions; they do not establish the requested general definition or deadline.",
+    "context_hash": "65a965df2bc93c516a10951019a306064b96ea2c788122612b8da56f34a6c11e",
+    "model": {
+      "id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "dtype": "torch.float32",
+      "torch": "2.14.1+cpu",
+      "implementation": "e47a0ccf52a10c8d1a4aa340049cf573ec388f7ef75fa86d2e7512fed3acafa1"
+    },
+    "status": "verified_abstention"
+  }
+}

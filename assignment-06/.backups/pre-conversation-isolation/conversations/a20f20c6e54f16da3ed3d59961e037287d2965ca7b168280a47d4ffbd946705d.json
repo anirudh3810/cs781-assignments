@@ -1,0 +1,73 @@
+{
+  "schema": 1,
+  "producer": "a6-core-1",
+  "key": "a20f20c6e54f16da3ed3d59961e037287d2965ca7b168280a47d4ffbd946705d",
+  "created_at": "2026-11-14T04:57:39.827701+00:00",
+  "payload_sha256": "ea0d164c559124ebfaa73b410a17857bdc00a09ae0e7373a5aaaf2cf349f52be",
+  "payload": {
+    "messages": [
+      {
+        "type": "human",
+        "data": {
+          "content": "My name is Anjali and I am a BTech student in CSE.",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "human",
+          "name": null,
+          "id": null
+        }
+      },
+      {
+        "type": "ai",
+        "data": {
+          "content": "Anjali",
+          "additional_kwargs": {
+            "generation_limit_reached": false
+          },
+          "response_metadata": {},
+          "type": "ai",
+          "name": null,
+          "id": null,
+          "tool_calls": [],
+          "invalid_tool_calls": [],
+          "usage_metadata": null
+        }
+      },
+      {
+        "type": "human",
+        "data": {
+          "content": "What is my name and department?",
+          "additional_kwargs": {},
+          "response_metadata": {},
+          "type": "human",
+          "name": null,
+          "id": null
+        }
+      },
+      {
+        "type": "ai",
+        "data": {
+          "content": "Anjali\n\nFrom your earlier user statements: My name is Anjali and I am a BTech student in CSE.",
+          "additional_kwargs": {
+            "generation_limit_reached": false
+          },
+          "response_metadata": {},
+          "type": "ai",
+          "name": null,
+          "id": null,
+          "tool_calls": [],
+          "invalid_tool_calls": [],
+          "usage_metadata": null
+        }
+      }
+    ],
+    "next_action": "accept",
+    "tool_name": "lookup_thesis_procedure",
+    "tool_input": "Anjali,CSE",
+    "tool_result": "",
+    "final_answer": "Anjali\n\nFrom your earlier user statements: My name is Anjali and I am a BTech student in CSE.",
+    "iteration": 1,
+    "graph_version": "50dd5862abe33c5c26dc80a69ffa61be9625b7a2ac6e929042d68a81ee7fda34",
+    "corpus_hash": "0fa9e9969b54dc04b0219eea722ab328aba3a21df634b812a866e1bfe622ac2f"
+  }
+}

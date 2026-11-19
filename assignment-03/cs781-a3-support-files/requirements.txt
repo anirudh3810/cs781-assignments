@@ -1,0 +1,7 @@
+torch
+tokenizers
+huggingface_hub
+nbformat
+matplotlib
+numpy
+pandas

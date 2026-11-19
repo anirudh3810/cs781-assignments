@@ -1,0 +1,27 @@
+
+=== Additional assignment checks ===
+
+### Q4 — TransformerLens port
+  [PASS] interp.py present
+  [PASS] submissions/q4_q6_model/model.pt present
+  [PASS] submissions/q4_q6_model/memorised.pt present
+  [PASS] submissions/q4_q6_model/split.pt present
+  [PASS] submissions/q4_q6_model/tokenizer.json present
+  [PASS] submissions/q4_q6_model/metrics.json present
+  [PASS] submissions/q4_q6_model/model_arch.py present
+  [PASS] implements to_hooked
+  [PASS] implements logits_match
+  [PASS] implements logits_and_cache
+  [PASS] implements attention_entropy
+  [PASS] Q1 tokenizer, split, metrics, and model vocabulary are consistent  — strict reload, tokenizer/split consistency and held-out repeat accuracy 0.970
+  [PASS] real HookedTransformer port reproduces model.pt within 1e-3  — max |logit diff| 3.05e-05
+  [PASS] real HookedTransformer port reproduces memorised.pt within 1e-3  — max |logit diff| 2.96e-05
+  [PASS] student port satisfies the Q4-Q6 cache/hook/readout contract  — semantic cache and hook interface valid
+  [PASS] logits_match accepts equal and rejects different logits
+  [PASS] logits_and_cache runs on X[:, :-1] and returns a full cache  — logits (64, 48, 103)
+  [PASS] attention_entropy matches closed-form values on synthetic patterns  — got [-0.0, 2.9930620193481445, -0.0, -0.0] exp [0.0, 2.9930620193481445, 0.0, 0.0]
+=== Q4 — TransformerLens port: 18/18 checks passed ===
+PASS block0_by_hand matches all seven cached activations: max activation error=4.77e-07; keys=7
+
+Combined Q4: 19/19 checks passed
+

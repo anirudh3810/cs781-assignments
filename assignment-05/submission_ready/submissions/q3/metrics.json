@@ -1,0 +1,10 @@
+{
+  "base_margin": -16.610536575317383,
+  "aligned_margin": 51.12358856201172,
+  "base_preference_rate": 0.32499998807907104,
+  "aligned_preference_rate": 0.800000011920929,
+  "method": "dpo",
+  "beta": 0.1,
+  "preference_data_sha256": "ddb419f5a9d9e4e4f44cf5669327de2a38485431aa8f2d59393daf7323855665",
+  "n_records": 40
+}

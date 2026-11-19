@@ -1,0 +1,27 @@
+{
+  "identity": {
+    "first_name": "Anirudh",
+    "last_name": "Bankhede",
+    "roll_no": "240131",
+    "email": "anirudhb24@iitk.ac.in"
+  },
+  "artifact_root": "/kaggle/working/assignment5_artifacts",
+  "require_two_gpus": true,
+  "kaggle": true,
+  "torch": "2.11.0+cu130",
+  "cuda_runtime": "13.0",
+  "hardware": [
+    {
+      "index": 0,
+      "name": "Tesla T4",
+      "memory_gib": 14.56219482421875
+    },
+    {
+      "index": 1,
+      "name": "Tesla T4",
+      "memory_gib": 14.56219482421875
+    }
+  ],
+  "transformer_lens": "3.9.0",
+  "free_disk_gib": 18.94068145751953
+}

@@ -1,0 +1,25 @@
+{
+  "schema": 1,
+  "producer": "a6-core-1",
+  "key": "8b4f10beaa400fc9ee127835a9737e542517f3f5be8ca4a7c1c65ca212ffdd05",
+  "created_at": "2026-11-14T04:23:21.823052+00:00",
+  "payload_sha256": "b8ff3819cdad02b29575bf628e44ead449a9181748f53e3e5591d09f7ba7bf08",
+  "payload": {
+    "status": "selection_failed",
+    "attempts": [
+      {
+        "raw": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32]",
+        "error": "Select at most eight distinct existing sentence IDs as one JSON array"
+      },
+      {
+        "raw": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31]",
+        "error": "Select at most eight distinct existing sentence IDs as one JSON array"
+      },
+      {
+        "raw": "[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30]",
+        "error": "Select at most eight distinct existing sentence IDs as one JSON array"
+      }
+    ],
+    "raw_model_answer": "Ph.D. thesis submission at IIT Kanpur involves several key steps:\n\n1. **Preparation of List of Suggested Examiners**: Before submitting a thesis, the thesis supervisor must prepare a list according to the PG Manual.\n   \n2. **Approval by Department Authorities**: The Department Postgraduate Committee (DPGC) reviews the suggested examiner list based on academic suitability.\n   \n3. **Submission to PG Section (DOAA Office)**: The List of Suggested Examiners and Synopsis of the examiner list are submitted in hard copy to the PG Section, DOAA Office for further approval.\n   \n4. **Plagiarism Check via Thesis Processing Cell (TPC)**: Before submission, Ph.D. theses undergo a plagiarism check via the Thesis Processing Cell (TPC).\n   \n5. **Verification & Approval Process of Examiner List**: The Chairman of the Senate (SPGC) reviews the examiner list and ensures it meets the guidelines provided by the institute.\n   \n6. **Review by the Dean**: The Dean, Academic Affairs, reviews the list and decides whether to approve the submission.\n   \n7. **Submission Date**: Students must submit the thesis before the late registration deadline (August 6, 2025) or register for full credits in 2025-26-I and continue with the thesis work if they submit the thesis after August 14, 2025.\n   \n8. **Reimbursement**: If the submission is approved, students can claim reimbursement of tuition fees and appropriate reduction of credits."
+  }
+}

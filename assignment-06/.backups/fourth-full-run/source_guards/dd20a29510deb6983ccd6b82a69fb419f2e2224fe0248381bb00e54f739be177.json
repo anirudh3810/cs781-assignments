@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "producer": "a6-core-1",
+  "key": "dd20a29510deb6983ccd6b82a69fb419f2e2224fe0248381bb00e54f739be177",
+  "created_at": "2026-11-14T04:31:58.118640+00:00",
+  "payload_sha256": "7fd77f486c32cb31a9ad93e76c048595c609958a60811e33f079cf45d54eaaf3",
+  "payload": {
+    "status": "verified_source_sentences",
+    "raw_model_answer": "To determine eligibility for branch change with CPI 8.5, we need to check the GPA criteria for different courses. CPI 8.5 corresponds to a GPA of 8.64. Let's examine the GPA details:\n\n1. **ME (Master of Science)**: For ME (MS), the GPA range is 3.33 to 6.00.\n   - Me (MS) 3.33 CPI < 6.00\n\n2. **Ph.D.**: For Ph.D., the GPA range is 3.33 to 6.00.\n   - Ph.D. 3.33 CPI < 6.00\n\nFrom these observations, we see that both ME and Ph.D. courses require a GPA of 3.33 or higher. Since CPI 8.5 falls within this GPA range, the candidate meets the eligibility criteria for branch change with CPI 8.5.",
+    "selection_raw": "[1]",
+    "selected": [
+      {
+        "id": 1,
+        "chunk_id": 6892,
+        "text": "Request to appoint Co -Supervisor S.",
+        "source_urls": [
+          "https://www.iitk.ac.in/doaa/data/SPGC-202425-9.pdf"
+        ],
+        "original_id": 1
+      }
+    ],
+    "attempts": [],
+    "answer": "- Request to appoint Co -Supervisor S. [C6892]",
+    "context_hash": "a8c51e98a0a65a59750b934936478b395215c4546c9a5e5d60ab0022e128e0d1",
+    "model": {
+      "id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "dtype": "torch.float32",
+      "torch": "2.14.1+cpu",
+      "implementation": "e47a0ccf52a10c8d1a4aa340049cf573ec388f7ef75fa86d2e7512fed3acafa1"
+    }
+  }
+}

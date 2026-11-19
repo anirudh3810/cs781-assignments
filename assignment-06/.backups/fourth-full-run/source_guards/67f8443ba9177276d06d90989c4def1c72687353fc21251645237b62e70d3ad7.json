@@ -1,0 +1,21 @@
+{
+  "schema": 1,
+  "producer": "a6-core-1",
+  "key": "67f8443ba9177276d06d90989c4def1c72687353fc21251645237b62e70d3ad7",
+  "created_at": "2026-11-14T04:33:05.170248+00:00",
+  "payload_sha256": "6a8eb5ee168c8b09e07e49f2d8100ae19617e6e0a827106002ce8ec0e553f526",
+  "payload": {
+    "raw_model_answer": "At IIT Kanpur, the CPI calculation works as follows:\n\n1. The institute calculates the average of the current year's and previous year's CPI values.\n2. It then multiplies this average by a factor of 10 to obtain the numerical percentage.\n3. This percentage represents the inflation rate over the period.\n\nNote: The exact method used might vary slightly depending on the specific criteria and guidelines set by IIT Kanpur.",
+    "answer": "These excerpts concern a conversion certificate and its processing charges; they do not establish the requested academic calculation formula. [C1011] [C1010]",
+    "limitation": "These excerpts concern a conversion certificate and its processing charges; they do not establish the requested academic calculation formula.",
+    "context_hash": "575adeb92672246e714e410938f298def294f60260a3ca6155a8016a5b13c784",
+    "model": {
+      "id": "Qwen/Qwen2.5-0.5B-Instruct",
+      "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+      "dtype": "torch.float32",
+      "torch": "2.14.1+cpu",
+      "implementation": "e47a0ccf52a10c8d1a4aa340049cf573ec388f7ef75fa86d2e7512fed3acafa1"
+    },
+    "status": "verified_abstention"
+  }
+}

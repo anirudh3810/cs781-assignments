@@ -1,0 +1,26 @@
+{
+  "schema": 1,
+  "producer": "a6-core-1",
+  "corpus_hash": "50157ff7d6822a0a39e14fb67f10510e5f3ef5b070393d63b42e2aeb1acbb82b",
+  "corpus_status": "complete_with_source_failures",
+  "mode": "full",
+  "files": {
+    "chunks": "chunks-304f4d84af18fabe394b.json",
+    "index": "index-304f4d84af18fabe394b.faiss",
+    "corpus_metadata": "corpus-304f4d84af18fabe394b.json"
+  },
+  "sha256": {
+    "chunks": "2dca67c98fd34719fbcc568e457686ec22ee35b28ace45ea36e25a03d6a828cf",
+    "index": "94f068f126845eff673ba2bd602907c90ff4fc4e2459213f8bbe5e6437dd3126",
+    "corpus_metadata": "0502e8676ca6a5b5b584aa61c44e717ac06328357eabaaa6391175f3d0c67905"
+  },
+  "embedding_model": "BAAI/bge-small-en-v1.5",
+  "embedding_revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+  "embedding_key": "da1235f5510fc1ba23a6f4fa249235c2a744743c2828f15e13092fa19cd775fa",
+  "index_key": "aa04175ba678f2d664de735df4993edb7053b983e9a9a990389a72c515aa6c3e",
+  "dimension": 384,
+  "count": 13483,
+  "chunk_size": 2048,
+  "overlap": 0,
+  "created_at": "2026-11-18T05:34:26.596943+00:00"
+}

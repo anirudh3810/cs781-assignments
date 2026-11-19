@@ -1,0 +1,183 @@
+START 31 a6-H0 # Materialize the shared core before early model initialization (Windo
+DONE  31 a6-H0 (7.71s)
+START 32 xdaaxrSHn5nK # Original setup purpose: !pip install huggingface_hub
+DONE  32 xdaaxrSHn5nK (0.09s)
+START 33 V4kvTNt4qp8q # Original setup purpose: !pip install transformers torch accelerate
+DONE  33 V4kvTNt4qp8q (0.06s)
+START 34 gdO2CGoxoAMP from transformers import AutoModelForCausalLM, AutoTokenizer
+DONE  34 gdO2CGoxoAMP (23.39s)
+START 36 uynHNA_0QAdc # Original setup purpose: ! pip install faiss-cpu
+DONE  36 uynHNA_0QAdc (0.02s)
+START 37 qgwPLJUXIzwb # Original setup purpose: !pip install pypdf beautifulsoup4 requests
+DONE  37 qgwPLJUXIzwb (0.04s)
+START 38 a6-H1 # H1 � shared implementation has been materialized above from the embe
+DONE  38 a6-H1 (0.13s)
+START 39 LywhEJm_I29I # ============================================================
+DONE  39 LywhEJm_I29I (0.97s)
+START 40 hZcYxfi2QXs8 # Assign the scraped text to the working variable
+DONE  40 hZcYxfi2QXs8 (0.02s)
+START 42 CjVZUn5dVMWZ if not isinstance(text, str) or not text.strip():
+DONE  42 CjVZUn5dVMWZ (0.36s)
+START 44 pTwbHBA9Vxd4 # ============================================================
+DONE  44 pTwbHBA9Vxd4 (3.56s)
+START 45 aaSA2mOYVzt6 len(chunks)
+DONE  45 aaSA2mOYVzt6 (0.02s)
+START 48 2O-GeCxHsk0B # Original setup purpose: !pip install sentence-transformers
+DONE  48 2O-GeCxHsk0B (0.03s)
+START 49 dNxLf0Tvspga # ============================================================
+DONE  49 dNxLf0Tvspga (2.08s)
+START 50 a6-H2 # H2 � actual RAG component smoke checks before the full embedding bat
+DONE  50 a6-H2 (1.23s)
+START 51 KePKKI2r9fIl # ============================================================
+DONE  51 KePKKI2r9fIl (18.55s)
+START 52 D52PJfjDh8Wn text_embeddings.shape
+DONE  52 D52PJfjDh8Wn (0.02s)
+START 53 QY4liNMXh_V- text_embeddings
+DONE  53 QY4liNMXh_V- (0.02s)
+START 55 7sPI9EIPiYpD # ============================================================
+DONE  55 7sPI9EIPiYpD (1.20s)
+START 57 0ocr8OQFj1bX # ============================================================
+DONE  57 0ocr8OQFj1bX (0.05s)
+START 58 Dnc86gvyj5Z4 question_embeddings
+DONE  58 Dnc86gvyj5Z4 (0.02s)
+START 60 s_5jtYBWkcNz # ============================================================
+DONE  60 s_5jtYBWkcNz (0.03s)
+START 61 o0SRZfSGkfqb # ============================================================
+DONE  61 o0SRZfSGkfqb (0.02s)
+START 63 r3Dcl5SGkxC- # ============================================================
+DONE  63 r3Dcl5SGkxC- (0.03s)
+START 64 N59uVshQk3Z0 # ============================================================
+DONE  64 N59uVshQk3Z0 (0.02s)
+START 65 FkOE5yWnk7Oo # Original 100-token generation demo is retained and explicitly distin
+DONE  65 FkOE5yWnk7Oo (0.09s)
+START 75 kh4IqqABXS-U # Original setup purpose: !pip install -q langchain langchain-communit
+DONE  75 kh4IqqABXS-U (0.05s)
+START 78 97EjqIDGXkJp # ============================================================
+DONE  78 97EjqIDGXkJp (3.64s)
+START 81 mRT8p8ZZX1Jq # Simple test � does the LLM respond?
+DONE  81 mRT8p8ZZX1Jq (0.07s)
+START 93 1cwp1guDbxg3 # Original setup purpose: !pip install -q langgraph langchain langchai
+DONE  93 1cwp1guDbxg3 (0.04s)
+START 96 A5xO8yhHcBnN # ============================================================
+DONE  96 A5xO8yhHcBnN (0.03s)
+START 98 TrY4N0U6cLmi # ============================================================
+DONE  98 TrY4N0U6cLmi (0.02s)
+START 105 RxetrG2ndAIj # ============================================================
+DONE  105 RxetrG2ndAIj (0.68s)
+START 108 pdAEFi3pdQNw # ============================================================
+DONE  108 pdAEFi3pdQNw (0.03s)
+START 111 bMPZX7aOdiWI # ============================================================
+DONE  111 bMPZX7aOdiWI (0.13s)
+START 114 ZbtTkzgLdriZ # ============================================================
+DONE  114 ZbtTkzgLdriZ (0.19s)
+START 117 BY5qa15kd04j # ============================================================
+DONE  117 BY5qa15kd04j (0.02s)
+START 120 E8x5YhRpeD-0 # ============================================================
+DONE  120 E8x5YhRpeD-0 (0.02s)
+START 123 VY6Mnqf6eN1U # ============================================================
+DONE  123 VY6Mnqf6eN1U (0.04s)
+START 126 Kjj4vJI3eWYt # ============================================================
+DONE  126 Kjj4vJI3eWYt (0.04s)
+START 129 BQCK7Y6oefAa # ============================================================
+DONE  129 BQCK7Y6oefAa (0.05s)
+START 132 cwPnG-4eepN_ # ============================================================
+DONE  132 cwPnG-4eepN_ (0.04s)
+START 135 4kdZP4QMezM2 # ============================================================
+DONE  135 4kdZP4QMezM2 (0.03s)
+START 138 Wp1qnjb1e7rA # ============================================================
+DONE  138 Wp1qnjb1e7rA (0.16s)
+START 141 iYHjGOp8fDzL # Text visualization (always works)
+DONE  141 iYHjGOp8fDzL (0.04s)
+START 142 lkmcUdySfGGS # Optional image output needs a renderer/network, not merely grandalf.
+DONE  142 lkmcUdySfGGS (0.03s)
+START 144 bNlXEKkXfR6z # ============================================================
+DONE  144 bNlXEKkXfR6z (0.03s)
+START 145 a6-H3 # H3 � genuine tools plus explicitly labeled control-flow test fixture
+DONE  145 a6-H3 (0.37s)
+START 148 EJ701EirfbJ0 ask_agent("What is the procedure for PhD thesis submission at IIT Kanp
+DONE  148 EJ701EirfbJ0 (17.24s)
+START 151 B3roM3qWflNG ask_agent("Calculate my SPI if my grades are: 4:9, 3:8, 4:10, 3:7, 3:6
+DONE  151 B3roM3qWflNG (0.08s)
+START 154 aZQCgNa_fwis ask_agent("What is machine learning in simple terms?")
+DONE  154 aZQCgNa_fwis (0.06s)
+START 156 R-uKaMxDf2RZ ask_agent("When are the mid-semester exams for odd semester 2026?")
+DONE  156 R-uKaMxDf2RZ (0.55s)
+START 160 8KwX9YEEgGcF # ============================================================
+DONE  160 8KwX9YEEgGcF (0.03s)
+START 162 KP0hMoivgOxc # ============================================================
+DONE  162 KP0hMoivgOxc (0.11s)
+START 165 3ZQm0HxygXZD # ============================================================
+DONE  165 3ZQm0HxygXZD (0.07s)
+START 179 cKUV2C82hypR %%writefile doaa_mcp_server.py
+DONE  179 cKUV2C82hypR (0.02s)
+START 182 PDVc2v5YiJwJ # Original setup purpose: !pip install -q langchain-mcp-adapters mcp
+DONE  182 PDVc2v5YiJwJ (0.03s)
+START 183 a6-H4 # H4 � local Qwen tool-aware chat adapter and a real stdio MCP smoke t
+DONE  183 a6-H4 (5.63s)
+START 184 34UkV4ZyiLdf # ============================================================
+DONE  184 34UkV4ZyiLdf (24.92s)
+START 190 Xl69-3Ljiiyv # ============================================================
+DONE  190 Xl69-3Ljiiyv (0.13s)
+START 208 3J3oPYLCTB4I if Q2_OPTION == "B":
+DONE  208 3J3oPYLCTB4I (0.03s)
+START 210 96gT0d7eTB4I if Q2_OPTION == "B":
+DONE  210 96gT0d7eTB4I (0.03s)
+START 212 r3CnAl7JTB4I if Q2_OPTION == "B":
+DONE  212 r3CnAl7JTB4I (0.02s)
+START 214 t_1XiIQ5TB4J if Q2_OPTION == "B":
+DONE  214 t_1XiIQ5TB4J (0.05s)
+START 215 TeSJ0RIodmsn if Q2_OPTION == "B":
+DONE  215 TeSJ0RIodmsn (0.02s)
+START 217 xOlNiMwgTB4J if Q2_OPTION == "B":
+DONE  217 xOlNiMwgTB4J (0.02s)
+START 219 AE40eGRVTB4J if Q2_OPTION == "B":
+DONE  219 AE40eGRVTB4J (0.03s)
+START 221 TcIaWwl-TB4J if Q2_OPTION == "B":
+DONE  221 TcIaWwl-TB4J (0.03s)
+START 223 VFMxExP2TB4J if Q2_OPTION == "B":
+DONE  223 VFMxExP2TB4J (0.02s)
+START 225 8v-JSKn7TB4J if Q2_OPTION == "B":
+DONE  225 8v-JSKn7TB4J (0.02s)
+START 227 BwXIfahbTB4J if Q2_OPTION == "B":
+DONE  227 BwXIfahbTB4J (0.02s)
+START 229 uphSwaEXTB4J if Q2_OPTION == "B":
+DONE  229 uphSwaEXTB4J (0.03s)
+START 234 w0AIII_M_Znr # ============================================================
+DONE  234 w0AIII_M_Znr (104.47s)
+START 236 ZNzib4Ct_lzz # ============================================================
+DONE  236 ZNzib4Ct_lzz (0.05s)
+START 237 a6-H5 # H5 � actual 5�3 judge driver, blinded human review and input-bound r
+DONE  237 a6-H5 (307.82s)
+START 241 x8IIRCXqAGce # Step 5: Calculate agreement between human and LLM judge
+DONE  241 x8IIRCXqAGce (0.04s)
+START 259 a6-H6 # H6 � original-cell preservation, selected workflow and submission re
+DONE  259 a6-H6 (0.11s)
+CLEAN-KERNEL EXECUTION COMPLETED full 543.8503551000031
+{
+  "archive": "CS781-A6-Anirudh-Bankhede-240131.zip",
+  "submission_ready": false,
+  "label": "DRAFT � NOT SUBMISSION READY",
+  "files": [
+    "Assignment6_RAGandAgenticAI_Questions_Notebook.ipynb",
+    "RAGretrievalcontentfile.txt",
+    "README.md",
+    "requirements.txt",
+    "doaa_mcp_server.py",
+    "doaa_shared.py",
+    "_implementation/execute_notebook.py",
+    "_implementation/finalize_submission.py",
+    "requirements-lock.txt",
+    "evaluation_results.json",
+    "human_scores.template.json",
+    "human_review.md",
+    "human_review.csv",
+    "SUBMISSION_STATUS.json",
+    "rag_runtime/manifest.json",
+    "rag_runtime/chunks-304f4d84af18fabe394b.json",
+    "rag_runtime/index-304f4d84af18fabe394b.faiss",
+    "rag_runtime/corpus-304f4d84af18fabe394b.json"
+  ],
+  "bytes": 37208705,
+  "sha256": "e72e870a1dbcf27d9d9842d3726d9fec417fa8f1007d00bbbf5ddcfb1b8e4ca2",
+  "at": "2026-11-14T04:39:06.100427+00:00"
+}

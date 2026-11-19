@@ -1,0 +1,10 @@
+{
+  "Q2-NoAttention-Baseline": {
+    "status": "in_progress",
+    "completed_epochs": 10,
+    "target_epochs": 50,
+    "checkpoint_path": "/kaggle/working/q2_artifacts/noattention_baseline/q2_noattention_baseline_resume.pt",
+    "history_path": "/kaggle/working/q2_artifacts/noattention_baseline/q2_noattention_baseline_history.json",
+    "bundle_zip_path": "/kaggle/working/q2_noattention_baseline_bundle.zip"
+  }
+}
