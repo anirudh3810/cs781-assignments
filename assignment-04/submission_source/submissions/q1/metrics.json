@@ -1,0 +1,143 @@
+{
+  "a3_held_out_perplexity": 2930.7310914265345,
+  "context_limit": 256,
+  "overflow_policy": "left_truncate",
+  "decoding_grid": [
+    {
+      "setting": "greedy",
+      "token_f1_mean": 0.0,
+      "exact_match_mean": 0.0,
+      "distinct2_mean": 0.03225806451612903,
+      "repetition_rate_mean": 0.9655172413793104,
+      "latency_ms_per_token": 1.9945687246064974
+    },
+    {
+      "setting": "beam",
+      "token_f1_mean": 0.0,
+      "exact_match_mean": 0.0,
+      "distinct2_mean": 0.06989247311827955,
+      "repetition_rate_mean": 0.9137931034482759,
+      "latency_ms_per_token": 7.825213474608479
+    },
+    {
+      "setting": "sample_T0.7",
+      "token_f1_mean": 0.058205868205868205,
+      "exact_match_mean": 0.0,
+      "distinct2_mean": 0.7240143369175627,
+      "repetition_rate_mean": 0.09578544061302681,
+      "latency_ms_per_token": 2.802221758465192
+    },
+    {
+      "setting": "sample_T1.0",
+      "token_f1_mean": 0.032249417249417246,
+      "exact_match_mean": 0.0,
+      "distinct2_mean": 0.9372759856630825,
+      "repetition_rate_mean": 0.007662835249042145,
+      "latency_ms_per_token": 2.3670730522977004
+    },
+    {
+      "setting": "sample_T1.3",
+      "token_f1_mean": 0.016744366744366745,
+      "exact_match_mean": 0.0,
+      "distinct2_mean": 0.996415770609319,
+      "repetition_rate_mean": 0.0,
+      "latency_ms_per_token": 2.3152083984407192
+    },
+    {
+      "setting": "topk20_T0.7",
+      "token_f1_mean": 0.0525925925925926,
+      "exact_match_mean": 0.0,
+      "distinct2_mean": 0.6433691756272402,
+      "repetition_rate_mean": 0.11877394636015326,
+      "latency_ms_per_token": 2.474715598088453
+    },
+    {
+      "setting": "topk20_T1.0",
+      "token_f1_mean": 0.06239417989417989,
+      "exact_match_mean": 0.0,
+      "distinct2_mean": 0.8100358422939068,
+      "repetition_rate_mean": 0.03256704980842912,
+      "latency_ms_per_token": 2.421724031034047
+    },
+    {
+      "setting": "topk20_T1.3",
+      "token_f1_mean": 0.052341269841269834,
+      "exact_match_mean": 0.0,
+      "distinct2_mean": 0.9050179211469535,
+      "repetition_rate_mean": 0.005747126436781609,
+      "latency_ms_per_token": 2.4809887684454544
+    },
+    {
+      "setting": "topp0.9_T0.7",
+      "token_f1_mean": 0.049629629629629635,
+      "exact_match_mean": 0.0,
+      "distinct2_mean": 0.6218637992831542,
+      "repetition_rate_mean": 0.14942528735632185,
+      "latency_ms_per_token": 2.631195218314058
+    },
+    {
+      "setting": "topp0.9_T1.0",
+      "token_f1_mean": 0.05127298627298627,
+      "exact_match_mean": 0.0,
+      "distinct2_mean": 0.9336917562724015,
+      "repetition_rate_mean": 0.013409961685823755,
+      "latency_ms_per_token": 2.63396149999906
+    },
+    {
+      "setting": "topp0.9_T1.3",
+      "token_f1_mean": 0.01901709401709402,
+      "exact_match_mean": 0.0,
+      "distinct2_mean": 0.996415770609319,
+      "repetition_rate_mean": 0.0,
+      "latency_ms_per_token": 2.6354872157131246
+    },
+    {
+      "setting": "topk50_T1.0",
+      "token_f1_mean": 0.0503975653975654,
+      "exact_match_mean": 0.0,
+      "distinct2_mean": 0.870967741935484,
+      "repetition_rate_mean": 0.0210727969348659,
+      "latency_ms_per_token": 2.492774273438414
+    }
+  ],
+  "forced_choice_accuracy": 0.5,
+  "cache_equivalence": {
+    "max_abs_diff": 3.814697265625e-05,
+    "greedy_agreement": true
+  },
+  "cache_benchmark": [
+    {
+      "prompt_len": 16,
+      "cached_ms_per_token": 3.2500017812537862,
+      "uncached_ms_per_token": 2.5363591874878466,
+      "peak_mb": 676.97509765625
+    },
+    {
+      "prompt_len": 64,
+      "cached_ms_per_token": 3.277571874988894,
+      "uncached_ms_per_token": 2.7193904374911426,
+      "peak_mb": 680.33984375
+    },
+    {
+      "prompt_len": 128,
+      "cached_ms_per_token": 3.53128640625755,
+      "uncached_ms_per_token": 2.967333187498866,
+      "peak_mb": 684.630859375
+    }
+  ],
+  "speculative": [
+    {
+      "gamma": 2,
+      "acceptance_rate": 0.25930067763539527,
+      "target_calls_per_token": 0.6822916666666666,
+      "wall_s": 5.809772679000105
+    },
+    {
+      "gamma": 4,
+      "acceptance_rate": 0.15037980422395555,
+      "target_calls_per_token": 0.640625,
+      "wall_s": 4.82674107400004
+    }
+  ],
+  "speculative_tv_distance": 0.015500007860362524
+}

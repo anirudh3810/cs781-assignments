@@ -1,0 +1,407 @@
+{
+  "majority_baseline": {
+    "n": 224,
+    "accuracy": 0.5,
+    "macro_f1": 0.3333333333333333,
+    "f1_negative": 0.6666666666666666,
+    "f1_positive": 0.0,
+    "support": [
+      112,
+      112
+    ],
+    "invalid_rate": 0.0,
+    "confusion[true][pred0,pred1,invalid]": [
+      [
+        112,
+        0,
+        0
+      ],
+      [
+        112,
+        0,
+        0
+      ]
+    ]
+  },
+  "linear_probe": {
+    "test": {
+      "n": 224,
+      "accuracy": 0.7008928571428571,
+      "macro_f1": 0.6971201388468447,
+      "f1_negative": 0.7309236947791165,
+      "f1_positive": 0.6633165829145728,
+      "support": [
+        112,
+        112
+      ],
+      "invalid_rate": 0.0,
+      "confusion[true][pred0,pred1,invalid]": [
+        [
+          91,
+          21,
+          0
+        ],
+        [
+          46,
+          66,
+          0
+        ]
+      ],
+      "nll": 0.6151083900600526,
+      "brier": 0.42410657334274976
+    },
+    "prompt_test": {
+      "n": 42,
+      "accuracy": 0.6666666666666666,
+      "macro_f1": 0.6636155606407322,
+      "f1_negative": 0.6956521739130435,
+      "f1_positive": 0.631578947368421,
+      "support": [
+        21,
+        21
+      ],
+      "invalid_rate": 0.0,
+      "confusion[true][pred0,pred1,invalid]": [
+        [
+          16,
+          5,
+          0
+        ],
+        [
+          9,
+          12,
+          0
+        ]
+      ],
+      "nll": 0.6228054645139421,
+      "brier": 0.4317552788696601
+    },
+    "costs": {
+      "trainable_params": 1538,
+      "total_params": 124441346,
+      "train_seconds": 22.737583777999703,
+      "examples_seen": 2400,
+      "tokens_seen": 296263,
+      "tokens_seen_estimated": false,
+      "peak_memory": {
+        "allocated_mb": 532.6123046875,
+        "peak_allocated_mb": 1485.86474609375,
+        "reserved_mb": 1604.0,
+        "peak_reserved_mb": 1604.0,
+        "peak_allocated_mb_by_gpu": {
+          "0": 1485.86474609375,
+          "1": 591.98095703125
+        }
+      },
+      "trainable_names": [
+        "classifier.weight",
+        "classifier.bias"
+      ],
+      "backbone_dropout": {
+        "embd_pdrop": 0.1,
+        "attn_pdrop": 0.1,
+        "resid_pdrop": 0.1
+      },
+      "warmup_steps": 15,
+      "parallelism": "data_parallel_2",
+      "micro_batch": 16,
+      "selected_checkpoint": "work/core/q2_runs/linear_probe_9df589e6c036/best.pt"
+    }
+  },
+  "full": {
+    "test": {
+      "n": 224,
+      "accuracy": 0.84375,
+      "macro_f1": 0.8435972629521017,
+      "f1_negative": 0.8484848484848485,
+      "f1_positive": 0.8387096774193549,
+      "support": [
+        112,
+        112
+      ],
+      "invalid_rate": 0.0,
+      "confusion[true][pred0,pred1,invalid]": [
+        [
+          98,
+          14,
+          0
+        ],
+        [
+          21,
+          91,
+          0
+        ]
+      ],
+      "nll": 0.3771773390849407,
+      "brier": 0.23933734485238126
+    },
+    "prompt_test": {
+      "n": 42,
+      "accuracy": 0.8333333333333334,
+      "macro_f1": 0.8332387975042541,
+      "f1_negative": 0.8292682926829268,
+      "f1_positive": 0.8372093023255814,
+      "support": [
+        21,
+        21
+      ],
+      "invalid_rate": 0.0,
+      "confusion[true][pred0,pred1,invalid]": [
+        [
+          17,
+          4,
+          0
+        ],
+        [
+          3,
+          18,
+          0
+        ]
+      ],
+      "nll": 0.38032052267507915,
+      "brier": 0.2457051488188768
+    },
+    "costs": {
+      "trainable_params": 124441346,
+      "total_params": 124441346,
+      "train_seconds": 35.823438796000346,
+      "examples_seen": 2400,
+      "tokens_seen": 296263,
+      "tokens_seen_estimated": false,
+      "peak_memory": {
+        "allocated_mb": 1966.353515625,
+        "peak_allocated_mb": 2546.13720703125,
+        "reserved_mb": 2770.0,
+        "peak_reserved_mb": 2770.0,
+        "peak_allocated_mb_by_gpu": {
+          "0": 2546.13720703125,
+          "1": 1515.26806640625
+        }
+      },
+      "trainable_names": [
+        "backbone.wte.weight",
+        "backbone.wpe.weight",
+        "backbone.h.0.ln_1.weight",
+        "backbone.h.0.ln_1.bias",
+        "backbone.h.0.attn.c_attn.weight",
+        "backbone.h.0.attn.c_attn.bias",
+        "backbone.h.0.attn.c_proj.weight",
+        "backbone.h.0.attn.c_proj.bias",
+        "backbone.h.0.ln_2.weight",
+        "backbone.h.0.ln_2.bias",
+        "backbone.h.0.mlp.c_fc.weight",
+        "backbone.h.0.mlp.c_fc.bias",
+        "backbone.h.0.mlp.c_proj.weight",
+        "backbone.h.0.mlp.c_proj.bias",
+        "backbone.h.1.ln_1.weight",
+        "backbone.h.1.ln_1.bias",
+        "backbone.h.1.attn.c_attn.weight",
+        "backbone.h.1.attn.c_attn.bias",
+        "backbone.h.1.attn.c_proj.weight",
+        "backbone.h.1.attn.c_proj.bias",
+        "backbone.h.1.ln_2.weight",
+        "backbone.h.1.ln_2.bias",
+        "backbone.h.1.mlp.c_fc.weight",
+        "backbone.h.1.mlp.c_fc.bias",
+        "backbone.h.1.mlp.c_proj.weight",
+        "backbone.h.1.mlp.c_proj.bias",
+        "backbone.h.2.ln_1.weight",
+        "backbone.h.2.ln_1.bias",
+        "backbone.h.2.attn.c_attn.weight",
+        "backbone.h.2.attn.c_attn.bias",
+        "backbone.h.2.attn.c_proj.weight",
+        "backbone.h.2.attn.c_proj.bias",
+        "backbone.h.2.ln_2.weight",
+        "backbone.h.2.ln_2.bias",
+        "backbone.h.2.mlp.c_fc.weight",
+        "backbone.h.2.mlp.c_fc.bias",
+        "backbone.h.2.mlp.c_proj.weight",
+        "backbone.h.2.mlp.c_proj.bias",
+        "backbone.h.3.ln_1.weight",
+        "backbone.h.3.ln_1.bias",
+        "backbone.h.3.attn.c_attn.weight",
+        "backbone.h.3.attn.c_attn.bias",
+        "backbone.h.3.attn.c_proj.weight",
+        "backbone.h.3.attn.c_proj.bias",
+        "backbone.h.3.ln_2.weight",
+        "backbone.h.3.ln_2.bias",
+        "backbone.h.3.mlp.c_fc.weight",
+        "backbone.h.3.mlp.c_fc.bias",
+        "backbone.h.3.mlp.c_proj.weight",
+        "backbone.h.3.mlp.c_proj.bias",
+        "backbone.h.4.ln_1.weight",
+        "backbone.h.4.ln_1.bias",
+        "backbone.h.4.attn.c_attn.weight",
+        "backbone.h.4.attn.c_attn.bias",
+        "backbone.h.4.attn.c_proj.weight",
+        "backbone.h.4.attn.c_proj.bias",
+        "backbone.h.4.ln_2.weight",
+        "backbone.h.4.ln_2.bias",
+        "backbone.h.4.mlp.c_fc.weight",
+        "backbone.h.4.mlp.c_fc.bias",
+        "backbone.h.4.mlp.c_proj.weight",
+        "backbone.h.4.mlp.c_proj.bias",
+        "backbone.h.5.ln_1.weight",
+        "backbone.h.5.ln_1.bias",
+        "backbone.h.5.attn.c_attn.weight",
+        "backbone.h.5.attn.c_attn.bias",
+        "backbone.h.5.attn.c_proj.weight",
+        "backbone.h.5.attn.c_proj.bias",
+        "backbone.h.5.ln_2.weight",
+        "backbone.h.5.ln_2.bias",
+        "backbone.h.5.mlp.c_fc.weight",
+        "backbone.h.5.mlp.c_fc.bias",
+        "backbone.h.5.mlp.c_proj.weight",
+        "backbone.h.5.mlp.c_proj.bias",
+        "backbone.h.6.ln_1.weight",
+        "backbone.h.6.ln_1.bias",
+        "backbone.h.6.attn.c_attn.weight",
+        "backbone.h.6.attn.c_attn.bias",
+        "backbone.h.6.attn.c_proj.weight",
+        "backbone.h.6.attn.c_proj.bias",
+        "backbone.h.6.ln_2.weight",
+        "backbone.h.6.ln_2.bias",
+        "backbone.h.6.mlp.c_fc.weight",
+        "backbone.h.6.mlp.c_fc.bias",
+        "backbone.h.6.mlp.c_proj.weight",
+        "backbone.h.6.mlp.c_proj.bias",
+        "backbone.h.7.ln_1.weight",
+        "backbone.h.7.ln_1.bias",
+        "backbone.h.7.attn.c_attn.weight",
+        "backbone.h.7.attn.c_attn.bias",
+        "backbone.h.7.attn.c_proj.weight",
+        "backbone.h.7.attn.c_proj.bias",
+        "backbone.h.7.ln_2.weight",
+        "backbone.h.7.ln_2.bias",
+        "backbone.h.7.mlp.c_fc.weight",
+        "backbone.h.7.mlp.c_fc.bias",
+        "backbone.h.7.mlp.c_proj.weight",
+        "backbone.h.7.mlp.c_proj.bias",
+        "backbone.h.8.ln_1.weight",
+        "backbone.h.8.ln_1.bias",
+        "backbone.h.8.attn.c_attn.weight",
+        "backbone.h.8.attn.c_attn.bias",
+        "backbone.h.8.attn.c_proj.weight",
+        "backbone.h.8.attn.c_proj.bias",
+        "backbone.h.8.ln_2.weight",
+        "backbone.h.8.ln_2.bias",
+        "backbone.h.8.mlp.c_fc.weight",
+        "backbone.h.8.mlp.c_fc.bias",
+        "backbone.h.8.mlp.c_proj.weight",
+        "backbone.h.8.mlp.c_proj.bias",
+        "backbone.h.9.ln_1.weight",
+        "backbone.h.9.ln_1.bias",
+        "backbone.h.9.attn.c_attn.weight",
+        "backbone.h.9.attn.c_attn.bias",
+        "backbone.h.9.attn.c_proj.weight",
+        "backbone.h.9.attn.c_proj.bias",
+        "backbone.h.9.ln_2.weight",
+        "backbone.h.9.ln_2.bias",
+        "backbone.h.9.mlp.c_fc.weight",
+        "backbone.h.9.mlp.c_fc.bias",
+        "backbone.h.9.mlp.c_proj.weight",
+        "backbone.h.9.mlp.c_proj.bias",
+        "backbone.h.10.ln_1.weight",
+        "backbone.h.10.ln_1.bias",
+        "backbone.h.10.attn.c_attn.weight",
+        "backbone.h.10.attn.c_attn.bias",
+        "backbone.h.10.attn.c_proj.weight",
+        "backbone.h.10.attn.c_proj.bias",
+        "backbone.h.10.ln_2.weight",
+        "backbone.h.10.ln_2.bias",
+        "backbone.h.10.mlp.c_fc.weight",
+        "backbone.h.10.mlp.c_fc.bias",
+        "backbone.h.10.mlp.c_proj.weight",
+        "backbone.h.10.mlp.c_proj.bias",
+        "backbone.h.11.ln_1.weight",
+        "backbone.h.11.ln_1.bias",
+        "backbone.h.11.attn.c_attn.weight",
+        "backbone.h.11.attn.c_attn.bias",
+        "backbone.h.11.attn.c_proj.weight",
+        "backbone.h.11.attn.c_proj.bias",
+        "backbone.h.11.ln_2.weight",
+        "backbone.h.11.ln_2.bias",
+        "backbone.h.11.mlp.c_fc.weight",
+        "backbone.h.11.mlp.c_fc.bias",
+        "backbone.h.11.mlp.c_proj.weight",
+        "backbone.h.11.mlp.c_proj.bias",
+        "backbone.ln_f.weight",
+        "backbone.ln_f.bias",
+        "classifier.weight",
+        "classifier.bias"
+      ],
+      "backbone_dropout": {
+        "embd_pdrop": 0.1,
+        "attn_pdrop": 0.1,
+        "resid_pdrop": 0.1
+      },
+      "warmup_steps": 15,
+      "parallelism": "data_parallel_2",
+      "micro_batch": 16,
+      "selected_checkpoint": "work/core/q2_runs/full_75c6b41e4942/best.pt"
+    }
+  },
+  "bootstrap_full_minus_probe": {
+    "point_diff": 0.1458914599831408,
+    "bootstrap_mean_diff": 0.14503849275168632,
+    "ci95_low": 0.0850555729579342,
+    "ci95_high": 0.20796382701302923,
+    "resamples": 1000,
+    "seed": 7814,
+    "stratified": true,
+    "comparison": "macro-F1(full) - macro-F1(linear_probe)"
+  },
+  "padding_invariance_max_abs_diff": 1.9073486328125e-06,
+  "resume_check": {
+    "max_param_diff": 0.0,
+    "max_optimizer_diff": 0.0,
+    "max_loss_diff": 0.0,
+    "loss_rows_uninterrupted": 6,
+    "loss_rows_resumed": 6,
+    "batch_ids_match": true,
+    "batch_id_rows_uninterrupted": 6,
+    "batch_id_rows_resumed": 6
+  },
+  "reload_check": {
+    "review_ids": [
+      "imdb-3677afba46df9fdcfbc6100d88deb74d27960951f879eabeb2fa5568f2a76012",
+      "imdb-fca2d8709b6bbbc71c4a8dcb93d488441c56f9e305761ee9f28fe529a0bbcc11",
+      "imdb-790b65c68888733670372063135992adc25a8cea649c15501a508e01a958febb"
+    ],
+    "texts": [
+      "An uptight voyeur who wants to commit suicide encounters a free spirited bad-seed who has 5 weeks to live and then they're off to discover America. Get the idea? There's not an original moment in this whole movie.",
+      "Eight academy nominations? It's beyond belief. I can only think it was a very bad year - even by Hollywood standards. With Huston as director and Jack Nicholson and Kathleen Turner as leads I probably would have swallowed the bait and watched this anyway, but the Oscar nominations really sold it to me, and I feel distinctly cheated as a result.<br /><br />So it's a black comedy is it? Can anyone tell me where the humour is in Prizzi's Honor? It's certainly tasteless (the shooting in the head of a policeman's wife is but another supposedly comic interlude in this intended farce about mafia life) but with the exception of a joke about 'your favourite Mexican cigars' (which I imagine is an old joke for Americans who have been officially forbidden from buying anything Cuban for the last 50 years) I failed to spot anything of a comic nature - and I did try. There is a lot of Mafia clich\u00e9 but clich\u00e9 doesn't constitute humour in my book.<br /><br />Is it a romantic comedy of sorts? Never. The characters and their relationships are so completely incredible and shallow that they are on a par with Ben Afleck and Jennifer Lopez in Gigli.<br /><br />Is it a cleverly devised parody about the Mafia? Not in a million years. The plot is just pointlessly absurd rather than comically absurd, and it usually just has the feel of a really bad (and cheap) Mafia movie. It feels more like a homage than a parody.<br /><br />With one-dimensional characters and little in the way of humour written for them, the actors are left doing dodgy accents and pulling faces. Well it isn't enough; even when the face is being pulled by that master of the comic facial expression, Jack Nicholson (repleat with puffed up top lip ... now is that meant to be a parody of Brando's padded jowls in The Godfather?... Oh! Who cares?... all I know is, it isn't funny).<br /><br />Throw in some slow, plodding direction (this film drags on for 2 hours), some hopelessly daft and clich\u00e9d dialogue such as; \"You remember the Camora? Well we're far bigger, we'll track you down wherever you go\", and clich\u00e9d mannerisms and you'll be reaching for that fast forward button before you can say \"capiche?\". Prizzi's Honor is far from being Huston's \"masterpiece\" and is rather a very poor last work. It's definitely one work in the great director's canon that should be given a concrete overcoat and tossed into the Hudson River.",
+      "Terrible film made on a budget of about $9.99. Very obvious miniature sets used, poor acting and an awful storyline concerning aliens who use discarded meat from a butcher shop as fuel for their spaceship. The film contains some blood (not enough to disturb) and a character with an eggbeater replacing one of his hands. (Yes you read that correctly.)<br /><br />One saving grace was a song performed at the \"talent show\" (how's that for irony?) by a punk/new wave band that I think was called \"I'm A Heat Seeking Missile\". Other than that, this is not worth your time, not even on a \"so bad it's good\" level. Watch if you are into cheesy alien films, but anyone else should steer clear. <br /><br />Rating: 1 out of 10"
+    ],
+    "probs": {
+      "linear_probe": [
+        [
+          0.7461389899253845,
+          0.2538609802722931
+        ],
+        [
+          0.6123096346855164,
+          0.38769033551216125
+        ],
+        [
+          0.7476159334182739,
+          0.2523840367794037
+        ]
+      ],
+      "full": [
+        [
+          0.6325027346611023,
+          0.3674972355365753
+        ],
+        [
+          0.962307333946228,
+          0.03769267350435257
+        ],
+        [
+          0.8560919761657715,
+          0.1439080685377121
+        ]
+      ]
+    }
+  }
+}

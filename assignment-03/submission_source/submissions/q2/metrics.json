@@ -1,0 +1,48 @@
+{
+  "per_config_results": [
+    {
+      "attention_type": "mha",
+      "n_kv_heads": 8,
+      "kv_latent_dim": null,
+      "held_out_ppl": 14239.094479599506,
+      "dialogue_ppl": 11694.882465748024,
+      "narration_ppl": 16783.30649345099,
+      "params": 5203456,
+      "kv_projection_params": 524288,
+      "kv_cache_bytes_per_token": 8192
+    },
+    {
+      "attention_type": "gqa",
+      "n_kv_heads": 2,
+      "kv_latent_dim": null,
+      "held_out_ppl": 3796.4648224139487,
+      "dialogue_ppl": 2383.0050459259637,
+      "narration_ppl": 5209.924598901935,
+      "params": 4810240,
+      "kv_projection_params": 131072,
+      "kv_cache_bytes_per_token": 2048
+    },
+    {
+      "attention_type": "mqa",
+      "n_kv_heads": 1,
+      "kv_latent_dim": null,
+      "held_out_ppl": 4103.864305505853,
+      "dialogue_ppl": 4021.7018773003383,
+      "narration_ppl": 4186.026733711366,
+      "params": 4744704,
+      "kv_projection_params": 65536,
+      "kv_cache_bytes_per_token": 1024
+    },
+    {
+      "attention_type": "mla",
+      "n_kv_heads": null,
+      "kv_latent_dim": 64,
+      "held_out_ppl": 3952.950291842748,
+      "dialogue_ppl": 1987.2055224073438,
+      "narration_ppl": 5918.695061278152,
+      "params": 4875776,
+      "kv_projection_params": 196608,
+      "kv_cache_bytes_per_token": 1024
+    }
+  ]
+}

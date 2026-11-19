@@ -1,0 +1,17 @@
+{
+  "question": "q1",
+  "smoke_test": false,
+  "actual_train_steps": 500,
+  "vocab_size": 8000,
+  "d_model": 256,
+  "n_layers": 4,
+  "n_heads": 4,
+  "n_kv_heads": 4,
+  "d_ff": 1024,
+  "max_seq_len": 256,
+  "dropout": 0.1,
+  "pos_emb_type": "sinusoidal",
+  "attention_scale": null,
+  "norm_first": false,
+  "param_count": 5203456
+}

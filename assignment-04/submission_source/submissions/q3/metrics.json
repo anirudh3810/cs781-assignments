@@ -1,0 +1,276 @@
+{
+  "imdb": {
+    "zero_shot": {
+      "accuracy": 0.8571428571428571,
+      "macro_f1": 0.8568181818181818,
+      "invalid_rate": 0.0,
+      "calls_per_example": 1.0,
+      "output_tokens_per_example": 4.0,
+      "latency_s_per_example": 0.2497325447619051
+    },
+    "few_shot": {
+      "accuracy": 0.8809523809523809,
+      "macro_f1": 0.8808848553601816,
+      "invalid_rate": 0.0,
+      "calls_per_example": 1.0,
+      "output_tokens_per_example": 4.0,
+      "latency_s_per_example": 0.293473504071424
+    },
+    "zero_shot_cot": {
+      "accuracy": 0.7619047619047619,
+      "macro_f1": 0.7529411764705882,
+      "invalid_rate": 0.0,
+      "calls_per_example": 1.0,
+      "output_tokens_per_example": 4.0,
+      "latency_s_per_example": 0.2622269298809507
+    },
+    "few_shot_cot": {
+      "accuracy": 0.8333333333333334,
+      "macro_f1": 0.8324786324786324,
+      "invalid_rate": 0.0,
+      "calls_per_example": 1.0,
+      "output_tokens_per_example": 4.0,
+      "latency_s_per_example": 0.31713928878571773
+    },
+    "self_consistency": {
+      "accuracy": 0.7857142857142857,
+      "macro_f1": 0.7826336975273145,
+      "invalid_rate": 0.0,
+      "calls_per_example": 1.0,
+      "output_tokens_per_example": 26.571428571428573,
+      "latency_s_per_example": 0.5687908707619158
+    },
+    "prompt_chain": {
+      "accuracy": 0.7857142857142857,
+      "macro_f1": 0.7826336975273145,
+      "invalid_rate": 0.0,
+      "calls_per_example": 2.0,
+      "output_tokens_per_example": 63.88095238095238,
+      "latency_s_per_example": 4.172552046333335
+    },
+    "tree_of_thought": {
+      "accuracy": 0.8571428571428571,
+      "macro_f1": 0.8568181818181818,
+      "invalid_rate": 0.0,
+      "calls_per_example": 6.0,
+      "output_tokens_per_example": 498.04761904761904,
+      "latency_s_per_example": 29.481621491857133
+    },
+    "x_of_thought": {
+      "accuracy": 0.5476190476190477,
+      "macro_f1": 0.6764705882352942,
+      "invalid_rate": 0.38095238095238093,
+      "calls_per_example": 4.0,
+      "output_tokens_per_example": 158.66666666666666,
+      "latency_s_per_example": 9.123538287190476
+    }
+  },
+  "scaling_curve_imdb": [
+    {
+      "k": 1,
+      "vote_accuracy": 0.6904761904761905,
+      "oracle_any_correct": 0.6904761904761905,
+      "gen_tokens_per_example": 5.214285714285714
+    },
+    {
+      "k": 3,
+      "vote_accuracy": 0.7619047619047619,
+      "oracle_any_correct": 0.8095238095238095,
+      "gen_tokens_per_example": 13.428571428571429
+    },
+    {
+      "k": 5,
+      "vote_accuracy": 0.7857142857142857,
+      "oracle_any_correct": 0.8095238095238095,
+      "gen_tokens_per_example": 21.642857142857142
+    }
+  ],
+  "context_grid": [
+    {
+      "budget": 256,
+      "position": "begin",
+      "accuracy": 0.9285714285714286,
+      "n": 14,
+      "mean_input_tokens": 226.0,
+      "infeasible": 0
+    },
+    {
+      "budget": 256,
+      "position": "middle",
+      "accuracy": 0.9285714285714286,
+      "n": 14,
+      "mean_input_tokens": 226.0,
+      "infeasible": 0
+    },
+    {
+      "budget": 256,
+      "position": "end",
+      "accuracy": 0.8571428571428571,
+      "n": 14,
+      "mean_input_tokens": 226.0,
+      "infeasible": 0
+    },
+    {
+      "budget": 512,
+      "position": "begin",
+      "accuracy": 0.8571428571428571,
+      "n": 14,
+      "mean_input_tokens": 496.0,
+      "infeasible": 0
+    },
+    {
+      "budget": 512,
+      "position": "middle",
+      "accuracy": 0.7857142857142857,
+      "n": 14,
+      "mean_input_tokens": 496.0,
+      "infeasible": 0
+    },
+    {
+      "budget": 512,
+      "position": "end",
+      "accuracy": 0.8571428571428571,
+      "n": 14,
+      "mean_input_tokens": 496.0,
+      "infeasible": 0
+    },
+    {
+      "budget": 1024,
+      "position": "begin",
+      "accuracy": 0.8571428571428571,
+      "n": 14,
+      "mean_input_tokens": 982.0,
+      "infeasible": 0
+    },
+    {
+      "budget": 1024,
+      "position": "middle",
+      "accuracy": 0.8571428571428571,
+      "n": 14,
+      "mean_input_tokens": 982.0,
+      "infeasible": 0
+    },
+    {
+      "budget": 1024,
+      "position": "end",
+      "accuracy": 0.8571428571428571,
+      "n": 14,
+      "mean_input_tokens": 982.0,
+      "infeasible": 0
+    }
+  ],
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "x_of_thought_method": "least_to_most",
+  "gsm8k": {
+    "direct": {
+      "accuracy": 0.02857142857142857,
+      "invalid_rate": 0.8857142857142857,
+      "calls_per_example": 1.0,
+      "output_tokens_per_example": 26.37142857142857,
+      "latency_s_per_example": 1.5486150474857303
+    },
+    "zero_shot_cot": {
+      "accuracy": 0.0,
+      "invalid_rate": 0.9714285714285714,
+      "calls_per_example": 1.0,
+      "output_tokens_per_example": 211.11428571428573,
+      "latency_s_per_example": 12.530990266342892
+    },
+    "few_shot_cot": {
+      "accuracy": 0.17142857142857143,
+      "invalid_rate": 0.17142857142857143,
+      "calls_per_example": 1.0,
+      "output_tokens_per_example": 84.71428571428571,
+      "latency_s_per_example": 4.962422607885699
+    },
+    "self_consistency": {
+      "accuracy": 0.3142857142857143,
+      "invalid_rate": 0.5714285714285714,
+      "calls_per_example": 1.0,
+      "output_tokens_per_example": 1311.0857142857142,
+      "latency_s_per_example": 15.031019274571436
+    },
+    "tree_of_thought": {
+      "accuracy": 0.02857142857142857,
+      "invalid_rate": 0.9428571428571428,
+      "calls_per_example": 6.0,
+      "output_tokens_per_example": 416.14285714285717,
+      "latency_s_per_example": 24.816606583799928
+    },
+    "x_of_thought": {
+      "accuracy": 0.0,
+      "invalid_rate": 0.9714285714285714,
+      "calls_per_example": 3.0,
+      "output_tokens_per_example": 291.1142857142857,
+      "latency_s_per_example": 17.445272474857173
+    }
+  },
+  "scaling_curve_gsm8k": [
+    {
+      "k": 1,
+      "vote_accuracy": 0.02857142857142857,
+      "oracle_any_correct": 0.02857142857142857,
+      "gen_tokens_per_example": 185.25714285714287
+    },
+    {
+      "k": 3,
+      "vote_accuracy": 0.17142857142857143,
+      "oracle_any_correct": 0.17142857142857143,
+      "gen_tokens_per_example": 558.7714285714286
+    },
+    {
+      "k": 5,
+      "vote_accuracy": 0.2,
+      "oracle_any_correct": 0.22857142857142856,
+      "gen_tokens_per_example": 944.3142857142857
+    },
+    {
+      "k": 7,
+      "vote_accuracy": 0.3142857142857143,
+      "oracle_any_correct": 0.34285714285714286,
+      "gen_tokens_per_example": 1311.0857142857142
+    }
+  ],
+  "gsm8k_test_ids": [
+    "gsm8k-test-155",
+    "gsm8k-test-165",
+    "gsm8k-test-171",
+    "gsm8k-test-197",
+    "gsm8k-test-255",
+    "gsm8k-test-272",
+    "gsm8k-test-315",
+    "gsm8k-test-348",
+    "gsm8k-test-351",
+    "gsm8k-test-374",
+    "gsm8k-test-384",
+    "gsm8k-test-394",
+    "gsm8k-test-422",
+    "gsm8k-test-453",
+    "gsm8k-test-456",
+    "gsm8k-test-524",
+    "gsm8k-test-602",
+    "gsm8k-test-631",
+    "gsm8k-test-768",
+    "gsm8k-test-821",
+    "gsm8k-test-836",
+    "gsm8k-test-840",
+    "gsm8k-test-842",
+    "gsm8k-test-879",
+    "gsm8k-test-914",
+    "gsm8k-test-942",
+    "gsm8k-test-961",
+    "gsm8k-test-999",
+    "gsm8k-test-1019",
+    "gsm8k-test-1047",
+    "gsm8k-test-1124",
+    "gsm8k-test-1186",
+    "gsm8k-test-1265",
+    "gsm8k-test-1266",
+    "gsm8k-test-1300"
+  ],
+  "gsm8k_demo_ids": [
+    "gsm8k-test-46",
+    "gsm8k-test-67"
+  ]
+}

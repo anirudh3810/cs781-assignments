@@ -1,0 +1,7 @@
+{
+  "correctness_max_abs_diff": 1.1175870895385742e-08,
+  "builtin_held_out_ppl": 2930.7310914265345,
+  "scratch_held_out_ppl": 2624.3546442274996,
+  "builtin_seconds_per_step": 0.04018693379999831,
+  "scratch_seconds_per_step": 0.04947963895000953
+}

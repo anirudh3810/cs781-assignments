@@ -1,0 +1,1573 @@
+{
+  "profile": "core",
+  "q5_pilot": 25,
+  "q5_total": 100,
+  "teacher_id": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "quantization": {
+    "errors": [
+      {
+        "matrix": "transformer.h.0.attn.c_attn",
+        "scheme": "absmax_int8",
+        "rel_frobenius": 0.03236178681254387,
+        "max_abs": 0.011195413768291473,
+        "bits_per_param": 8.00000904224537,
+        "double_quant_bits_per_param": 8.00000904224537
+      },
+      {
+        "matrix": "transformer.h.0.attn.c_attn",
+        "scheme": "per_channel_int8",
+        "rel_frobenius": 0.009556387551128864,
+        "max_abs": 0.011191010475158691,
+        "bits_per_param": 8.020833333333334,
+        "double_quant_bits_per_param": 8.020833333333334
+      },
+      {
+        "matrix": "transformer.h.0.attn.c_attn",
+        "scheme": "group_int4",
+        "rel_frobenius": 0.1088891550898552,
+        "max_abs": 0.20211230218410492,
+        "bits_per_param": 4.25,
+        "double_quant_bits_per_param": 4.1259765625
+      },
+      {
+        "matrix": "transformer.h.0.attn.c_attn",
+        "scheme": "nf4",
+        "rel_frobenius": 0.0923427864909172,
+        "max_abs": 0.42438197135925293,
+        "bits_per_param": 4.25,
+        "double_quant_bits_per_param": 4.1259765625
+      },
+      {
+        "matrix": "transformer.h.0.mlp.c_fc",
+        "scheme": "absmax_int8",
+        "rel_frobenius": 0.07389484345912933,
+        "max_abs": 0.018061885610222816,
+        "bits_per_param": 8.000006781684029,
+        "double_quant_bits_per_param": 8.000006781684029
+      },
+      {
+        "matrix": "transformer.h.0.mlp.c_fc",
+        "scheme": "per_channel_int8",
+        "rel_frobenius": 0.009544300846755505,
+        "max_abs": 0.0180526040494442,
+        "bits_per_param": 8.020833333333334,
+        "double_quant_bits_per_param": 8.020833333333334
+      },
+      {
+        "matrix": "transformer.h.0.mlp.c_fc",
+        "scheme": "group_int4",
+        "rel_frobenius": 0.12406330555677414,
+        "max_abs": 0.1962534487247467,
+        "bits_per_param": 4.25,
+        "double_quant_bits_per_param": 4.1259765625
+      },
+      {
+        "matrix": "transformer.h.0.mlp.c_fc",
+        "scheme": "nf4",
+        "rel_frobenius": 0.0973920151591301,
+        "max_abs": 0.3962116241455078,
+        "bits_per_param": 4.25,
+        "double_quant_bits_per_param": 4.1259765625
+      }
+    ],
+    "perplexity": {
+      "fp32": 45.99996225072413,
+      "absmax_int8": 52.01676600756848,
+      "per_channel_int8": 46.13892755262551,
+      "group_int4": 2654.6475631898466,
+      "nf4": 27255.017948425662
+    },
+    "outlier": [
+      {
+        "matrix": "transformer.h.0.attn.c_attn",
+        "scheme": "absmax_int8",
+        "input_channel_multiplier": 50,
+        "rel_frobenius": 0.2511117458343506,
+        "max_abs": 0.2104445844888687,
+        "bits_per_param": 8.00000904224537
+      },
+      {
+        "matrix": "transformer.h.0.attn.c_attn",
+        "scheme": "per_channel_int8",
+        "input_channel_multiplier": 50,
+        "rel_frobenius": 0.054660022258758545,
+        "max_abs": 0.2099066972732544,
+        "bits_per_param": 8.020833333333334
+      },
+      {
+        "matrix": "transformer.h.0.attn.c_attn",
+        "scheme": "group_int4",
+        "input_channel_multiplier": 50,
+        "rel_frobenius": 0.11273597925901413,
+        "max_abs": 3.796565055847168,
+        "bits_per_param": 4.25
+      },
+      {
+        "matrix": "transformer.h.0.mlp.c_fc",
+        "scheme": "absmax_int8",
+        "input_channel_multiplier": 50,
+        "rel_frobenius": 0.3571440279483795,
+        "max_abs": 0.16524574160575867,
+        "bits_per_param": 8.000006781684029
+      },
+      {
+        "matrix": "transformer.h.0.mlp.c_fc",
+        "scheme": "per_channel_int8",
+        "input_channel_multiplier": 50,
+        "rel_frobenius": 0.050994712859392166,
+        "max_abs": 0.16492368280887604,
+        "bits_per_param": 8.020833333333334
+      },
+      {
+        "matrix": "transformer.h.0.mlp.c_fc",
+        "scheme": "group_int4",
+        "input_channel_multiplier": 50,
+        "rel_frobenius": 0.1382591277360916,
+        "max_abs": 2.9952614307403564,
+        "bits_per_param": 4.25
+      }
+    ],
+    "bits": {
+      "fp16": 16.0,
+      "absmax_int8": 8.000000010666668,
+      "per_channel_int8": 8.000043690666667,
+      "group_int4": 4.25,
+      "nf4": 4.125976565333334
+    },
+    "bnb_comparison": {
+      "skipped": false,
+      "max_abs_difference": 0.0
+    },
+    "review_ids": [
+      "imdb-3677afba46df9fdcfbc6100d88deb74d27960951f879eabeb2fa5568f2a76012",
+      "imdb-fca2d8709b6bbbc71c4a8dcb93d488441c56f9e305761ee9f28fe529a0bbcc11",
+      "imdb-790b65c68888733670372063135992adc25a8cea649c15501a508e01a958febb",
+      "imdb-72c574c73d4c215782e1955d8866794fb3115d6a7668d858bf5d89c0041384fb",
+      "imdb-de86115a773f83a5f5f1160d89f7c711f83c10b0b8ed24274282c16a0676e504",
+      "imdb-50633cc70267885c2afe0db2be3dc13d643af2003afc12fcb5c8ecc9e2d2c504",
+      "imdb-9d386fc7d51e484f025e858298206f7f770d4780f89ce02f1672d31af5cb1678",
+      "imdb-cc7de00b643bd754b1b10041e9c1d514edd7ee23fb81a4f47e40df2ef822776d",
+      "imdb-6304e797469dba285a63001c3e9f6c428506eac96c63f93113e45907a3496cdc",
+      "imdb-a93622ce788e4c629178e62385240b91b231292dcde253fc176f6fd15ebaa084",
+      "imdb-5aa6401be88081d42d37774460cb6a79414be1a02b3852a0e54fa0c07876a04e",
+      "imdb-46e38b19d612e326f4ed791d37121bb3f6a72fdc56c6a85c7f50084cd1d1ac46",
+      "imdb-56089fcc62f6a66f6a0328e5bff5690b45db5f536a6d8b1404f9ba55a217abc6",
+      "imdb-faa053196c3fc33bce33f9ec4794cff7cd0a1204346cca66030cd1b2c88e0db0",
+      "imdb-0259fa51ca83020169c17e116f7624b5c7c2c14097c8d4bcc9c39271ad07d35a",
+      "imdb-f8e69412982e45358d09fb64df5fdba82ac65357e36512c51a1122305e93eefb",
+      "imdb-b5c7a1672640c3befb03b4cdcf09f6daac86311165f7aace27c3a6b93ae43e0f",
+      "imdb-9e190093227f257c3bdae74975a48e05631aaedbfbd7813bc1c8a3123812a327",
+      "imdb-ceae0805a315fb20c528e8b40a6ce9ce134c2b215e1fbc3e298d2b2ccfcbdaf1",
+      "imdb-fa84dda7fb27a77ff810c98474e0488c58754f4b6a45e738d372a6302fd45815",
+      "imdb-aed47f93a2d87fb4b7fb922f3ba8d9ef1a269d20bd9dcaffbe852bd9cf35f650",
+      "imdb-bc49fef43361b16187a047555586c68a40d30d5bd7e566e2eb0b376d75d75de3",
+      "imdb-d14975373b3db34e21207f5fd0ad1a55032a1ff673e63e61a8a7c21779db6f7b",
+      "imdb-782322d18aac5a491ba07936298283b8395f164102d9038508c2c582bac7f39e",
+      "imdb-b5170890773e6a63bee3c167d1e05015ee2a2cca92d149529751736fb70a2ebc",
+      "imdb-68b25e56925f981ce6f71d138f3e6601f314a88dfc6a4f78f09528691b33878b",
+      "imdb-74d698950c76a12cb6aceae7dd9e1bbe80cf360c1b8271606083983014b4656f",
+      "imdb-ee3513c82a20a43a3cd00b13cc49e03534cccb8918dfc28782438c55a72bda0f",
+      "imdb-0a2be2bba9d8fa62089477ebec13c7916f8126845046ed2c5576138e767d402a",
+      "imdb-3db31bd6d1c491b442e0c8b5583984af23c50f5e7bbe10bc7d5a369c38c84fd1",
+      "imdb-025a990545e61834dab44519620fd2660e3015422a36f94f104bc81e0b79f4b8",
+      "imdb-2a3917aecf0ecc9ba0487f579470fb56cae497b97b9f98b73c0d322b32ef23a7"
+    ]
+  },
+  "memory": {
+    "ideal_base_weight_estimates": {
+      "Qwen/Qwen2.5-1.5B-Instruct": {
+        "fp16_GB": 3.0,
+        "int8_GB": 1.5,
+        "nf4_double_quant_GB": 0.773620606
+      }
+    },
+    "measured": {
+      "fp16_untuned": {
+        "loaded_MB": 2986.9248046875,
+        "peak_inference_MB": 3287.09912109375,
+        "peak_training_MB": null
+      },
+      "nf4_untuned": {
+        "loaded_MB": 1587.4765625,
+        "peak_inference_MB": 2771.06298828125,
+        "peak_training_MB": null
+      },
+      "fp16_pilot": {
+        "loaded_MB": 2986.9248046875,
+        "peak_inference_MB": 3287.09912109375,
+        "peak_training_MB": 3467.22216796875
+      },
+      "nf4_pilot": {
+        "loaded_MB": 1587.4765625,
+        "peak_inference_MB": 2771.06298828125,
+        "peak_training_MB": 2786.732421875
+      },
+      "nf4_final": {
+        "loaded_MB": 1587.4765625,
+        "peak_inference_MB": 2771.06298828125,
+        "peak_training_MB": 2787.482421875
+      }
+    },
+    "definition": "GPU allocated memory excludes CPU and disk; peak training includes activations and optimizer"
+  },
+  "pilot": {
+    "fp16": {
+      "updates": 25,
+      "val_macro_f1": 0.8831741956190323,
+      "peak_MB": 3467.22216796875,
+      "train_s": 91.57259802699974
+    },
+    "nf4": {
+      "updates": 25,
+      "val_macro_f1": 0.7956882255389718,
+      "peak_MB": 2786.732421875,
+      "train_s": 148.53077851900002
+    }
+  },
+  "test": {
+    "fp16_untuned": {
+      "n": 224,
+      "accuracy": 0.8839285714285714,
+      "macro_f1": 0.8839285714285714,
+      "f1_negative": 0.8839285714285714,
+      "f1_positive": 0.8839285714285714,
+      "support": [
+        112,
+        112
+      ],
+      "invalid_rate": 0.0,
+      "confusion[true][pred0,pred1,invalid]": [
+        [
+          99,
+          13,
+          0
+        ],
+        [
+          13,
+          99,
+          0
+        ]
+      ],
+      "nll": 0.28029376627454644,
+      "brier": 0.15650956736509208,
+      "code_mass": 0.999958872795105
+    },
+    "nf4_untuned": {
+      "n": 224,
+      "accuracy": 0.7410714285714286,
+      "macro_f1": 0.733398998604613,
+      "f1_negative": 0.7786259541984732,
+      "f1_positive": 0.6881720430107527,
+      "support": [
+        112,
+        112
+      ],
+      "invalid_rate": 0.0,
+      "confusion[true][pred0,pred1,invalid]": [
+        [
+          102,
+          10,
+          0
+        ],
+        [
+          48,
+          64,
+          0
+        ]
+      ],
+      "nll": 0.5390232030383222,
+      "brier": 0.3561337618850762,
+      "code_mass": 0.9999926686286926
+    },
+    "fp16_pilot": {
+      "n": 224,
+      "accuracy": 0.8928571428571429,
+      "macro_f1": 0.8924369747899159,
+      "f1_negative": 0.8991596638655462,
+      "f1_positive": 0.8857142857142857,
+      "support": [
+        112,
+        112
+      ],
+      "invalid_rate": 0.0,
+      "confusion[true][pred0,pred1,invalid]": [
+        [
+          107,
+          5,
+          0
+        ],
+        [
+          19,
+          93,
+          0
+        ]
+      ],
+      "nll": 0.2809308228782585,
+      "brier": 0.1672629250438227,
+      "code_mass": 0.9999679923057556
+    },
+    "nf4_pilot": {
+      "n": 224,
+      "accuracy": 0.8571428571428571,
+      "macro_f1": 0.854875283446712,
+      "f1_negative": 0.873015873015873,
+      "f1_positive": 0.8367346938775511,
+      "support": [
+        112,
+        112
+      ],
+      "invalid_rate": 0.0,
+      "confusion[true][pred0,pred1,invalid]": [
+        [
+          110,
+          2,
+          0
+        ],
+        [
+          30,
+          82,
+          0
+        ]
+      ],
+      "nll": 0.406679490293825,
+      "brier": 0.2495575200383431,
+      "code_mass": 0.9999800324440002
+    },
+    "nf4_final": {
+      "n": 224,
+      "accuracy": 0.9241071428571429,
+      "macro_f1": 0.9240693106817411,
+      "f1_negative": 0.9223744292237442,
+      "f1_positive": 0.925764192139738,
+      "support": [
+        112,
+        112
+      ],
+      "invalid_rate": 0.0,
+      "confusion[true][pred0,pred1,invalid]": [
+        [
+          101,
+          11,
+          0
+        ],
+        [
+          6,
+          106,
+          0
+        ]
+      ],
+      "nll": 0.23352472898340995,
+      "brier": 0.1280665413037389,
+      "code_mass": 0.9999733567237854
+    }
+  },
+  "prompt_test": {
+    "fp16_untuned": {
+      "n": 42,
+      "accuracy": 0.8809523809523809,
+      "macro_f1": 0.8808848553601816,
+      "f1_negative": 0.8780487804878049,
+      "f1_positive": 0.8837209302325582,
+      "support": [
+        21,
+        21
+      ],
+      "invalid_rate": 0.0,
+      "confusion[true][pred0,pred1,invalid]": [
+        [
+          18,
+          3,
+          0
+        ],
+        [
+          2,
+          19,
+          0
+        ]
+      ],
+      "nll": 0.43510845151402144,
+      "brier": 0.17940985396785575,
+      "code_mass": 0.9999445676803589
+    },
+    "nf4_untuned": {
+      "n": 42,
+      "accuracy": 0.7857142857142857,
+      "macro_f1": 0.7826336975273145,
+      "f1_negative": 0.8085106382978723,
+      "f1_positive": 0.7567567567567568,
+      "support": [
+        21,
+        21
+      ],
+      "invalid_rate": 0.0,
+      "confusion[true][pred0,pred1,invalid]": [
+        [
+          19,
+          2,
+          0
+        ],
+        [
+          7,
+          14,
+          0
+        ]
+      ],
+      "nll": 0.41521125752252386,
+      "brier": 0.2879984744427724,
+      "code_mass": 0.9999917149543762
+    },
+    "fp16_pilot": {
+      "n": 42,
+      "accuracy": 0.8809523809523809,
+      "macro_f1": 0.8808848553601816,
+      "f1_negative": 0.8837209302325582,
+      "f1_positive": 0.8780487804878049,
+      "support": [
+        21,
+        21
+      ],
+      "invalid_rate": 0.0,
+      "confusion[true][pred0,pred1,invalid]": [
+        [
+          19,
+          2,
+          0
+        ],
+        [
+          3,
+          18,
+          0
+        ]
+      ],
+      "nll": 0.34722836805163254,
+      "brier": 0.19802530409122193,
+      "code_mass": 0.999966025352478
+    },
+    "nf4_pilot": {
+      "n": 42,
+      "accuracy": 0.8571428571428571,
+      "macro_f1": 0.8568181818181818,
+      "f1_negative": 0.8636363636363636,
+      "f1_positive": 0.85,
+      "support": [
+        21,
+        21
+      ],
+      "invalid_rate": 0.0,
+      "confusion[true][pred0,pred1,invalid]": [
+        [
+          19,
+          2,
+          0
+        ],
+        [
+          4,
+          17,
+          0
+        ]
+      ],
+      "nll": 0.40245861281906786,
+      "brier": 0.2563267642235878,
+      "code_mass": 0.999980628490448
+    },
+    "nf4_final": {
+      "n": 42,
+      "accuracy": 0.9047619047619048,
+      "macro_f1": 0.9045454545454545,
+      "f1_negative": 0.9,
+      "f1_positive": 0.9090909090909091,
+      "support": [
+        21,
+        21
+      ],
+      "invalid_rate": 0.0,
+      "confusion[true][pred0,pred1,invalid]": [
+        [
+          18,
+          3,
+          0
+        ],
+        [
+          1,
+          20,
+          0
+        ]
+      ],
+      "nll": 0.37040646962088786,
+      "brier": 0.16336178148586783,
+      "code_mass": 0.9999721050262451
+    }
+  },
+  "prompt_test_ids": [
+    "imdb-54230367a9e05b3d77556f00c9b69805c14f09c6ca5dba64d3145f7bc49f52b8",
+    "imdb-ec917ce767ecaca93ab551da870cb8b0081e02bae7bd423a7617ee164c9c6c73",
+    "imdb-7a6b0dfde31350dfd67207e69b95fad5daccf9ce0f4842f2d58c8840442a218d",
+    "imdb-92bf8d470c5bfc5f1ae3333c011037ec165bc3ba98bca91d96f5b57e2f273ebe",
+    "imdb-24cb0f1d4f92b18390af8306ea32978e0a778933ee93e189c8eabd846c977f20",
+    "imdb-f7bdc65f635a228f2fe554872a56f269b66fecd8b27bab87c936e10205a532ad",
+    "imdb-928859a450197e84d1ea04fea00df59ab7e504e2ee74a011c59489828c315c3f",
+    "imdb-49ca4f26d3722481ac3aca1ee6daecf82882be678ea07782e624df1eef14e371",
+    "imdb-79b696b19831dd4359bc24ec9471c0763b05ef2c296cec7bb96b49c798fbe6f1",
+    "imdb-e9ad332502aef437af769e73fbce124ecdae0ebd51a1dba79d5ac8e0aa11b67f",
+    "imdb-9d5920d4907d9fc728d378bc688698794f2a73f2bfa8500e22b63abaf8363de1",
+    "imdb-f11a4dc436ae7649dcdaa863c9540456c223c96deab042f54761869a41a60199",
+    "imdb-4cbbf4f1ea56aeba3bf1c961b366da6cc8a6a1b205f887dbffeaf22e4c1b14b9",
+    "imdb-214c7bd5edf0fcc8e58641e4783901ec564f3bdd7d56769c9929567145d5c88c",
+    "imdb-e6cbfdd7eff08a0888c052bba52cf4aa648b023d0cee9d66b6f418c3e1b165d9",
+    "imdb-8ac3c980186a254620f52495f66690ccc1d5638e0c5a7046167ff415cbc68a00",
+    "imdb-f3192544bba1a9f2029ab29e77b8221aa99fcf427eb128cc60f30f61ba6f2854",
+    "imdb-7707bd4a15cc186e57b83e886303a99a59468b61006c566b06fc9f2de8014189",
+    "imdb-cff959b061cc1e8822818b5c50445ee4e98cc9372a6b9c1f0019402d2d302b52",
+    "imdb-b396ea792d1509fe71d9df673c52660002ae71febb0a50dffcda612b903ae0bf",
+    "imdb-f8401c7853f6dc0972ee8d0720d9021b611f95b672345ab2048650029125b6d8",
+    "imdb-6d611acb110cfd70cde7dc7ea5128f059ae78f206d69487000b100ea47f45131",
+    "imdb-6776ac2c4d8aefd63ebbf0713b07cdc83fa2b1a3fd353767a0d8a22b701157e1",
+    "imdb-ba49acb37146ba9689140f3ee03cdac28b734656eb9ee936e29dc79dc86b81fa",
+    "imdb-c7ff5a80e622469296953690c000abc659bb9abf2ded114f57519394bf455db4",
+    "imdb-c7400d1434ef2280c3cbe8af6c55831a4ed1e12c6c1da4f56b933935cf6f41c8",
+    "imdb-05b52ea7526df5b3373d3efcfe99c206ba8aca39f4a425e244fb67ff6294a6e5",
+    "imdb-f3bb3f8345de883064cf9fb6252243d4fa3cb119ac3b54df6bef4a213e0ce2eb",
+    "imdb-18f699884c68844217bc0350a79ca4f3f8fe71da3c04bfde672ac2de0208786d",
+    "imdb-366a53e941690d0acb830e9549bc8f5d1ed60b02c0af87de52d81b1ce9433c44",
+    "imdb-a70975fa26426e9a0b65603a23e52434a739e76a12adaa733f9e9df557c989d0",
+    "imdb-883891009fbcc55a632a5827c6ed73c2e19f71ded24cbdec8a160fab2ec0f6ed",
+    "imdb-a8eb2ca6892f6491c5ace22cb56d5dbdbf2b162f0f6f3db6deb763f588495b64",
+    "imdb-8be0b176d0d155fcfac223668122564588605c7489042ccc4183aabdd5e50189",
+    "imdb-2c206df05afe359b45d7fdc4e27f23a5482f6b9e67b9c5bc833bee9b1e09a544",
+    "imdb-54898e49ba3484d4b99f8d39fe2e1cf9fc01c7f2214257d9fd4aa63464e70eba",
+    "imdb-8c0fa886448cc2b28530642ceb2f47a47440132ca54a56ea6edc36de578968ea",
+    "imdb-676c41e3414a5baac1ebeb54c5a497c18baea99fce694f0b5c6aeea0ea98a21a",
+    "imdb-8ecefadbf83b138d9ac9cca4f35aa2bbffed7ba04703aedc9ead69b8d27aae0e",
+    "imdb-30edae724886b03073cfe98e7aaf18f8b6bf6541fbb290f2c0c26aced637496a",
+    "imdb-137c789fcba1920da4c03fc39067b7ff8858d3cafbdef822869f17a26e5b2f25",
+    "imdb-aa595fcf7f6eb16229e93aba321f6ad604913087e1fe844fbf0b5cade37a6911"
+  ],
+  "inference": {
+    "fp16_untuned": {
+      "batch16_latency_s": 1.0029609099999561,
+      "loaded_MB": 2986.9248046875,
+      "peak_inference_MB": 3287.09912109375,
+      "code_mass": 0.9999445676803589
+    },
+    "nf4_untuned": {
+      "batch16_latency_s": 1.8272306220001155,
+      "loaded_MB": 1587.4765625,
+      "peak_inference_MB": 2771.06298828125,
+      "code_mass": 0.9999917149543762
+    },
+    "fp16_pilot": {
+      "batch16_latency_s": 1.0220239669999955,
+      "loaded_MB": 2986.9248046875,
+      "peak_inference_MB": 3287.09912109375,
+      "code_mass": 0.999966025352478
+    },
+    "nf4_pilot": {
+      "batch16_latency_s": 1.847198323000157,
+      "loaded_MB": 1587.4765625,
+      "peak_inference_MB": 2771.06298828125,
+      "code_mass": 0.999980628490448
+    },
+    "nf4_final": {
+      "batch16_latency_s": 1.7987114140000813,
+      "loaded_MB": 1587.4765625,
+      "peak_inference_MB": 2771.06298828125,
+      "code_mass": 0.9999721050262451
+    }
+  },
+  "free_generation": {
+    "compliance": 1.0,
+    "accuracy": 0.9047619047619048,
+    "macro_f1": 0.9047619047619048,
+    "invalid_rate": 0.0,
+    "review_ids": [
+      "imdb-54230367a9e05b3d77556f00c9b69805c14f09c6ca5dba64d3145f7bc49f52b8",
+      "imdb-ec917ce767ecaca93ab551da870cb8b0081e02bae7bd423a7617ee164c9c6c73",
+      "imdb-7a6b0dfde31350dfd67207e69b95fad5daccf9ce0f4842f2d58c8840442a218d",
+      "imdb-92bf8d470c5bfc5f1ae3333c011037ec165bc3ba98bca91d96f5b57e2f273ebe",
+      "imdb-24cb0f1d4f92b18390af8306ea32978e0a778933ee93e189c8eabd846c977f20",
+      "imdb-f7bdc65f635a228f2fe554872a56f269b66fecd8b27bab87c936e10205a532ad",
+      "imdb-928859a450197e84d1ea04fea00df59ab7e504e2ee74a011c59489828c315c3f",
+      "imdb-49ca4f26d3722481ac3aca1ee6daecf82882be678ea07782e624df1eef14e371",
+      "imdb-79b696b19831dd4359bc24ec9471c0763b05ef2c296cec7bb96b49c798fbe6f1",
+      "imdb-e9ad332502aef437af769e73fbce124ecdae0ebd51a1dba79d5ac8e0aa11b67f",
+      "imdb-9d5920d4907d9fc728d378bc688698794f2a73f2bfa8500e22b63abaf8363de1",
+      "imdb-f11a4dc436ae7649dcdaa863c9540456c223c96deab042f54761869a41a60199",
+      "imdb-4cbbf4f1ea56aeba3bf1c961b366da6cc8a6a1b205f887dbffeaf22e4c1b14b9",
+      "imdb-214c7bd5edf0fcc8e58641e4783901ec564f3bdd7d56769c9929567145d5c88c",
+      "imdb-e6cbfdd7eff08a0888c052bba52cf4aa648b023d0cee9d66b6f418c3e1b165d9",
+      "imdb-8ac3c980186a254620f52495f66690ccc1d5638e0c5a7046167ff415cbc68a00",
+      "imdb-f3192544bba1a9f2029ab29e77b8221aa99fcf427eb128cc60f30f61ba6f2854",
+      "imdb-7707bd4a15cc186e57b83e886303a99a59468b61006c566b06fc9f2de8014189",
+      "imdb-cff959b061cc1e8822818b5c50445ee4e98cc9372a6b9c1f0019402d2d302b52",
+      "imdb-b396ea792d1509fe71d9df673c52660002ae71febb0a50dffcda612b903ae0bf",
+      "imdb-f8401c7853f6dc0972ee8d0720d9021b611f95b672345ab2048650029125b6d8",
+      "imdb-6d611acb110cfd70cde7dc7ea5128f059ae78f206d69487000b100ea47f45131",
+      "imdb-6776ac2c4d8aefd63ebbf0713b07cdc83fa2b1a3fd353767a0d8a22b701157e1",
+      "imdb-ba49acb37146ba9689140f3ee03cdac28b734656eb9ee936e29dc79dc86b81fa",
+      "imdb-c7ff5a80e622469296953690c000abc659bb9abf2ded114f57519394bf455db4",
+      "imdb-c7400d1434ef2280c3cbe8af6c55831a4ed1e12c6c1da4f56b933935cf6f41c8",
+      "imdb-05b52ea7526df5b3373d3efcfe99c206ba8aca39f4a425e244fb67ff6294a6e5",
+      "imdb-f3bb3f8345de883064cf9fb6252243d4fa3cb119ac3b54df6bef4a213e0ce2eb",
+      "imdb-18f699884c68844217bc0350a79ca4f3f8fe71da3c04bfde672ac2de0208786d",
+      "imdb-366a53e941690d0acb830e9549bc8f5d1ed60b02c0af87de52d81b1ce9433c44",
+      "imdb-a70975fa26426e9a0b65603a23e52434a739e76a12adaa733f9e9df557c989d0",
+      "imdb-883891009fbcc55a632a5827c6ed73c2e19f71ded24cbdec8a160fab2ec0f6ed",
+      "imdb-a8eb2ca6892f6491c5ace22cb56d5dbdbf2b162f0f6f3db6deb763f588495b64",
+      "imdb-8be0b176d0d155fcfac223668122564588605c7489042ccc4183aabdd5e50189",
+      "imdb-2c206df05afe359b45d7fdc4e27f23a5482f6b9e67b9c5bc833bee9b1e09a544",
+      "imdb-54898e49ba3484d4b99f8d39fe2e1cf9fc01c7f2214257d9fd4aa63464e70eba",
+      "imdb-8c0fa886448cc2b28530642ceb2f47a47440132ca54a56ea6edc36de578968ea",
+      "imdb-676c41e3414a5baac1ebeb54c5a497c18baea99fce694f0b5c6aeea0ea98a21a",
+      "imdb-8ecefadbf83b138d9ac9cca4f35aa2bbffed7ba04703aedc9ead69b8d27aae0e",
+      "imdb-30edae724886b03073cfe98e7aaf18f8b6bf6541fbb290f2c0c26aced637496a",
+      "imdb-137c789fcba1920da4c03fc39067b7ff8858d3cafbdef822869f17a26e5b2f25",
+      "imdb-aa595fcf7f6eb16229e93aba321f6ad604913087e1fe844fbf0b5cade37a6911"
+    ],
+    "raw": [
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "A",
+      "B",
+      "B",
+      "A",
+      "A",
+      "A",
+      "A",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "A",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "A",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B",
+      "B"
+    ],
+    "predictions": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "parser": "strip whitespace; exact single A or B; all other strings invalid",
+    "max_new_tokens": 8
+  },
+  "wording": {
+    "agreement": 0.9761904761904762,
+    "wordings": {
+      "0": {
+        "metrics": {
+          "n": 42,
+          "accuracy": 0.9047619047619048,
+          "macro_f1": 0.9047619047619048,
+          "f1_negative": 0.9047619047619048,
+          "f1_positive": 0.9047619047619048,
+          "support": [
+            21,
+            21
+          ],
+          "invalid_rate": 0.0,
+          "confusion[true][pred0,pred1,invalid]": [
+            [
+              19,
+              2,
+              0
+            ],
+            [
+              2,
+              19,
+              0
+            ]
+          ],
+          "nll": 0.36779551176986874,
+          "brier": 0.1604738351460545,
+          "code_mass": 0.999975323677063
+        },
+        "probs": [
+          [
+            0.7245578765869141,
+            0.2754421532154083
+          ],
+          [
+            0.9632844924926758,
+            0.03671546280384064
+          ],
+          [
+            0.9979791045188904,
+            0.002020913176238537
+          ],
+          [
+            0.7882620692253113,
+            0.21173785626888275
+          ],
+          [
+            0.9769787192344666,
+            0.02302130125463009
+          ],
+          [
+            0.5146118402481079,
+            0.4853881597518921
+          ],
+          [
+            0.994333028793335,
+            0.005666991695761681
+          ],
+          [
+            0.9982423782348633,
+            0.0017576840473338962
+          ],
+          [
+            0.9821215867996216,
+            0.01787838526070118
+          ],
+          [
+            0.9522536396980286,
+            0.04774631932377815
+          ],
+          [
+            0.9919569492340088,
+            0.008043007925152779
+          ],
+          [
+            0.9984965324401855,
+            0.001503499923273921
+          ],
+          [
+            0.9750530123710632,
+            0.02494697831571102
+          ],
+          [
+            0.9943124055862427,
+            0.005687654484063387
+          ],
+          [
+            0.5926721692085266,
+            0.40732789039611816
+          ],
+          [
+            0.003706816118210554,
+            0.9962931275367737
+          ],
+          [
+            0.005476147402077913,
+            0.9945238828659058
+          ],
+          [
+            0.9992939233779907,
+            0.0007061098585836589
+          ],
+          [
+            0.99831223487854,
+            0.0016877795569598675
+          ],
+          [
+            0.9833632707595825,
+            0.01663668267428875
+          ],
+          [
+            0.9848077297210693,
+            0.015192243270576
+          ],
+          [
+            0.02211778424680233,
+            0.9778822064399719
+          ],
+          [
+            0.05682074651122093,
+            0.9431792497634888
+          ],
+          [
+            0.409468412399292,
+            0.5905315279960632
+          ],
+          [
+            0.03312767669558525,
+            0.9668722748756409
+          ],
+          [
+            0.040413323789834976,
+            0.9595866799354553
+          ],
+          [
+            0.038880523294210434,
+            0.961119532585144
+          ],
+          [
+            0.5633835792541504,
+            0.4366163909435272
+          ],
+          [
+            0.008314110338687897,
+            0.9916858077049255
+          ],
+          [
+            0.005021055229008198,
+            0.9949789643287659
+          ],
+          [
+            0.001564591540955007,
+            0.9984354376792908
+          ],
+          [
+            0.002433469519019127,
+            0.9975665807723999
+          ],
+          [
+            0.005920479539781809,
+            0.99407958984375
+          ],
+          [
+            0.002789093414321542,
+            0.9972109198570251
+          ],
+          [
+            0.004597065970301628,
+            0.9954029321670532
+          ],
+          [
+            0.594414234161377,
+            0.40558576583862305
+          ],
+          [
+            0.08459564298391342,
+            0.9154043197631836
+          ],
+          [
+            0.005227986257523298,
+            0.9947720170021057
+          ],
+          [
+            0.08025744557380676,
+            0.9197425842285156
+          ],
+          [
+            0.009296691976487637,
+            0.9907033443450928
+          ],
+          [
+            0.006245909724384546,
+            0.9937540888786316
+          ],
+          [
+            0.005790029186755419,
+            0.9942100048065186
+          ]
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "code_mass": [
+          0.9999656677246094,
+          0.999977171421051,
+          0.9999962449073792,
+          0.9999580383300781,
+          0.999977171421051,
+          0.9999294877052307,
+          0.9999962449073792,
+          0.9999962449073792,
+          0.9999847412109375,
+          0.9999847412109375,
+          0.9999885559082031,
+          0.9999962449073792,
+          0.9999733567237854,
+          0.9999962449073792,
+          0.9999465942382812,
+          0.9999923706054688,
+          0.999977171421051,
+          0.9999962449073792,
+          0.9999962449073792,
+          0.9999847412109375,
+          0.9999923706054688,
+          0.9999809265136719,
+          0.999977171421051,
+          0.9999618530273438,
+          0.9999504685401917,
+          0.9999542832374573,
+          0.9999733567237854,
+          0.9999504685401917,
+          0.999977171421051,
+          0.999977171421051,
+          0.9999847412109375,
+          0.9999885559082031,
+          0.9999847412109375,
+          0.9999465942382812,
+          0.9999847412109375,
+          0.9999504685401917,
+          0.999969482421875,
+          0.9999847412109375,
+          0.9999485611915588,
+          0.9999847412109375,
+          0.9999580383300781,
+          0.999969482421875
+        ]
+      },
+      "1": {
+        "metrics": {
+          "n": 42,
+          "accuracy": 0.8809523809523809,
+          "macro_f1": 0.8808848553601816,
+          "f1_negative": 0.8837209302325582,
+          "f1_positive": 0.8780487804878049,
+          "support": [
+            21,
+            21
+          ],
+          "invalid_rate": 0.0,
+          "confusion[true][pred0,pred1,invalid]": [
+            [
+              19,
+              2,
+              0
+            ],
+            [
+              3,
+              18,
+              0
+            ]
+          ],
+          "nll": 0.34582707214288,
+          "brier": 0.21398307942943368,
+          "code_mass": 0.9997595548629761
+        },
+        "probs": [
+          [
+            0.8166669607162476,
+            0.18333305418491364
+          ],
+          [
+            0.9775779247283936,
+            0.022422032430768013
+          ],
+          [
+            0.9959992170333862,
+            0.004000792745500803
+          ],
+          [
+            0.887442409992218,
+            0.11255761235952377
+          ],
+          [
+            0.9825689792633057,
+            0.017431048676371574
+          ],
+          [
+            0.7893193364143372,
+            0.21068064868450165
+          ],
+          [
+            0.9882013201713562,
+            0.011798707768321037
+          ],
+          [
+            0.9971940517425537,
+            0.002805928699672222
+          ],
+          [
+            0.9876176714897156,
+            0.012382338754832745
+          ],
+          [
+            0.967187762260437,
+            0.032812248915433884
+          ],
+          [
+            0.9886056780815125,
+            0.011394277215003967
+          ],
+          [
+            0.9970468878746033,
+            0.002953096991404891
+          ],
+          [
+            0.9795123934745789,
+            0.02048763632774353
+          ],
+          [
+            0.9871246814727783,
+            0.01287535484880209
+          ],
+          [
+            0.8944544792175293,
+            0.1055455282330513
+          ],
+          [
+            0.07670310884714127,
+            0.9232968688011169
+          ],
+          [
+            0.09233150631189346,
+            0.9076685309410095
+          ],
+          [
+            0.9981790781021118,
+            0.0018209369154646993
+          ],
+          [
+            0.9970779418945312,
+            0.002922047395259142
+          ],
+          [
+            0.9877663850784302,
+            0.012233668006956577
+          ],
+          [
+            0.9874245524406433,
+            0.01257549598813057
+          ],
+          [
+            0.176735982298851,
+            0.8232640624046326
+          ],
+          [
+            0.20765183866024017,
+            0.7923481464385986
+          ],
+          [
+            0.8452975749969482,
+            0.15470246970653534
+          ],
+          [
+            0.2393021285533905,
+            0.7606979012489319
+          ],
+          [
+            0.3157120943069458,
+            0.684287965297699
+          ],
+          [
+            0.32546567916870117,
+            0.674534261226654
+          ],
+          [
+            0.8845120668411255,
+            0.11548799276351929
+          ],
+          [
+            0.1028500646352768,
+            0.8971499800682068
+          ],
+          [
+            0.11517680436372757,
+            0.884823203086853
+          ],
+          [
+            0.05217781662940979,
+            0.9478221535682678
+          ],
+          [
+            0.07630007714033127,
+            0.9236999750137329
+          ],
+          [
+            0.06501603871583939,
+            0.9349839687347412
+          ],
+          [
+            0.06151999905705452,
+            0.9384799599647522
+          ],
+          [
+            0.0764339342713356,
+            0.9235660433769226
+          ],
+          [
+            0.7215631604194641,
+            0.27843689918518066
+          ],
+          [
+            0.3743130564689636,
+            0.6256869435310364
+          ],
+          [
+            0.146186962723732,
+            0.8538130521774292
+          ],
+          [
+            0.34427550435066223,
+            0.6557244658470154
+          ],
+          [
+            0.10498307645320892,
+            0.8950169086456299
+          ],
+          [
+            0.08870381116867065,
+            0.9112961888313293
+          ],
+          [
+            0.11113961040973663,
+            0.8888603448867798
+          ]
+        ],
+        "predictions": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          0,
+          0,
+          0,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          0,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "code_mass": [
+          0.9997292160987854,
+          0.9999408721923828,
+          0.9999104142189026,
+          0.999847412109375,
+          0.9999275803565979,
+          0.9997273087501526,
+          0.9998875260353088,
+          0.9999847412109375,
+          0.9999160766601562,
+          0.9999542832374573,
+          0.9999485611915588,
+          0.9999733567237854,
+          0.9998092651367188,
+          0.9999752640724182,
+          0.9998131394386292,
+          0.9996853470802307,
+          0.9996243119239807,
+          0.9999847412109375,
+          0.9999790787696838,
+          0.9999408721923828,
+          0.9999637603759766,
+          0.9996166825294495,
+          0.9997577667236328,
+          0.9998283386230469,
+          0.9996204972267151,
+          0.9997367858886719,
+          0.9997082352638245,
+          0.9998512268066406,
+          0.9996758699417114,
+          0.9994184374809265,
+          0.9995157122612,
+          0.9996166825294495,
+          0.9996339082717896,
+          0.999487042427063,
+          0.9996548891067505,
+          0.9995061159133911,
+          0.9997082352638245,
+          0.9994298815727234,
+          0.9996491074562073,
+          0.9997806549072266,
+          0.9996072053909302,
+          0.999580442905426
+        ]
+      }
+    },
+    "review_ids": [
+      "imdb-54230367a9e05b3d77556f00c9b69805c14f09c6ca5dba64d3145f7bc49f52b8",
+      "imdb-ec917ce767ecaca93ab551da870cb8b0081e02bae7bd423a7617ee164c9c6c73",
+      "imdb-7a6b0dfde31350dfd67207e69b95fad5daccf9ce0f4842f2d58c8840442a218d",
+      "imdb-92bf8d470c5bfc5f1ae3333c011037ec165bc3ba98bca91d96f5b57e2f273ebe",
+      "imdb-24cb0f1d4f92b18390af8306ea32978e0a778933ee93e189c8eabd846c977f20",
+      "imdb-f7bdc65f635a228f2fe554872a56f269b66fecd8b27bab87c936e10205a532ad",
+      "imdb-928859a450197e84d1ea04fea00df59ab7e504e2ee74a011c59489828c315c3f",
+      "imdb-49ca4f26d3722481ac3aca1ee6daecf82882be678ea07782e624df1eef14e371",
+      "imdb-79b696b19831dd4359bc24ec9471c0763b05ef2c296cec7bb96b49c798fbe6f1",
+      "imdb-e9ad332502aef437af769e73fbce124ecdae0ebd51a1dba79d5ac8e0aa11b67f",
+      "imdb-9d5920d4907d9fc728d378bc688698794f2a73f2bfa8500e22b63abaf8363de1",
+      "imdb-f11a4dc436ae7649dcdaa863c9540456c223c96deab042f54761869a41a60199",
+      "imdb-4cbbf4f1ea56aeba3bf1c961b366da6cc8a6a1b205f887dbffeaf22e4c1b14b9",
+      "imdb-214c7bd5edf0fcc8e58641e4783901ec564f3bdd7d56769c9929567145d5c88c",
+      "imdb-e6cbfdd7eff08a0888c052bba52cf4aa648b023d0cee9d66b6f418c3e1b165d9",
+      "imdb-8ac3c980186a254620f52495f66690ccc1d5638e0c5a7046167ff415cbc68a00",
+      "imdb-f3192544bba1a9f2029ab29e77b8221aa99fcf427eb128cc60f30f61ba6f2854",
+      "imdb-7707bd4a15cc186e57b83e886303a99a59468b61006c566b06fc9f2de8014189",
+      "imdb-cff959b061cc1e8822818b5c50445ee4e98cc9372a6b9c1f0019402d2d302b52",
+      "imdb-b396ea792d1509fe71d9df673c52660002ae71febb0a50dffcda612b903ae0bf",
+      "imdb-f8401c7853f6dc0972ee8d0720d9021b611f95b672345ab2048650029125b6d8",
+      "imdb-6d611acb110cfd70cde7dc7ea5128f059ae78f206d69487000b100ea47f45131",
+      "imdb-6776ac2c4d8aefd63ebbf0713b07cdc83fa2b1a3fd353767a0d8a22b701157e1",
+      "imdb-ba49acb37146ba9689140f3ee03cdac28b734656eb9ee936e29dc79dc86b81fa",
+      "imdb-c7ff5a80e622469296953690c000abc659bb9abf2ded114f57519394bf455db4",
+      "imdb-c7400d1434ef2280c3cbe8af6c55831a4ed1e12c6c1da4f56b933935cf6f41c8",
+      "imdb-05b52ea7526df5b3373d3efcfe99c206ba8aca39f4a425e244fb67ff6294a6e5",
+      "imdb-f3bb3f8345de883064cf9fb6252243d4fa3cb119ac3b54df6bef4a213e0ce2eb",
+      "imdb-18f699884c68844217bc0350a79ca4f3f8fe71da3c04bfde672ac2de0208786d",
+      "imdb-366a53e941690d0acb830e9549bc8f5d1ed60b02c0af87de52d81b1ce9433c44",
+      "imdb-a70975fa26426e9a0b65603a23e52434a739e76a12adaa733f9e9df557c989d0",
+      "imdb-883891009fbcc55a632a5827c6ed73c2e19f71ded24cbdec8a160fab2ec0f6ed",
+      "imdb-a8eb2ca6892f6491c5ace22cb56d5dbdbf2b162f0f6f3db6deb763f588495b64",
+      "imdb-8be0b176d0d155fcfac223668122564588605c7489042ccc4183aabdd5e50189",
+      "imdb-2c206df05afe359b45d7fdc4e27f23a5482f6b9e67b9c5bc833bee9b1e09a544",
+      "imdb-54898e49ba3484d4b99f8d39fe2e1cf9fc01c7f2214257d9fd4aa63464e70eba",
+      "imdb-8c0fa886448cc2b28530642ceb2f47a47440132ca54a56ea6edc36de578968ea",
+      "imdb-676c41e3414a5baac1ebeb54c5a497c18baea99fce694f0b5c6aeea0ea98a21a",
+      "imdb-8ecefadbf83b138d9ac9cca4f35aa2bbffed7ba04703aedc9ead69b8d27aae0e",
+      "imdb-30edae724886b03073cfe98e7aaf18f8b6bf6541fbb290f2c0c26aced637496a",
+      "imdb-137c789fcba1920da4c03fc39067b7ff8858d3cafbdef822869f17a26e5b2f25",
+      "imdb-aa595fcf7f6eb16229e93aba321f6ad604913087e1fe844fbf0b5cade37a6911"
+    ],
+    "visible_spans": [
+      "The Good<br /><br />Carrey is good actor and he proved it in \"Man on the Moon\" and in \"Eternal Sunshine of the Spotless Mind\". But hey, what can an actor do without good story and proper directing. He can do \"Number 23\".<br /><br />The Bad <br /><br />Joel Schumacher is poor, overrated director and he proved it in almost every movie he made. What he did with Batman is just disaster, but probably Batman movies supposed to look good. Well, they didn't. Instead of Gothic and macabre we got Disneyland. Sure \"Falling Down\" was great but can You ruin the film with Robert Duvall and Michael Douglas AND with excellent script? No You can't. <br /><br />And so good actor and",
+      "this movie has NO plot. it was SUPPOSED to be that a guy moves in with his grandma, and everyone thinks hes a loser and he has to redeem himself. but what happens after everyone finds out who he's living with? they have a big pot party at grandma's house. the climax of the movie didn't even relate to the rest of it. that whole plot was introduced within minutes of the movie's end. i can see how it COULD have related to the supposed story - that Grandma's VG skills redeem him - but that just wasn't there. <br /><br />However, the movie was funny as hell and clearly relied heavily on the jokes. <br /><br />\"Her pussy smells like the great depression\" \"He just sucked his first titty...yeah for 13 hours\" \"It",
+      "First things first, I am by no means a picky movie watcher. I'm not one of those people who gets movies just to pick apart the flaws and criticize, I, like most other people, watch to be entertained. I'll basically watch any type of movie of, no matter how bad anyone says it is (sometimes a movie's so terribly made and written that it invokes a sort of pity humor which i get a kick out of). With all that aside, lil pimp was simply pathetic. I saw it on TV and just didn't know what I was watching. It was too poorly written and cheesy to be an adult movie, and had way too much sex, innuendo and swearing to be a kid's movie, in fact, I doubt even kids would be amused by it. The humor (pretty generous even calling it",
+      "Ed Wood rides again. The fact that this movie was made should give any young<br /><br />aspiring film maker hope. Any screenplay you might have thought of using to<br /><br />line a litterbox or a birdcage should now not seem that bad. Do not watch this movie unless you have a healthy stash of Tylenol or Rolaids. Watching this<br /><br />movie made me realize that Boa vs. Python was not that bad after all. It probably would have been better to do this movie in Claymation as at least that way no actor would have had to take credit for being in this film. It is understandable why this director has so many aliases. There is a bright side to watching this movie in that if you can get someone to bring you a bag of chips, then you can",
+      "I really don't understand who this movie is aimed at. From just the absurdity of it, not to mention the ridiculously bad acting, cheesy dialogue, and the fact that the villain is a child, I'd assume this was meant to be a children's movie... but I think there may be more swear words than Pulp Fiction, not to mention constant references to drugs and general mayhem and killing-so which demographic is it trying to please? This movie is too schizophrenic, like trying to combine Country music with Heavy metal, in the end no one is going to like it because it's a bloody paradox. I would recommend this movie because it's so funny (in a bad way) except the actors are so patently unbearable that I wouldn't want to suggest otherwise.<br /><br />I'm completely serious when I say that",
+      "The story starts off in the home of a little girl who is going to have a Birthday Party and both the mother and father seemed to act rather quiet and reserved with each other. They proceed to give their daughter her present which is from both of them and it stuck me funny the expressions on the two parents faces as they gave their child this gift, it was almost like, 'I hope she likes it'! There is a killing in the film and Catherine Mary Stewart,(Julia Kerbridge),\"Reaper\",2000, gets involved with the case because of family ties. Julia is working hard to become a doctor and this particular murder disrupts her entire life. Rob Lowe, (Kevin Finney),\"View From The Top\",03 is a next door neighbor in the same apartment dwelling as Julia and he eventually goes to bed",
+      "Thinking that it could only get better was the worst assumption I ever made....<br /><br />Drivvle does not describe this movie appropriately enough!<br /><br />Not only is the plot thin, but I get more emotional acting from my pet fish!<br /><br />It was a shame to see Pete Postlethwaite, whom I respect as an actor trying to do the best with the little he had to work with...<br /><br />I think that a cardboard cut out of Stephen Baldwin would have done a better job , and in fact have been more animate.<br /><br />Avoid at all costs! This could really be hazardous to your health!",
+      "If this is not heavily featured on every list of \"what not to watch\", it should only be because those keeping that particular list are not aware of its existence, which, as long as that remains so, is the acceptable alternative. I'm not kidding you, this is a *bad* \"movie\". Joseph Meeker returns from the dead, with various vague, undefined supernatural powers, the most employed of which would seem to be appearing in new, increasingly comical-looking and ridiculous(and never scary or creepy... in general, when this goes for the latter of those, it winds up just being bizarre, and attempts at the former just don't work, period) outfits and stereotypes/archetypes, and he is portrayed by David Keith(whom I respect in... well, at least Daredevil), doing a more often than not terribly inconsistent",
+      "What Fox's fascination with dysfunctional families, made up of mean, obnoxious, spoiled kids, and parents who are determined to be cool, as opposed to being a parent?? I'm sorry, I don't get it. The one episode that I was barely able to stomach watching involved one of the kids demanding a Bar Mitzvah, with the intention of getting thousands of dollars in gift money. Of course, the idiot mother decides that her precious little junior has to have the biggest and bes-test party of all, and has no problem dropping 20 grand on the big event. The ditzy, brain dead, boy crazy teenage daughter bounces back and forth between wanting to be Jewish and then Catholic, when she see's the \"cute\" religious tutors.<br /><br />The one borderline \"heartwarming\" moment",
+      "Awful in a bad/good way...this movie has officially become the worst \"made for TV movie\" in my book...except for the camp value it offers, I give it a 1 in quality and a 10 for the camp value. Suggestion: Watch with friends, champagne and plenty of popcorn...you'll want to throw some at the screen! Preferably friends who like Chris Noth from his 'Sex in the City days'...this movie is dreadfully funny. This is definitely the lowest point in the careers of all cast members...honestly, I don't know how they controlled the laughter as the lines were delivered! Daniel J. Travanti is absolutely pathetic. EVERYONE participated in the school of over acting; and poor Joan Van Ark, I believe she was the only one taking this theater of the",
+      "For a movie that was the most seen in its native South Korea for most of 2004, it was a huge disappointment. Shows that Hollywood is not the only place where people can make over-emotional, melodramatic movies. The film was over 130 minutes long but not a lot actually happened and everything that happened was pretty much what one expected, the plot was that transparent. Granted if one himself was Korean, one would perhaps get into it more, but for me it didn't do much anything. Suffice to say that as the case tends to be with Korean cinema, the plot revolves around the relationship between the northern and southern parts of the peninsula. South Korea decides to recruit and train an elite assassination squad from death-sentence prisoners to kill Kim Il-Sung.<br /><br />A tedious plot doesn",
+      "Being an admitted chess addict, I was excited to see a documentary about the 1997 rematch between Garry Kasparov and IBM's Deep Blue supercomputer. I was hoping to see an in depth look at the match and a lot of what Kasparov had to say. Boy was I wrong and misguided by a mile. This documentary is a lot like many modern documentaries - there is a lot of flash but no real substance. After watching it, I am sad to say, I felt like I wasted my time. One of the most annoying aspects about the documentary is that it does not stay at one place for a decent period of time. It has the typical MTV type editing, where the camera shows different images and quick sound bites from people every five seconds. It is very sad that film-making has been watered down",
+      "I have just seen Caribe a couple of nights ago at the annual Vistas Film Festival held here in Dallas, and I must express my discontent. The opening caption tries to tell us that the film is a portrayal of the current invasion of South American countries (Costa Rica, in this particular case) by North American oil companies, and the negative effects, both economic and environmental, of this invasion. The main characters are a married couple who live a simple, pleasant life maintaining a banana farm. Right away, a woman arrives and announces that she is the wife's half-sister. I'm not going to go into specifics about this (and to be honest, I don't feel that I'm spoiling anything with this review), yet another key point is that the company to whom they distribute their bananas drops them due to budget demands in",
+      "The sequel that no one asked for to the movie no one wanted. There are obviously too many flaws with this movie to name here, so I'll just concentrate on the acting. Miles O'Keefe would have been better suited to play the spritely Asian sidekick Thong, mainly because he would then have no dialogue. Lisa Foster delivers her lines displaying one emotion, dullness. Charles Borremel brings life to his part by pausing every five words. And finally the flamboyant, John Saxon-type guy......no comment is needed.<br /><br />See \"Conan the Barbarian\" if you need to, but don't waste your time with this low-budget loser.",
+      "The gang is back for more! Ron Howard and Cindy Williams are now married! Her brother is demonstrating against the draft and Charles Martin Smith is doing everything he can in Vietnam to get sent home.<br /><br />The issues of the 60's are brought to light here, but it's all over the place, beginning with New Year's Eve 1963, then three minutes later, it's New Year's Eve 1964, then three minutes later, it's New Year's Eve 1965, then three minutes later, it's back to 1963 again. Martin Smith is talking about his friend dying in a drag race a year ago, and a couple of scenes later, this friend is winning his next heat in a drag race and to top it all off, the",
+      "Well, I must say, I initially found this short to be quite average, but having watched it nearly 5 times since (its constantly shown on IFC), I've developed an enjoyment of the simple plot elements and reality of the situations presented. Sofia Coppola contributes a solid addition to the category.",
+      "This was a very nice concert by the one and only MJ. The choreography was excellent and the costumes were decent. The vocals were okay. i have to admit that his vocals were crap on Human Nature and Billie Jean. You couldn't hear him half the time. The other songs make up for the singing. The Highlights of the show are: Jam Smooth Criminal I Just Can't Stop Loving You She's Out Of My Life Thriller Billie Jean (The Dancing Not The Singing) Black or White Man in the Mirror The concert was almost perfect. If it was anybody but Mj it would have been a 9. It is a must see. I wish I was born then so I could have gotten a ticket to the best concert of 1992.",
+      "What an awful movie. Full of cliches, perplexing scenes, very bad acting, and an atrotious script. It is hard to believe the same guys that wrote The People vs. Larry Flint and Man on the Moon wrote this garbage. Man, this makes my list of Top 10 Worst Movies of All-Time. Didn't this guy, this director, if you can call him that, realize that the first Problem Child was bad enough? Let alone make a sequel for it!!?? Amazing that piece of trash films like this can be shown to children let alone be released! 1 out of 10 *'s",
+      "I would not recommend it whatsoever. It was like getting stuck in the middle row of a theater, so I couldn't leave, and watching a part porn movie (except they didn't take their clothes off - it was the body language and definitely the language). I have to say I was embarrassed. Filming was very low budget, no good dialogue. Yuck. Actors stunk except The two best characters who got killed off (?) and they were David Carradine and Dennis Hopper. It did smack of Kill Bill and that old movie with the two guys who ride the dessert on their chopppers. You know what I mean. blablabla. The filming was grainy and just a very low quality. There was nobody in that theater that liked this movie, and the people around me were younger and tattooed.",
+      "What annoys me with so called 'science' programs such as these is that it is presented as if it were a FACT that dinosaurs live 'millions' of years ago. Firstly, nobody can even conduct a scientific experiment to prove that the earth is millions/billions of years old. It's a shallow theory based on inaccurate radiometric dating methods with huge assumptions thrown into the evolutionary pot.<br /><br />Secondly, nobody can prove that evolution ever happened. All Darwin's missing links are still MISSING ! If you look at all the fossils anywhere in or on the earth, they are complete animals of a certain kind eg: a dog or a cat. Nobody has ever found the skeleton of a dog turning into a cat or in the example presented in this series, a dinosaur turning into a bird.<br /><br />This is utter",
+      "Yes, in this movie you are treated to multiple little snowmen on the attack in apparently a very warm climate so yes this movie is definitely not to be taken seriously. It is in fact a much worse movie than the original as at least with that one the whole production looked like it cost more than a couple of bucks and a video camera to make. It has its funny moments, but really playing off the cheapness of your movie and making that be your intended laughs is kind of weak film making if you ask me. You can not come up with a good story, your effects are going to really be bad, hey let us just make the movie look as bad as possible with horrible one liners and we have our movie. The first one at least had a somewhat credible story as the snowman in that one attacked during the winter and not",
+      "Actually, I have more a question, than a comment. I loved Z-Boys, and The Lords of Dogtown. Saw Lords first, then the doc, and while I loved the story, I am curious as to why in the movie, Sid was an important character, but in the documentary, he wasn't part of the team, and only merely mentioned as just some kid they knew. Does anyone know the story on that? The story of these boys was amazing. I never experienced the skateboarding craze where I grew up, but my kids have enjoyed it. What I have seen in local skate parks is what these boys had invented. I never knew that. When the film showed the competition, and Z-Boys did their thing, they put to shame the others in competition.",
+      "I was pleasantly surprised to find this movie showing as a sneak preview in my local theater.<br /><br />We have all seen this plot line before (Top Gun, GI Jane, An Officer and a Gentleman) but a good script still works. This story is basically about the training of a Coast Guard rescue team with a couple of side story lines. Kevin Costner plays a highly successful rescue team leader, Ben Randall, who is forced into heading the training team after a tough mission. The movie takes us through the rigors of the training process and the personal stories of both the Costner character and that of Jake Fischer, played by Ashton Kutcher. I am happy to say that Ashton is great in this part.<br /><br />There are no great surprises in this movie and you will probably realize what is coming long before it",
+      "I really liked this movie ... but the ads I saw implied, and one published review actually said, that this movie \"benefits from a light touch.\" That to me is very misleading.<br /><br />There is indeed plenty of humor: eccentric, un-subtle, sometimes somewhat twisted humor: the kind of humor I generally find very appealing indeed. But most of the humor is the kind that appears conscious at all times of things deeply serious, deeply sensitive, even deeply painful. The movie weaves together themes of Past and Present, Perception and Truth, Memory and Activity, Life and Death. The entire movie is suffused by the history of European anti-Semiticism in general, and of the Holocaust in particular.<br /><br />How can Humor and Horror be combined in the same movie? The review I saw suggested that the humor",
+      "If you're looking for an original horror flick, this might be the one for you. It's strange and at times lingers on stupidity, but it's just such a good looking, nice sounding and original movie, it never fails, except maybe during the over long climax. \"Nightbreed\" is a must see for horror fans, or for fans of monster movie make-up.<br /><br />Boone (Craig Sheffer) has been having dreams of a town called Midian full of mutant creatures. In therapy, his psychiatrist Dr. Decker (horror director David Cronenberg) has come to the conclusion that Boone is a murderer, and gives him hallucinogenic pills, and tells him to turn himself in. After almost getting killed, Boone ends up at the hospital, where he runs into a mental patient who also",
+      "This is a really dark movie. Noir indeed. The title character is smallpox, brought into New York City unknowingly by Evelyn Keyes.<br /><br />She is on one mission when she arrives and on a rougher one after she's spoken to her no longer innocent sister. But she herself is not intentionally a killer. This doesn't mean she doesn't kill. It doesn't mean her presence somewhere among eight million other people doesn't throw the city into turmoil.<br /><br />Keyes is excellent. The supporting cast is very good too. There are several little-known people involved in this -- the director included. Don't be put off. It is a movie to be reckoned with! (And how nice to see a Columbia picture. Columbia and Republic turned out wonderful comedies and noirs; yet we hardly",
+      "Don't be fooled by the nostalgic aura that surrounds \"Mon oncle Antoine,\" because like the best of Canadian films darkness lurks just below the surface. <br /><br />Set presumably in 1940s rural Quebec, the story explores the developing consciousness of young Benoit as he learns to deal with both sexuality and death. <br /><br />The look of the film is astonishing, especially seeing as a high proportion of criticism towards Canadian cinema by the general public surrounds aesthetics. Beyond this, the unassuming Benoit is a seductive protagonist for the audience, looking at his corrupting community with fresh an innocent eyes. <br /><br />I recommend reading Jim Leach's critical essay on the film in Canada's Best Features for anyone looking to place the film into a historical context while also dissecting the form of",
+      "Somewhere on IMDb there is a discussion about the greatest director of all times (Spielberg, Copolla and others are named there). The greatest argument was around Spielberg and whether he is or isn't a great director. The problem with Spielberg is that while he is a master technician, most of his films lack depth.Saving Ryan is really outstanding from a technical point of view, but its message is dull and while its very entertaining, it doesn't make you think about anything. AN is the best movie I ever saw because it combines great shooting with a deep philosophical perspective on so many things, starting from war in general, the clash of civilizations, the condition of soldier in wartimes (is a soldier a hero or an assassin? Brando says he is neither, the french lady says he is both ...) and many others. The problem",
+      "If you are a fan of early Duke movies, this Lone Star oldie is a good one. What more could you ask for than Duke, Yak, and Gabby. Lots of good ridin' and shootin'!!! I found it amazing that Duke's singing voice was Bill Bradbury, who is none other than Bob Steele's twin brother. It has been reported that Bob Steele was a high school classmate and friend of Duke, so twin brother Bill may have been too. Anyway, if you like good, clean, early western movies don't miss this one. We don't have to wonder about hidden meanings or try to figure out underlying themes. Just sit back, relax and enjoy a western movie from a simpler day and time. It's called entertainment folks!!!",
+      "Rented the video for a slow Saturday night. First viewing I thought it was funny. Took a while to get used to the American caricatures (here we're more attuned to British grotesques) but very enjoyable. <br /><br />Watched it again next night and really warmed to it. The characters seemed more human - lovable, even. A film one could watch several times and get more out of it each time. However, my wife *hated* it. No accounting for tastes in humour I suppose.",
+      "The China Syndrome is a perfectly paced thriller and not slow or boring at all, as some people tend to say. The transitions from one scene to another are great and the tension build up in the film will keep you on the edge of your seat for the entire two hours. Jack Lemmon is great, as always, as the somewhat nervous plant operator and Jane Fonda succeeds again in bringing some real emotions into the story. You can see this film as a political statement of the time, or just as an intelligently made thriller. Either way it is definitely worth watching.",
+      "Nicolas Cage and Deborah Foreman provide stunning performances in this 80's tour de force! A great 80's movie akin to Fast Times at Ridgemont High! I highly recommend this movie to any child of the 80's who hasn't seen it. It's a cult classic.",
+      "To me, \"Anatomie\" is certainly one of the better movies I have seen. I don't think \"Anatomie\" was primarily intended to be a horror movie but a movie questioning the ethics of science. If you watch it with that in mind, it turns into a really good film. The only annoying bit was the awful voice dubbing for the English version. How can you expect any non-German person to listen to these unbearable German accents for two hours? Let native English speakers do the talking or use subtitles instead!!",
+      "Three words: Piece of Art. This film is just great. It's beautiful, sad, frightening and thought-provoking at the same time. The score constantly stays in my head, the acting is wonderful the scenery scary and beautiful at the same time.<br /><br />It was more by chance than on purpose that I saw this movie. At the time I decided to watch this movie I was just bored and read lists of Asian films, which maybe good. Well, I saw the title \"A tale of two sisters\" which sounded very interesting. Then I read the summary of the plot and decided \"You don't just watch this film, you've gotta buy it\". Said, done. I bought this film and was hooked from the very first minute.<br /><br />The plot kept me interested from the beginning till the end;",
+      "A great look at the 60s through the eyes of four friends from their student days in 1960 to their reunion 10 years later - a Yugoslavian immigrant in love with the American dream and struggling to cope with the often violent reality; a prematurely balding undertaker's son; a soldier; and the crazy hippy girl they all love. Good direction and a strong cast do justice to Steve Tesich's brilliant script; the dialogue isn't as snappy as in \"Breaking Away\", but the themes of growing up and father-son conflict are dealt with just as well, and there are still a few wonderfully comic moments among the shocks and drama.",
+      "After a couple years of searching for the Humphrey Bogart film, \"Two Against the World\", it unexpectedly showed up as a TCM offering under the title \"One Fatal Hour\", a First National film from 1936. Bogey's character is Sherry Scott, the man who runs WUBC, a radio station whose program lineup is losing listeners. The owner Bertram Reynolds (Robert Middlemass), is a pathetic executive who calls the shots at the station, but hides behind his decisions by pawning them off on Scott.<br /><br />In an effort to boost the audience base and revenues, Reynolds has the idea of reviving a twenty year old murder case, and offering it as a fifteen chapter radio play. Scott enlists the aid of Dr. Martin Leavenworth (Harry Hayden) to write the play",
+      "I have been most fortunate this year to have seen several films at my university's art museum. On occasion, well, more like half of the time, I am unable to watch the films there. I have systematically attempted to view each of the films that I have missed. So far Plagues and Pleasures on the Salton Sea and Who Killed the Electric Car? are the other films that I have had to watch this way. The film covers an intriguing subject matter and is well-theorized (emphasis on this later) but not as successful as Plagues and Pleasures, but far superior to Electric Car. <br /><br />The film's thesis concern's the future of the American concept of suburban living. It questions the feasibility of such a practice as oil prices rise. So, the film discusses the origin of the suburb,",
+      "Look, this movie is obscure, brilliant, and a classic that should sought out by any means necessary. I suppose the powers that be have decided that it will forever be relegated towards the bargin bin; nevertheless, we could only pray for the chance to see this one on DVD. I would say that it even beats the great Phatasm. If you like a dark movie, with plenty of spooky imagery, look for this one and see how an 80s horror movie is suppose to be.",
+      "I watched this movie a long time ago, but I've always loved it. The story is about a young girl, Sally O'Moyne who finds out at a young age that when she prays to St. Anne, her prayers are answered, hence her missing lunch pail and a mean neighbor who tattles on her and she prays, that someone should give him a black eye for tattling. Well, a minute later something hits him and he has a black eye. Sally then believes in the power of prayer and decides to use that power for good. She is well known and loved around the neighborhood as she has copybooks/journals filled with all her friends requests to St. Anne.<br /><br />Meanwhile, a local boy returns home from college (I believe) and Sally is awestruck at how much",
+      "While some of the things in Haggard are dumb and unnecessary, the overall package is good. <br /><br />Haggard follows Ryan Dunn and his friends Valo (Bam Margera) and Falcone (Brandon Dicamillo) trying to win back Glauren (Jenn Rivell), Ryan's ex. <br /><br />The story is followed and developed surprisingly well, it doesn't wonder off and become an episode of Jackass or Viva La Bam, although it does have a side story which doesn't hurt the main story.<br /><br />And, for all the Bam fan boys (And girls) there are multiple sequences of Bam skateboarding, perhaps the weakest aspect of the film. Phil makes 2 surprisingly small appearances, even Don Vito got a bigger (but pointless) roll",
+      "i went to see this because i have some friends in the ukraine. but the film moved me beyond what i expected by turning out to be a perfect blend of belly holding laughs (alex's strange use of English) situational comedy and heaviness bordering on depressing. i loved the range. it made me want to jump in to an old car and hit the road for the ukraine. alex (hutz) plays his guide part perfectly and provides a great counterpoint to elijah woods' poker faced earnestness. the film shows the positive side of humanity when ppl of differing cultures can bond and do the right thing when they feel the sincerity of the situation, even when they went into it with preconceived notions and prejudices, and how this can open up doorways into deeply buried memories. there is a lot in this",
+      "This is a beautifully filmed movie that questions the future of all indigenous peoples, especially nomadic tribesmen. Focusing on the Saltmen of Tibet, the film moves at pace that may make some western viewers uncomfortable. For some peoples, life still proceeds at the same pace which it has for thousands of years. This film follows a group of tribesmen on their annual two month quest to get salt. Their tribe lives its life in a traditional manner (slowly by modern standards) and always accounting to their many gods. This is a remarkable film, one which will preserve a piece of what may, unfortunately, become history. Well worth the time. Don't be in a rush when you see it."
+    ],
+    "span_sha256": "9191dd0ee58c9f4fddeebfd7ee2dba639ac10c86a6dbcc9bd3c702f12a5595ee"
+  },
+  "q3_comparison": [
+    {
+      "method": "Q3 zero_shot",
+      "review_ids": [
+        "imdb-54230367a9e05b3d77556f00c9b69805c14f09c6ca5dba64d3145f7bc49f52b8",
+        "imdb-ec917ce767ecaca93ab551da870cb8b0081e02bae7bd423a7617ee164c9c6c73",
+        "imdb-7a6b0dfde31350dfd67207e69b95fad5daccf9ce0f4842f2d58c8840442a218d",
+        "imdb-92bf8d470c5bfc5f1ae3333c011037ec165bc3ba98bca91d96f5b57e2f273ebe",
+        "imdb-24cb0f1d4f92b18390af8306ea32978e0a778933ee93e189c8eabd846c977f20",
+        "imdb-f7bdc65f635a228f2fe554872a56f269b66fecd8b27bab87c936e10205a532ad",
+        "imdb-928859a450197e84d1ea04fea00df59ab7e504e2ee74a011c59489828c315c3f",
+        "imdb-49ca4f26d3722481ac3aca1ee6daecf82882be678ea07782e624df1eef14e371",
+        "imdb-79b696b19831dd4359bc24ec9471c0763b05ef2c296cec7bb96b49c798fbe6f1",
+        "imdb-e9ad332502aef437af769e73fbce124ecdae0ebd51a1dba79d5ac8e0aa11b67f",
+        "imdb-9d5920d4907d9fc728d378bc688698794f2a73f2bfa8500e22b63abaf8363de1",
+        "imdb-f11a4dc436ae7649dcdaa863c9540456c223c96deab042f54761869a41a60199",
+        "imdb-4cbbf4f1ea56aeba3bf1c961b366da6cc8a6a1b205f887dbffeaf22e4c1b14b9",
+        "imdb-214c7bd5edf0fcc8e58641e4783901ec564f3bdd7d56769c9929567145d5c88c",
+        "imdb-e6cbfdd7eff08a0888c052bba52cf4aa648b023d0cee9d66b6f418c3e1b165d9",
+        "imdb-8ac3c980186a254620f52495f66690ccc1d5638e0c5a7046167ff415cbc68a00",
+        "imdb-f3192544bba1a9f2029ab29e77b8221aa99fcf427eb128cc60f30f61ba6f2854",
+        "imdb-7707bd4a15cc186e57b83e886303a99a59468b61006c566b06fc9f2de8014189",
+        "imdb-cff959b061cc1e8822818b5c50445ee4e98cc9372a6b9c1f0019402d2d302b52",
+        "imdb-b396ea792d1509fe71d9df673c52660002ae71febb0a50dffcda612b903ae0bf",
+        "imdb-f8401c7853f6dc0972ee8d0720d9021b611f95b672345ab2048650029125b6d8",
+        "imdb-6d611acb110cfd70cde7dc7ea5128f059ae78f206d69487000b100ea47f45131",
+        "imdb-6776ac2c4d8aefd63ebbf0713b07cdc83fa2b1a3fd353767a0d8a22b701157e1",
+        "imdb-ba49acb37146ba9689140f3ee03cdac28b734656eb9ee936e29dc79dc86b81fa",
+        "imdb-c7ff5a80e622469296953690c000abc659bb9abf2ded114f57519394bf455db4",
+        "imdb-c7400d1434ef2280c3cbe8af6c55831a4ed1e12c6c1da4f56b933935cf6f41c8",
+        "imdb-05b52ea7526df5b3373d3efcfe99c206ba8aca39f4a425e244fb67ff6294a6e5",
+        "imdb-f3bb3f8345de883064cf9fb6252243d4fa3cb119ac3b54df6bef4a213e0ce2eb",
+        "imdb-18f699884c68844217bc0350a79ca4f3f8fe71da3c04bfde672ac2de0208786d",
+        "imdb-366a53e941690d0acb830e9549bc8f5d1ed60b02c0af87de52d81b1ce9433c44",
+        "imdb-a70975fa26426e9a0b65603a23e52434a739e76a12adaa733f9e9df557c989d0",
+        "imdb-883891009fbcc55a632a5827c6ed73c2e19f71ded24cbdec8a160fab2ec0f6ed",
+        "imdb-a8eb2ca6892f6491c5ace22cb56d5dbdbf2b162f0f6f3db6deb763f588495b64",
+        "imdb-8be0b176d0d155fcfac223668122564588605c7489042ccc4183aabdd5e50189",
+        "imdb-2c206df05afe359b45d7fdc4e27f23a5482f6b9e67b9c5bc833bee9b1e09a544",
+        "imdb-54898e49ba3484d4b99f8d39fe2e1cf9fc01c7f2214257d9fd4aa63464e70eba",
+        "imdb-8c0fa886448cc2b28530642ceb2f47a47440132ca54a56ea6edc36de578968ea",
+        "imdb-676c41e3414a5baac1ebeb54c5a497c18baea99fce694f0b5c6aeea0ea98a21a",
+        "imdb-8ecefadbf83b138d9ac9cca4f35aa2bbffed7ba04703aedc9ead69b8d27aae0e",
+        "imdb-30edae724886b03073cfe98e7aaf18f8b6bf6541fbb290f2c0c26aced637496a",
+        "imdb-137c789fcba1920da4c03fc39067b7ff8858d3cafbdef822869f17a26e5b2f25",
+        "imdb-aa595fcf7f6eb16229e93aba321f6ad604913087e1fe844fbf0b5cade37a6911"
+      ],
+      "accuracy": 0.8571428571428571,
+      "macro_f1": 0.8568181818181818,
+      "invalid_rate": 0.0,
+      "latency_s_per_example": 0.2497325447619051,
+      "scoring": "free label generation with strict parser"
+    },
+    {
+      "method": "Q3 few_shot",
+      "review_ids": [
+        "imdb-54230367a9e05b3d77556f00c9b69805c14f09c6ca5dba64d3145f7bc49f52b8",
+        "imdb-ec917ce767ecaca93ab551da870cb8b0081e02bae7bd423a7617ee164c9c6c73",
+        "imdb-7a6b0dfde31350dfd67207e69b95fad5daccf9ce0f4842f2d58c8840442a218d",
+        "imdb-92bf8d470c5bfc5f1ae3333c011037ec165bc3ba98bca91d96f5b57e2f273ebe",
+        "imdb-24cb0f1d4f92b18390af8306ea32978e0a778933ee93e189c8eabd846c977f20",
+        "imdb-f7bdc65f635a228f2fe554872a56f269b66fecd8b27bab87c936e10205a532ad",
+        "imdb-928859a450197e84d1ea04fea00df59ab7e504e2ee74a011c59489828c315c3f",
+        "imdb-49ca4f26d3722481ac3aca1ee6daecf82882be678ea07782e624df1eef14e371",
+        "imdb-79b696b19831dd4359bc24ec9471c0763b05ef2c296cec7bb96b49c798fbe6f1",
+        "imdb-e9ad332502aef437af769e73fbce124ecdae0ebd51a1dba79d5ac8e0aa11b67f",
+        "imdb-9d5920d4907d9fc728d378bc688698794f2a73f2bfa8500e22b63abaf8363de1",
+        "imdb-f11a4dc436ae7649dcdaa863c9540456c223c96deab042f54761869a41a60199",
+        "imdb-4cbbf4f1ea56aeba3bf1c961b366da6cc8a6a1b205f887dbffeaf22e4c1b14b9",
+        "imdb-214c7bd5edf0fcc8e58641e4783901ec564f3bdd7d56769c9929567145d5c88c",
+        "imdb-e6cbfdd7eff08a0888c052bba52cf4aa648b023d0cee9d66b6f418c3e1b165d9",
+        "imdb-8ac3c980186a254620f52495f66690ccc1d5638e0c5a7046167ff415cbc68a00",
+        "imdb-f3192544bba1a9f2029ab29e77b8221aa99fcf427eb128cc60f30f61ba6f2854",
+        "imdb-7707bd4a15cc186e57b83e886303a99a59468b61006c566b06fc9f2de8014189",
+        "imdb-cff959b061cc1e8822818b5c50445ee4e98cc9372a6b9c1f0019402d2d302b52",
+        "imdb-b396ea792d1509fe71d9df673c52660002ae71febb0a50dffcda612b903ae0bf",
+        "imdb-f8401c7853f6dc0972ee8d0720d9021b611f95b672345ab2048650029125b6d8",
+        "imdb-6d611acb110cfd70cde7dc7ea5128f059ae78f206d69487000b100ea47f45131",
+        "imdb-6776ac2c4d8aefd63ebbf0713b07cdc83fa2b1a3fd353767a0d8a22b701157e1",
+        "imdb-ba49acb37146ba9689140f3ee03cdac28b734656eb9ee936e29dc79dc86b81fa",
+        "imdb-c7ff5a80e622469296953690c000abc659bb9abf2ded114f57519394bf455db4",
+        "imdb-c7400d1434ef2280c3cbe8af6c55831a4ed1e12c6c1da4f56b933935cf6f41c8",
+        "imdb-05b52ea7526df5b3373d3efcfe99c206ba8aca39f4a425e244fb67ff6294a6e5",
+        "imdb-f3bb3f8345de883064cf9fb6252243d4fa3cb119ac3b54df6bef4a213e0ce2eb",
+        "imdb-18f699884c68844217bc0350a79ca4f3f8fe71da3c04bfde672ac2de0208786d",
+        "imdb-366a53e941690d0acb830e9549bc8f5d1ed60b02c0af87de52d81b1ce9433c44",
+        "imdb-a70975fa26426e9a0b65603a23e52434a739e76a12adaa733f9e9df557c989d0",
+        "imdb-883891009fbcc55a632a5827c6ed73c2e19f71ded24cbdec8a160fab2ec0f6ed",
+        "imdb-a8eb2ca6892f6491c5ace22cb56d5dbdbf2b162f0f6f3db6deb763f588495b64",
+        "imdb-8be0b176d0d155fcfac223668122564588605c7489042ccc4183aabdd5e50189",
+        "imdb-2c206df05afe359b45d7fdc4e27f23a5482f6b9e67b9c5bc833bee9b1e09a544",
+        "imdb-54898e49ba3484d4b99f8d39fe2e1cf9fc01c7f2214257d9fd4aa63464e70eba",
+        "imdb-8c0fa886448cc2b28530642ceb2f47a47440132ca54a56ea6edc36de578968ea",
+        "imdb-676c41e3414a5baac1ebeb54c5a497c18baea99fce694f0b5c6aeea0ea98a21a",
+        "imdb-8ecefadbf83b138d9ac9cca4f35aa2bbffed7ba04703aedc9ead69b8d27aae0e",
+        "imdb-30edae724886b03073cfe98e7aaf18f8b6bf6541fbb290f2c0c26aced637496a",
+        "imdb-137c789fcba1920da4c03fc39067b7ff8858d3cafbdef822869f17a26e5b2f25",
+        "imdb-aa595fcf7f6eb16229e93aba321f6ad604913087e1fe844fbf0b5cade37a6911"
+      ],
+      "accuracy": 0.8809523809523809,
+      "macro_f1": 0.8808848553601816,
+      "invalid_rate": 0.0,
+      "latency_s_per_example": 0.293473504071424,
+      "scoring": "free label generation with strict parser"
+    },
+    {
+      "method": "Q5 nf4_final restricted A/B",
+      "review_ids": [
+        "imdb-54230367a9e05b3d77556f00c9b69805c14f09c6ca5dba64d3145f7bc49f52b8",
+        "imdb-ec917ce767ecaca93ab551da870cb8b0081e02bae7bd423a7617ee164c9c6c73",
+        "imdb-7a6b0dfde31350dfd67207e69b95fad5daccf9ce0f4842f2d58c8840442a218d",
+        "imdb-92bf8d470c5bfc5f1ae3333c011037ec165bc3ba98bca91d96f5b57e2f273ebe",
+        "imdb-24cb0f1d4f92b18390af8306ea32978e0a778933ee93e189c8eabd846c977f20",
+        "imdb-f7bdc65f635a228f2fe554872a56f269b66fecd8b27bab87c936e10205a532ad",
+        "imdb-928859a450197e84d1ea04fea00df59ab7e504e2ee74a011c59489828c315c3f",
+        "imdb-49ca4f26d3722481ac3aca1ee6daecf82882be678ea07782e624df1eef14e371",
+        "imdb-79b696b19831dd4359bc24ec9471c0763b05ef2c296cec7bb96b49c798fbe6f1",
+        "imdb-e9ad332502aef437af769e73fbce124ecdae0ebd51a1dba79d5ac8e0aa11b67f",
+        "imdb-9d5920d4907d9fc728d378bc688698794f2a73f2bfa8500e22b63abaf8363de1",
+        "imdb-f11a4dc436ae7649dcdaa863c9540456c223c96deab042f54761869a41a60199",
+        "imdb-4cbbf4f1ea56aeba3bf1c961b366da6cc8a6a1b205f887dbffeaf22e4c1b14b9",
+        "imdb-214c7bd5edf0fcc8e58641e4783901ec564f3bdd7d56769c9929567145d5c88c",
+        "imdb-e6cbfdd7eff08a0888c052bba52cf4aa648b023d0cee9d66b6f418c3e1b165d9",
+        "imdb-8ac3c980186a254620f52495f66690ccc1d5638e0c5a7046167ff415cbc68a00",
+        "imdb-f3192544bba1a9f2029ab29e77b8221aa99fcf427eb128cc60f30f61ba6f2854",
+        "imdb-7707bd4a15cc186e57b83e886303a99a59468b61006c566b06fc9f2de8014189",
+        "imdb-cff959b061cc1e8822818b5c50445ee4e98cc9372a6b9c1f0019402d2d302b52",
+        "imdb-b396ea792d1509fe71d9df673c52660002ae71febb0a50dffcda612b903ae0bf",
+        "imdb-f8401c7853f6dc0972ee8d0720d9021b611f95b672345ab2048650029125b6d8",
+        "imdb-6d611acb110cfd70cde7dc7ea5128f059ae78f206d69487000b100ea47f45131",
+        "imdb-6776ac2c4d8aefd63ebbf0713b07cdc83fa2b1a3fd353767a0d8a22b701157e1",
+        "imdb-ba49acb37146ba9689140f3ee03cdac28b734656eb9ee936e29dc79dc86b81fa",
+        "imdb-c7ff5a80e622469296953690c000abc659bb9abf2ded114f57519394bf455db4",
+        "imdb-c7400d1434ef2280c3cbe8af6c55831a4ed1e12c6c1da4f56b933935cf6f41c8",
+        "imdb-05b52ea7526df5b3373d3efcfe99c206ba8aca39f4a425e244fb67ff6294a6e5",
+        "imdb-f3bb3f8345de883064cf9fb6252243d4fa3cb119ac3b54df6bef4a213e0ce2eb",
+        "imdb-18f699884c68844217bc0350a79ca4f3f8fe71da3c04bfde672ac2de0208786d",
+        "imdb-366a53e941690d0acb830e9549bc8f5d1ed60b02c0af87de52d81b1ce9433c44",
+        "imdb-a70975fa26426e9a0b65603a23e52434a739e76a12adaa733f9e9df557c989d0",
+        "imdb-883891009fbcc55a632a5827c6ed73c2e19f71ded24cbdec8a160fab2ec0f6ed",
+        "imdb-a8eb2ca6892f6491c5ace22cb56d5dbdbf2b162f0f6f3db6deb763f588495b64",
+        "imdb-8be0b176d0d155fcfac223668122564588605c7489042ccc4183aabdd5e50189",
+        "imdb-2c206df05afe359b45d7fdc4e27f23a5482f6b9e67b9c5bc833bee9b1e09a544",
+        "imdb-54898e49ba3484d4b99f8d39fe2e1cf9fc01c7f2214257d9fd4aa63464e70eba",
+        "imdb-8c0fa886448cc2b28530642ceb2f47a47440132ca54a56ea6edc36de578968ea",
+        "imdb-676c41e3414a5baac1ebeb54c5a497c18baea99fce694f0b5c6aeea0ea98a21a",
+        "imdb-8ecefadbf83b138d9ac9cca4f35aa2bbffed7ba04703aedc9ead69b8d27aae0e",
+        "imdb-30edae724886b03073cfe98e7aaf18f8b6bf6541fbb290f2c0c26aced637496a",
+        "imdb-137c789fcba1920da4c03fc39067b7ff8858d3cafbdef822869f17a26e5b2f25",
+        "imdb-aa595fcf7f6eb16229e93aba321f6ad604913087e1fe844fbf0b5cade37a6911"
+      ],
+      "accuracy": 0.9047619047619048,
+      "macro_f1": 0.9045454545454545,
+      "invalid_rate": 0.0,
+      "latency_s_per_example": 0.11241946337500508,
+      "code_mass": 0.9999721050262451,
+      "scoring": "renormalized next-token A/B logits"
+    }
+  ],
+  "reload_check": {
+    "review_ids": [
+      "imdb-3677afba46df9fdcfbc6100d88deb74d27960951f879eabeb2fa5568f2a76012",
+      "imdb-fca2d8709b6bbbc71c4a8dcb93d488441c56f9e305761ee9f28fe529a0bbcc11",
+      "imdb-790b65c68888733670372063135992adc25a8cea649c15501a508e01a958febb"
+    ],
+    "texts": [
+      "An uptight voyeur who wants to commit suicide encounters a free spirited bad-seed who has 5 weeks to live and then they're off to discover America. Get the idea? There's not an original moment in this whole movie.",
+      "Eight academy nominations? It's beyond belief. I can only think it was a very bad year - even by Hollywood standards. With Huston as director and Jack Nicholson and Kathleen Turner as leads I probably would have swallowed the bait and watched this anyway, but the Oscar nominations really sold it to me, and I feel distinctly cheated as a result.<br /><br />So it's a black comedy is it? Can anyone tell me where the humour is in Prizzi's Honor? It's certainly tasteless (the shooting in the head of a policeman's wife is but another supposedly comic interlude in this intended farce about mafia life) but with the exception of a joke about 'your favourite Mexican cigars' (which I imagine is an old joke for Americans who have been officially forbidden from buying anything Cuban for the last 50 years) I failed to spot anything of a comic nature - and I did try. There is a lot of Mafia clich\u00e9 but clich\u00e9 doesn't constitute humour in my book.<br /><br />Is it a romantic comedy of sorts? Never. The characters and their relationships are so completely incredible and shallow that they are on a par with Ben Afleck and Jennifer Lopez in Gigli.<br /><br />Is it a cleverly devised parody about the Mafia? Not in a million years. The plot is just pointlessly absurd rather than comically absurd, and it usually just has the feel of a really bad (and cheap) Mafia movie. It feels more like a homage than a parody.<br /><br />With one-dimensional characters and little in the way of humour written for them, the actors are left doing dodgy accents and pulling faces. Well it isn't enough; even when the face is being pulled by that master of the comic facial expression, Jack Nicholson (repleat with puffed up top lip ... now is that meant to be a parody of Brando's padded jowls in The Godfather?... Oh! Who cares?... all I know is, it isn't funny).<br /><br />Throw in some slow, plodding direction (this film drags on for 2 hours), some hopelessly daft and clich\u00e9d dialogue such as; \"You remember the Camora? Well we're far bigger, we'll track you down wherever you go\", and clich\u00e9d mannerisms and you'll be reaching for that fast forward button before you can say \"capiche?\". Prizzi's Honor is far from being Huston's \"masterpiece\" and is rather a very poor last work. It's definitely one work in the great director's canon that should be given a concrete overcoat and tossed into the Hudson River.",
+      "Terrible film made on a budget of about $9.99. Very obvious miniature sets used, poor acting and an awful storyline concerning aliens who use discarded meat from a butcher shop as fuel for their spaceship. The film contains some blood (not enough to disturb) and a character with an eggbeater replacing one of his hands. (Yes you read that correctly.)<br /><br />One saving grace was a song performed at the \"talent show\" (how's that for irony?) by a punk/new wave band that I think was called \"I'm A Heat Seeking Missile\". Other than that, this is not worth your time, not even on a \"so bad it's good\" level. Watch if you are into cheesy alien films, but anyone else should steer clear. <br /><br />Rating: 1 out of 10"
+    ],
+    "probs": {
+      "nf4_final": [
+        [
+          0.9988548755645752,
+          0.0011450948659330606
+        ],
+        [
+          0.9421630501747131,
+          0.05783696472644806
+        ],
+        [
+          0.9993281364440918,
+          0.0006719419616274536
+        ]
+      ]
+    }
+  }
+}

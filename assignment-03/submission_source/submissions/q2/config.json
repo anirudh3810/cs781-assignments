@@ -1,0 +1,16 @@
+{
+  "vocab_size": 8000,
+  "d_model": 256,
+  "n_layers": 4,
+  "n_heads": 8,
+  "d_ff": 1024,
+  "max_seq_len": 256,
+  "dropout": 0.1,
+  "pos_emb_type": "sinusoidal",
+  "attention_scale": null,
+  "norm_first": false,
+  "attention_type": "standard",
+  "n_kv_heads": 2,
+  "kv_latent_dim": null,
+  "param_count": 4810240
+}

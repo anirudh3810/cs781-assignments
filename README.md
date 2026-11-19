@@ -17,6 +17,8 @@ Coursework notebooks, implementations, experiments, evaluation records and submi
 
 Source files and saved results are browsable in the assignment folders. Large files, checkpoints and ZIP packages are attached to the [coursework release](https://github.com/anirudh3810/cs781-assignments/releases/tag/coursework-2026-11-19). [ARTIFACTS.md](ARTIFACTS.md) lists the original paths and direct downloads. `publication-manifest.json` records file sizes and SHA-256 checksums.
 
+For Assignments 2, 3 and 4, `submission_source/` also exposes the source/configuration files from the saved final ZIPs directly on GitHub. Their provenance is recorded in each folder and in the manifest.
+
 To restore every released file to its original assignment path:
 
 ```bash

@@ -78381,5 +78381,574 @@
     "Python bytecode and tool caches",
     "Git metadata",
     "Assignment 6 .a6_artifacts downloaded models and runtime cache"
+  ],
+  "derived_files": [
+    {
+      "path": "assignment-02/submission_source/model_defs.py",
+      "archive": "CS781-A2-240131.zip",
+      "member": "model_defs.py",
+      "bytes": 37133,
+      "sha256": "9330c8dcfb2102a3221845b5b353765739b8c560686b4cf96629d912e24b1198"
+    },
+    {
+      "path": "assignment-02/submission_source/manifest.json",
+      "archive": "CS781-A2-240131.zip",
+      "member": "manifest.json",
+      "bytes": 88,
+      "sha256": "b2eeb1ec463332b7506cd2a1d4efaedeafa345ef458dfeadc1c5cef95a088c11"
+    },
+    {
+      "path": "assignment-02/submission_source/vocab_emotion.json",
+      "archive": "CS781-A2-240131.zip",
+      "member": "vocab_emotion.json",
+      "bytes": 224834,
+      "sha256": "237334a85e2aae5b80b765d7c76a4227c63f90e39b980c870f6ba1325e1bb9b0"
+    },
+    {
+      "path": "assignment-02/submission_source/vocab_en.json",
+      "archive": "CS781-A2-240131.zip",
+      "member": "vocab_en.json",
+      "bytes": 229974,
+      "sha256": "0371c08286898698b47d651973409c426e3f381cf3665326839af8a23e3938d3"
+    },
+    {
+      "path": "assignment-02/submission_source/vocab_hi.json",
+      "archive": "CS781-A2-240131.zip",
+      "member": "vocab_hi.json",
+      "bytes": 428477,
+      "sha256": "a6b9be3eb66e747484ebcbfb644907deaeb56ca5fea45cb4b8f361d9a816471c"
+    },
+    {
+      "path": "assignment-03/submission_source/a1_tokenizer.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "a1_tokenizer.py",
+      "bytes": 13815,
+      "sha256": "100d2108ae86e3732531b4f3e2f2103e001393b199eb97d9b060ab9e062a4bcd"
+    },
+    {
+      "path": "assignment-03/submission_source/analysis_log.json",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "analysis_log.json",
+      "bytes": 110885,
+      "sha256": "c7477e2a5846242cc177c16a0ec07edb05d50482fe0ba2bc03af61fe1bca3ee0"
+    },
+    {
+      "path": "assignment-03/submission_source/attention.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "attention.py",
+      "bytes": 3516,
+      "sha256": "1ea2527555dd3422cdd83b3e4930665c5cd90342a27b5521fb9941bf6f6faa00"
+    },
+    {
+      "path": "assignment-03/submission_source/autograder_q1.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "autograder_q1.py",
+      "bytes": 11317,
+      "sha256": "20bf70b083f81c3c1a0b80c232797bbd4421873e24d491d9788b2fad257f8589"
+    },
+    {
+      "path": "assignment-03/submission_source/autograder_q2.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "autograder_q2.py",
+      "bytes": 16133,
+      "sha256": "0e89181f4e965da9fb9c49ba1ffdf914493ec3f6c87c71095d856833a29aad2b"
+    },
+    {
+      "path": "assignment-03/submission_source/autograder_q3.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "autograder_q3.py",
+      "bytes": 10886,
+      "sha256": "ae5993d50e3247ea89e64c39d7b3e17ea10d5d9b2e381b5281baebae85d7cfe7"
+    },
+    {
+      "path": "assignment-03/submission_source/autograder_q4.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "autograder_q4.py",
+      "bytes": 10502,
+      "sha256": "95a86ec80c4b600f79b51970f7cab2337a55c435865d11514834940e0b69e70b"
+    },
+    {
+      "path": "assignment-03/submission_source/autograder_q5.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "autograder_q5.py",
+      "bytes": 10149,
+      "sha256": "a97618f23b1b1e4fc65d122bf94a40f596be45a0a59af45650bc14d184e6fdc6"
+    },
+    {
+      "path": "assignment-03/submission_source/common.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "common.py",
+      "bytes": 15879,
+      "sha256": "15c3943fdb6cd4cb9b2fa2f832f83a1c6dcc603297abf78b29321dbb3454b162"
+    },
+    {
+      "path": "assignment-03/submission_source/common_grading.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "common_grading.py",
+      "bytes": 20052,
+      "sha256": "30117c1acf4444f1b9577764441291c3d09fdd93b6512e853cfdfb98f8135f1f"
+    },
+    {
+      "path": "assignment-03/submission_source/download_data.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "download_data.py",
+      "bytes": 6976,
+      "sha256": "f82f342bbccdc8384c80a2d801297b1929c9fa5161fecb79481eec39acdcf448"
+    },
+    {
+      "path": "assignment-03/submission_source/model_arch.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "model_arch.py",
+      "bytes": 4031,
+      "sha256": "07a087b34af52969c1f7c965c5dd45d0008d670fbe7349d4f7e7c1ff92001eb5"
+    },
+    {
+      "path": "assignment-03/submission_source/model_builtin.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "model_builtin.py",
+      "bytes": 3410,
+      "sha256": "c086273381a505033501c958614484a19294074446512fe1012b97dab6b5e279"
+    },
+    {
+      "path": "assignment-03/submission_source/optim_muon.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "optim_muon.py",
+      "bytes": 2048,
+      "sha256": "5a796a2db4d6e7bb41879212108f69d4767993e8eb738ae2b223f52d6bbdccf0"
+    },
+    {
+      "path": "assignment-03/submission_source/requirements.txt",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "requirements.txt",
+      "bytes": 65,
+      "sha256": "29668c763a14ede8d77e743ba00788685af895c2891084039ce2dd6b65a36e0c"
+    },
+    {
+      "path": "assignment-03/submission_source/rope.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "rope.py",
+      "bytes": 1817,
+      "sha256": "afb0f6d6ed78370fb5cef7056c672d98c80ad1ff1977c0da224f82b8744d76aa"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q1/a1_tokenizer.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q1/a1_tokenizer.py",
+      "bytes": 13815,
+      "sha256": "100d2108ae86e3732531b4f3e2f2103e001393b199eb97d9b060ab9e062a4bcd"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q1/attention.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q1/attention.py",
+      "bytes": 2434,
+      "sha256": "65f49a3dfaa8b3849547d605dcbc0638bb9457a28b06125f3b1f297ec02d0f2b"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q1/config.json",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q1/config.json",
+      "bytes": 330,
+      "sha256": "f0659f9935f76778cc588c99c16244a4e19304727ba93ae9e811f94e92a27c6c"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q1/metrics.json",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q1/metrics.json",
+      "bytes": 39553,
+      "sha256": "689d0cae447d10f8c9e27d277f8e688f75982f631803f810a80bafef4a91f14c"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q1/model_arch.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q1/model_arch.py",
+      "bytes": 3863,
+      "sha256": "4ea403792185d59b6a85ca02d7718b6b414da960d02e5e90cb4564d8caab2a87"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q2/a1_tokenizer.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q2/a1_tokenizer.py",
+      "bytes": 13815,
+      "sha256": "100d2108ae86e3732531b4f3e2f2103e001393b199eb97d9b060ab9e062a4bcd"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q2/attention.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q2/attention.py",
+      "bytes": 6338,
+      "sha256": "46d8975e783f781c1072304355c4f835dbb4d50c5ae4631a4ddb2233cdff9ff4"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q2/config.json",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q2/config.json",
+      "bytes": 315,
+      "sha256": "654cad227085943e1a3551641d6347ac4328d2ec7a8846c686fc12ee83c1718d"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q2/metrics.json",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q2/metrics.json",
+      "bytes": 1326,
+      "sha256": "2254fc9b3baed3042b0624fb66a69d27fe231b9696ad8e8ec9941db98967fa0c"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q2/model_arch.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q2/model_arch.py",
+      "bytes": 4524,
+      "sha256": "6aa95e657bd3bfdc64a2d227470cd7ac896d5542a8f49f3958b565a494a9f365"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q3/a1_tokenizer.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q3/a1_tokenizer.py",
+      "bytes": 13815,
+      "sha256": "100d2108ae86e3732531b4f3e2f2103e001393b199eb97d9b060ab9e062a4bcd"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q3/attention.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q3/attention.py",
+      "bytes": 3516,
+      "sha256": "1ea2527555dd3422cdd83b3e4930665c5cd90342a27b5521fb9941bf6f6faa00"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q3/config.json",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q3/config.json",
+      "bytes": 309,
+      "sha256": "8586a18e21f8c5c65f90c6487993bba52ae7fe2a194d931bbdbf9c03fb805cd1"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q3/metrics.json",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q3/metrics.json",
+      "bytes": 24183,
+      "sha256": "b824b7c671acff7ce98dc4cea154b15cc185f5bf9d2edf5be46d3ee8fac344d3"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q3/model_arch.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q3/model_arch.py",
+      "bytes": 4031,
+      "sha256": "07a087b34af52969c1f7c965c5dd45d0008d670fbe7349d4f7e7c1ff92001eb5"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q3/rope.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q3/rope.py",
+      "bytes": 1817,
+      "sha256": "afb0f6d6ed78370fb5cef7056c672d98c80ad1ff1977c0da224f82b8744d76aa"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q4/a1_tokenizer.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q4/a1_tokenizer.py",
+      "bytes": 13815,
+      "sha256": "100d2108ae86e3732531b4f3e2f2103e001393b199eb97d9b060ab9e062a4bcd"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q4/attention.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q4/attention.py",
+      "bytes": 3516,
+      "sha256": "1ea2527555dd3422cdd83b3e4930665c5cd90342a27b5521fb9941bf6f6faa00"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q4/config.json",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q4/config.json",
+      "bytes": 535,
+      "sha256": "619002a6281a534dbd58eab7b50ebe45d33fa5e29060509beeb06fc83284c4e2"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q4/metrics.json",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q4/metrics.json",
+      "bytes": 103453,
+      "sha256": "d0674610714f73b9b6987ffc80512d66bcf81170233c152ebdbfd3f03b9a67eb"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q4/model_arch.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q4/model_arch.py",
+      "bytes": 4031,
+      "sha256": "07a087b34af52969c1f7c965c5dd45d0008d670fbe7349d4f7e7c1ff92001eb5"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q4/optim_muon.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q4/optim_muon.py",
+      "bytes": 2048,
+      "sha256": "5a796a2db4d6e7bb41879212108f69d4767993e8eb738ae2b223f52d6bbdccf0"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q4/q4_runtime.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q4/q4_runtime.py",
+      "bytes": 37361,
+      "sha256": "78a2841601ef31383df972159e68cd1d95346cd7a53fcc0a9c21b463195c3dae"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q4/rope.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q4/rope.py",
+      "bytes": 1817,
+      "sha256": "afb0f6d6ed78370fb5cef7056c672d98c80ad1ff1977c0da224f82b8744d76aa"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q5/config.json",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q5/config.json",
+      "bytes": 266,
+      "sha256": "9e2f5f19a51190ba83dd877ba66bb49d5e328f580602ce98d2c798b47454cb21"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q5/metrics.json",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q5/metrics.json",
+      "bytes": 250,
+      "sha256": "af9fdfb36efabc5858d39287e7df08d1c470b0b136cf0450199a788cca9b08ab"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q5/model_builtin.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q5/model_builtin.py",
+      "bytes": 3410,
+      "sha256": "c086273381a505033501c958614484a19294074446512fe1012b97dab6b5e279"
+    },
+    {
+      "path": "assignment-03/submission_source/submissions/q5/q5_runtime.py",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q5/q5_runtime.py",
+      "bytes": 42777,
+      "sha256": "8b4e41fe45915a4f2acd6094310c1037490ff549af910a9738f63ac6946de478"
+    },
+    {
+      "path": "assignment-03/submission_source/submission_manifest.json",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "submission_manifest.json",
+      "bytes": 7884,
+      "sha256": "5a74f08ae5b7cef0866ba6e2a21cfa4fe13e19c739e9e976dac6c6e9986b609f"
+    },
+    {
+      "path": "assignment-03/submission_source/notebook.ipynb",
+      "archive": "CS781-A3-Anirudh-Bankhede-240131.zip",
+      "member": "notebook.ipynb",
+      "bytes": 1515945,
+      "sha256": "d2eeff6bc3c7fd8f467c610ab12b87026cdabc3b9021e68f44584c11c0c22d81"
+    },
+    {
+      "path": "assignment-04/submission_source/notebook.ipynb",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "notebook.ipynb",
+      "bytes": 4842092,
+      "sha256": "6b1e4baae62bdad7cb21df6f9e8ef4cf3158150dd0329d77b6f03bfeca1936de"
+    },
+    {
+      "path": "assignment-04/submission_source/common.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "common.py",
+      "bytes": 38987,
+      "sha256": "2a1209db7d94c9871307fc440ef19696f3a483c4056015816d412f5003ee098e"
+    },
+    {
+      "path": "assignment-04/submission_source/requirements.txt",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "requirements.txt",
+      "bytes": 292,
+      "sha256": "e479605d43b5b086dd9471b8d805f7976060e00398a16564828c0a3cb5b3776f"
+    },
+    {
+      "path": "assignment-04/submission_source/download_data.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "download_data.py",
+      "bytes": 2626,
+      "sha256": "653f9a15e08f82107e5c0f85697926d105807475b8f669b617106e1962fe6dfd"
+    },
+    {
+      "path": "assignment-04/submission_source/q1_decoding.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "q1_decoding.py",
+      "bytes": 15929,
+      "sha256": "f6e4d73cbfd8e5735b94608e50903ab00ea5e601657dc145b718ad60bb9cc22d"
+    },
+    {
+      "path": "assignment-04/submission_source/q2_classifier.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "q2_classifier.py",
+      "bytes": 5424,
+      "sha256": "f46c9f82b6c04bff552a3e0731eb25f54c2fa0e40b634ee874415d53ead6672d"
+    },
+    {
+      "path": "assignment-04/submission_source/q3_prompting.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "q3_prompting.py",
+      "bytes": 2596,
+      "sha256": "da523c0542f98691e369417ae0c2c8c6ff357b6be8dcb10865f84c897146b7b8"
+    },
+    {
+      "path": "assignment-04/submission_source/q4_peft.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "q4_peft.py",
+      "bytes": 17080,
+      "sha256": "d67e363da3128ab6c0a548210994a4cd93b9c0c0c7ba2b636acec1c1294a44ce"
+    },
+    {
+      "path": "assignment-04/submission_source/q5_qlora.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "q5_qlora.py",
+      "bytes": 15498,
+      "sha256": "cf8383acb2864d5d779a09fc96ab6ff3d000ccd39153c638b1a8cecec07a3a22"
+    },
+    {
+      "path": "assignment-04/submission_source/q6_distill.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "q6_distill.py",
+      "bytes": 2579,
+      "sha256": "876e68fba25f7b8ed4019181441bd1a3698ec670603817fec2dbfeed179791b4"
+    },
+    {
+      "path": "assignment-04/submission_source/submissions/q6/q6_distill.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q6/q6_distill.py",
+      "bytes": 2579,
+      "sha256": "876e68fba25f7b8ed4019181441bd1a3698ec670603817fec2dbfeed179791b4"
+    },
+    {
+      "path": "assignment-04/submission_source/submissions/q6/common.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q6/common.py",
+      "bytes": 38987,
+      "sha256": "2a1209db7d94c9871307fc440ef19696f3a483c4056015816d412f5003ee098e"
+    },
+    {
+      "path": "assignment-04/submission_source/submissions/q6/q2_classifier.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q6/q2_classifier.py",
+      "bytes": 5424,
+      "sha256": "f46c9f82b6c04bff552a3e0731eb25f54c2fa0e40b634ee874415d53ead6672d"
+    },
+    {
+      "path": "assignment-04/submission_source/submissions/q6/metrics.json",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q6/metrics.json",
+      "bytes": 78965,
+      "sha256": "f4ccde7b52bddf45ec04156b789fe4c71babc62a107ee4cd4ef65d505372a2d7"
+    },
+    {
+      "path": "assignment-04/submission_source/submissions/q2/common.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q2/common.py",
+      "bytes": 38987,
+      "sha256": "2a1209db7d94c9871307fc440ef19696f3a483c4056015816d412f5003ee098e"
+    },
+    {
+      "path": "assignment-04/submission_source/submissions/q2/q2_classifier.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q2/q2_classifier.py",
+      "bytes": 5424,
+      "sha256": "f46c9f82b6c04bff552a3e0731eb25f54c2fa0e40b634ee874415d53ead6672d"
+    },
+    {
+      "path": "assignment-04/submission_source/submissions/q2/metrics.json",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q2/metrics.json",
+      "bytes": 14990,
+      "sha256": "7f7573a80468da8029f3fa57b73d58bf2788a7f7f659a6365c7dfd9d7ec771e4"
+    },
+    {
+      "path": "assignment-04/submission_source/submissions/q1/common.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q1/common.py",
+      "bytes": 38987,
+      "sha256": "2a1209db7d94c9871307fc440ef19696f3a483c4056015816d412f5003ee098e"
+    },
+    {
+      "path": "assignment-04/submission_source/submissions/q1/q1_decoding.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q1/q1_decoding.py",
+      "bytes": 15929,
+      "sha256": "f6e4d73cbfd8e5735b94608e50903ab00ea5e601657dc145b718ad60bb9cc22d"
+    },
+    {
+      "path": "assignment-04/submission_source/submissions/q1/metrics.json",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q1/metrics.json",
+      "bytes": 4276,
+      "sha256": "992a7bed1a6c591c06eadf70f340bfa1b93f30272815d2bb8409f5bd82f699b2"
+    },
+    {
+      "path": "assignment-04/submission_source/submissions/q5/q5_qlora.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q5/q5_qlora.py",
+      "bytes": 15498,
+      "sha256": "cf8383acb2864d5d779a09fc96ab6ff3d000ccd39153c638b1a8cecec07a3a22"
+    },
+    {
+      "path": "assignment-04/submission_source/submissions/q5/common.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q5/common.py",
+      "bytes": 38987,
+      "sha256": "2a1209db7d94c9871307fc440ef19696f3a483c4056015816d412f5003ee098e"
+    },
+    {
+      "path": "assignment-04/submission_source/submissions/q5/metrics.json",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q5/metrics.json",
+      "bytes": 83529,
+      "sha256": "3ac7ca7ff994a2378655d7d08bced5e6566ae158f81d05ee19d1661d858e96eb"
+    },
+    {
+      "path": "assignment-04/submission_source/submissions/q4/common.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q4/common.py",
+      "bytes": 38987,
+      "sha256": "2a1209db7d94c9871307fc440ef19696f3a483c4056015816d412f5003ee098e"
+    },
+    {
+      "path": "assignment-04/submission_source/submissions/q4/q4_peft.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q4/q4_peft.py",
+      "bytes": 17080,
+      "sha256": "d67e363da3128ab6c0a548210994a4cd93b9c0c0c7ba2b636acec1c1294a44ce"
+    },
+    {
+      "path": "assignment-04/submission_source/submissions/q4/q2_classifier.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q4/q2_classifier.py",
+      "bytes": 5424,
+      "sha256": "f46c9f82b6c04bff552a3e0731eb25f54c2fa0e40b634ee874415d53ead6672d"
+    },
+    {
+      "path": "assignment-04/submission_source/submissions/q4/metrics.json",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q4/metrics.json",
+      "bytes": 418770,
+      "sha256": "9327600ec401869435500c5159d7fce74102a5deef5b90276e102699bafa693e"
+    },
+    {
+      "path": "assignment-04/submission_source/submissions/q3/common.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q3/common.py",
+      "bytes": 38987,
+      "sha256": "2a1209db7d94c9871307fc440ef19696f3a483c4056015816d412f5003ee098e"
+    },
+    {
+      "path": "assignment-04/submission_source/submissions/q3/q3_prompting.py",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q3/q3_prompting.py",
+      "bytes": 2596,
+      "sha256": "da523c0542f98691e369417ae0c2c8c6ff357b6be8dcb10865f84c897146b7b8"
+    },
+    {
+      "path": "assignment-04/submission_source/submissions/q3/metrics.json",
+      "archive": "CS781-A4-Anirudh-Bankhede-240131.zip",
+      "member": "submissions/q3/metrics.json",
+      "bytes": 7387,
+      "sha256": "5a6434c3ee9407f0a55eeae52e47e229fe1f31183e5c36014197155148ae12d8"
+    }
   ]
 }

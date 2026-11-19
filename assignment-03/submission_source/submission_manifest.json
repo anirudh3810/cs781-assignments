@@ -1,0 +1,231 @@
+{
+  "autograders": {
+    "q1": {
+      "returncode": 0,
+      "summary": "Question 1: 30/30 checks passed \u2705"
+    },
+    "q2": {
+      "returncode": 0,
+      "summary": "Question 2: 75/75 checks passed \u2705"
+    },
+    "q3": {
+      "returncode": 0,
+      "summary": "Question 3: 36/36 checks passed \u2705"
+    },
+    "q4": {
+      "returncode": 0,
+      "summary": "Question 4: 93/93 checks passed \u2705"
+    },
+    "q5": {
+      "returncode": 0,
+      "summary": "Question 5: 15/15 checks passed \u2705"
+    }
+  },
+  "files": {
+    "a1_tokenizer.py": {
+      "sha256": "100d2108ae86e3732531b4f3e2f2103e001393b199eb97d9b060ab9e062a4bcd",
+      "size": 13815
+    },
+    "analysis_log.json": {
+      "sha256": "c7477e2a5846242cc177c16a0ec07edb05d50482fe0ba2bc03af61fe1bca3ee0",
+      "size": 110885
+    },
+    "attention.py": {
+      "sha256": "1ea2527555dd3422cdd83b3e4930665c5cd90342a27b5521fb9941bf6f6faa00",
+      "size": 3516
+    },
+    "autograder_q1.py": {
+      "sha256": "20bf70b083f81c3c1a0b80c232797bbd4421873e24d491d9788b2fad257f8589",
+      "size": 11317
+    },
+    "autograder_q2.py": {
+      "sha256": "0e89181f4e965da9fb9c49ba1ffdf914493ec3f6c87c71095d856833a29aad2b",
+      "size": 16133
+    },
+    "autograder_q3.py": {
+      "sha256": "ae5993d50e3247ea89e64c39d7b3e17ea10d5d9b2e381b5281baebae85d7cfe7",
+      "size": 10886
+    },
+    "autograder_q4.py": {
+      "sha256": "95a86ec80c4b600f79b51970f7cab2337a55c435865d11514834940e0b69e70b",
+      "size": 10502
+    },
+    "autograder_q5.py": {
+      "sha256": "a97618f23b1b1e4fc65d122bf94a40f596be45a0a59af45650bc14d184e6fdc6",
+      "size": 10149
+    },
+    "common.py": {
+      "sha256": "15c3943fdb6cd4cb9b2fa2f832f83a1c6dcc603297abf78b29321dbb3454b162",
+      "size": 15879
+    },
+    "common_grading.py": {
+      "sha256": "30117c1acf4444f1b9577764441291c3d09fdd93b6512e853cfdfb98f8135f1f",
+      "size": 20052
+    },
+    "decoder.svg": {
+      "sha256": "6235b7d032bc0a971280c6b5f5231898df549262c83e4df5d3034dc47d2dd476",
+      "size": 941
+    },
+    "download_data.py": {
+      "sha256": "f82f342bbccdc8384c80a2d801297b1929c9fa5161fecb79481eec39acdcf448",
+      "size": 6976
+    },
+    "model_arch.py": {
+      "sha256": "07a087b34af52969c1f7c965c5dd45d0008d670fbe7349d4f7e7c1ff92001eb5",
+      "size": 4031
+    },
+    "model_builtin.py": {
+      "sha256": "c086273381a505033501c958614484a19294074446512fe1012b97dab6b5e279",
+      "size": 3410
+    },
+    "notebook.ipynb": {
+      "sha256": "d2eeff6bc3c7fd8f467c610ab12b87026cdabc3b9021e68f44584c11c0c22d81",
+      "size": 1515945
+    },
+    "optim_muon.py": {
+      "sha256": "5a796a2db4d6e7bb41879212108f69d4767993e8eb738ae2b223f52d6bbdccf0",
+      "size": 2048
+    },
+    "requirements.txt": {
+      "sha256": "29668c763a14ede8d77e743ba00788685af895c2891084039ce2dd6b65a36e0c",
+      "size": 65
+    },
+    "rope.py": {
+      "sha256": "afb0f6d6ed78370fb5cef7056c672d98c80ad1ff1977c0da224f82b8744d76aa",
+      "size": 1817
+    },
+    "submissions/q1/a1_tokenizer.py": {
+      "sha256": "100d2108ae86e3732531b4f3e2f2103e001393b199eb97d9b060ab9e062a4bcd",
+      "size": 13815
+    },
+    "submissions/q1/attention.py": {
+      "sha256": "65f49a3dfaa8b3849547d605dcbc0638bb9457a28b06125f3b1f297ec02d0f2b",
+      "size": 2434
+    },
+    "submissions/q1/config.json": {
+      "sha256": "f0659f9935f76778cc588c99c16244a4e19304727ba93ae9e811f94e92a27c6c",
+      "size": 330
+    },
+    "submissions/q1/metrics.json": {
+      "sha256": "689d0cae447d10f8c9e27d277f8e688f75982f631803f810a80bafef4a91f14c",
+      "size": 39553
+    },
+    "submissions/q1/model.pt": {
+      "sha256": "1d4892a0169093d7af01dcfa59949b1457b5ed5d7362c8b30a7fd4c746984afe",
+      "size": 20829336
+    },
+    "submissions/q1/model_arch.py": {
+      "sha256": "4ea403792185d59b6a85ca02d7718b6b414da960d02e5e90cb4564d8caab2a87",
+      "size": 3863
+    },
+    "submissions/q2/a1_tokenizer.py": {
+      "sha256": "100d2108ae86e3732531b4f3e2f2103e001393b199eb97d9b060ab9e062a4bcd",
+      "size": 13815
+    },
+    "submissions/q2/attention.py": {
+      "sha256": "46d8975e783f781c1072304355c4f835dbb4d50c5ae4631a4ddb2233cdff9ff4",
+      "size": 6338
+    },
+    "submissions/q2/config.json": {
+      "sha256": "654cad227085943e1a3551641d6347ac4328d2ec7a8846c686fc12ee83c1718d",
+      "size": 315
+    },
+    "submissions/q2/metrics.json": {
+      "sha256": "2254fc9b3baed3042b0624fb66a69d27fe231b9696ad8e8ec9941db98967fa0c",
+      "size": 1326
+    },
+    "submissions/q2/model.pt": {
+      "sha256": "f5628319534340e0fff4da14312d142873b319e118a7dd9b2d0925381f039954",
+      "size": 19256472
+    },
+    "submissions/q2/model_arch.py": {
+      "sha256": "6aa95e657bd3bfdc64a2d227470cd7ac896d5542a8f49f3958b565a494a9f365",
+      "size": 4524
+    },
+    "submissions/q3/a1_tokenizer.py": {
+      "sha256": "100d2108ae86e3732531b4f3e2f2103e001393b199eb97d9b060ab9e062a4bcd",
+      "size": 13815
+    },
+    "submissions/q3/attention.py": {
+      "sha256": "1ea2527555dd3422cdd83b3e4930665c5cd90342a27b5521fb9941bf6f6faa00",
+      "size": 3516
+    },
+    "submissions/q3/config.json": {
+      "sha256": "8586a18e21f8c5c65f90c6487993bba52ae7fe2a194d931bbdbf9c03fb805cd1",
+      "size": 309
+    },
+    "submissions/q3/metrics.json": {
+      "sha256": "b824b7c671acff7ce98dc4cea154b15cc185f5bf9d2edf5be46d3ee8fac344d3",
+      "size": 24183
+    },
+    "submissions/q3/model.pt": {
+      "sha256": "ca8622b19b1e2824711e653993ef0b16ec9c325a8d1d674cd2d6782214f2bdeb",
+      "size": 19256472
+    },
+    "submissions/q3/model_arch.py": {
+      "sha256": "07a087b34af52969c1f7c965c5dd45d0008d670fbe7349d4f7e7c1ff92001eb5",
+      "size": 4031
+    },
+    "submissions/q3/rope.py": {
+      "sha256": "afb0f6d6ed78370fb5cef7056c672d98c80ad1ff1977c0da224f82b8744d76aa",
+      "size": 1817
+    },
+    "submissions/q4/a1_tokenizer.py": {
+      "sha256": "100d2108ae86e3732531b4f3e2f2103e001393b199eb97d9b060ab9e062a4bcd",
+      "size": 13815
+    },
+    "submissions/q4/attention.py": {
+      "sha256": "1ea2527555dd3422cdd83b3e4930665c5cd90342a27b5521fb9941bf6f6faa00",
+      "size": 3516
+    },
+    "submissions/q4/config.json": {
+      "sha256": "619002a6281a534dbd58eab7b50ebe45d33fa5e29060509beeb06fc83284c4e2",
+      "size": 535
+    },
+    "submissions/q4/metrics.json": {
+      "sha256": "d0674610714f73b9b6987ffc80512d66bcf81170233c152ebdbfd3f03b9a67eb",
+      "size": 103453
+    },
+    "submissions/q4/model.pt": {
+      "sha256": "493e105fa986810862f680d3f30e1c9b9b8a0dd62c9126795303a49cadf1854b",
+      "size": 19256472
+    },
+    "submissions/q4/model_arch.py": {
+      "sha256": "07a087b34af52969c1f7c965c5dd45d0008d670fbe7349d4f7e7c1ff92001eb5",
+      "size": 4031
+    },
+    "submissions/q4/optim_muon.py": {
+      "sha256": "5a796a2db4d6e7bb41879212108f69d4767993e8eb738ae2b223f52d6bbdccf0",
+      "size": 2048
+    },
+    "submissions/q4/q4_runtime.py": {
+      "sha256": "78a2841601ef31383df972159e68cd1d95346cd7a53fcc0a9c21b463195c3dae",
+      "size": 37361
+    },
+    "submissions/q4/rope.py": {
+      "sha256": "afb0f6d6ed78370fb5cef7056c672d98c80ad1ff1977c0da224f82b8744d76aa",
+      "size": 1817
+    },
+    "submissions/q5/config.json": {
+      "sha256": "9e2f5f19a51190ba83dd877ba66bb49d5e328f580602ce98d2c798b47454cb21",
+      "size": 266
+    },
+    "submissions/q5/metrics.json": {
+      "sha256": "af9fdfb36efabc5858d39287e7df08d1c470b0b136cf0450199a788cca9b08ab",
+      "size": 250
+    },
+    "submissions/q5/model.pt": {
+      "sha256": "99a9601388aae2f7db72253b5f9b0883216170cb9f76bb1da746acaf361ede85",
+      "size": 29040763
+    },
+    "submissions/q5/model_builtin.py": {
+      "sha256": "c086273381a505033501c958614484a19294074446512fe1012b97dab6b5e279",
+      "size": 3410
+    },
+    "submissions/q5/q5_runtime.py": {
+      "sha256": "8b4e41fe45915a4f2acd6094310c1037490ff549af910a9738f63ac6946de478",
+      "size": 42777
+    }
+  },
+  "format": "CS781-A3 final submission manifest v1"
+}

@@ -1,0 +1,12 @@
+{
+  "question": "q5",
+  "vocab_size": 8000,
+  "d_model": 256,
+  "n_layers": 4,
+  "n_heads": 4,
+  "d_ff": 1024,
+  "max_seq_len": 256,
+  "dropout": 0.1,
+  "norm_first": false,
+  "source_fingerprint": "fd289176cc9b9b11af5d9293ab9633975ab17214598d12cf69bdb1b744016232"
+}

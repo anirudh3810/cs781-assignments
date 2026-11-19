@@ -1,0 +1,22 @@
+{
+  "vocab_size": 8000,
+  "d_model": 256,
+  "n_layers": 4,
+  "n_heads": 8,
+  "d_ff": 1024,
+  "max_seq_len": 128,
+  "dropout": 0.1,
+  "pos_emb_type": "rope",
+  "attention_scale": null,
+  "norm_first": false,
+  "attention_type": "standard",
+  "n_kv_heads": 2,
+  "kv_latent_dim": null,
+  "question": "q4",
+  "optimizer": "adamw",
+  "lr": 0.001,
+  "trial_id": "full-adamw-recommended-0p001",
+  "smoke_test": false,
+  "architecture_fingerprint": "c9586886842eecbae18a7ae4d7f56562fbb2618adaf8ac51873e6ed9fb0c70f2",
+  "param_count": 4810240
+}
